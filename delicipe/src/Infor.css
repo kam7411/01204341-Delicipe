@@ -1,0 +1,29 @@
+.label {
+  color: white;
+  padding: 8px;
+  font-family: Arial;
+}
+.other {background-color: #e7e7e7; color: rgb(98, 98, 98);}
+.space {background-color: #e7e7e7; color: #e7e7e7;}
+
+.btn {
+  border: none;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.warning {background-color: #ff9800;} /* Orange */
+
+.Taskbar {
+  text-align: left;
+}
+
+.Taskbar-button button {
+  background-color: #ff9800;
+  color: white;
+  padding: 10px 24px;
+  cursor: pointer;
+  float: right;
+}

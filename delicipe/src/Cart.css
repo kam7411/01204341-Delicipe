@@ -1,75 +1,576 @@
-body {
-  font-family: Arial, Helvetica, sans-serif;
+.background {
+    position: absolute;
+    width: 1440px;
+    height: 1542px;
+    left: 0px;
+    top: 0px;
+    background: #FFE8CC;
 }
 
-.navbar {
-  overflow: hidden;
-  background-color: #333;
+
+/****************************topbar**************************/
+
+.chefhat {
+    position: absolute;
+    width: 33.53px;
+    height: 37.74px;
+    left: 840.62px;
+    top: 39.68px;
+    transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
 }
 
-.navbar a {
-  float: left;
-  font-size: 16px;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
+.search {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    left: 1241px;
+    top: 21px;
+}
+
+.accountpic {
+    position: absolute;
+    width: 34.2px;
+    height: 36px;
+    left: 1383px;
+    top: 18px;
+}
+
+.cartpic {
+    position: absolute;
+    width: 39px;
+    height: 38px;
+    left: 1378px;
+    top: 79px;
+}
+
+.topbar {
+    position: absolute;
+    width: 1440px;
+    height: 191px;
+    left: 0px;
+    top: 0px;
+    background: #9F0202;
+}
+
+.delicipe_sign {
+    position: absolute;
+    width: 357px;
+    height: 136px;
+    left: 34px;
+    top: 32px;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    font-size: 22px;
+    position: absolute;
+    width: 220px;
+    height: 34px;
+    left: 1000px;
+    top: 18px;
+    background: #FFFFFF;
+}
+
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.topnav .search-container button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.onetime {
+    position: absolute;
+    width: 225px;
+    height: 42px;
+    left: 638px;
+    top: 19px;
+    background: #FFBC35;
+    border-radius: 5px;
+    border: #9F0202;
+}
+
+.rontine {
+    position: absolute;
+    width: 102px;
+    height: 43px;
+    left: 873px;
+    top: 19px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+}
+
+.account {
+    position: absolute;
+    width: 109px;
+    height: 50px;
+    left: 1274px;
+    top: 12px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+}
+
+.cart {
+    position: absolute;
+    width: 70px;
+    height: 33px;
+    left: 1305px;
+    top: 79px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+}
+
+
+/*************************** end of topbar ***********************/
+
+
+/*************************** topnav **************************/
+
+.home {
+    position: absolute;
+    width: 114px;
+    height: 55px;
+    left: 17px;
+    top: 210px;
+    background: rgb(255, 255, 255);
+    border-radius: 18px;
+    color: rgb(0, 0, 0);
+    border: 3px solid #FFBC35;
+}
+
+.maindish {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 159px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #F5B85C;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.dessert {
+    position: absolute;
+    width: 120px;
+    height: 55px;
+    left: 335px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.howitwork {
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 483px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.homebuttonpic {
+    position: absolute;
+    width: 50px;
+    height: 46.3px;
+    left: 100px;
+    top: 234px;
+}
+
+.maindishbuttonpic {
+    position: absolute;
+    width: 52px;
+    height: 45px;
+    left: 280px;
+    top: 237px;
+}
+
+.dessertbuttonpic {
+    position: absolute;
+    width: 38px;
+    height: 39px;
+    left: 433px;
+    top: 240px;
+}
+
+.howitworkbuttonpic {
+    position: absolute;
+    width: 52px;
+    height: 51px;
+    left: 645px;
+    top: 240px;
+}
+
+
+/************************ end of top nav ***********************/
+
+
+/************************ bottom bar ******************************/
+
+.bottomnav {
+    overflow: hidden;
+}
+
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.bottomnav .search-container button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    border: #9F0202;
+}
+
+.EN {
+    position: absolute;
+    width: 51px;
+    height: 38px;
+    left: 1180px;
+    top: 1481px;
+    background: #FFBC35;
+    border-radius: 5px;
+}
+
+.TH {
+    position: absolute;
+    width: 51px;
+    height: 38px;
+    left: 1231px;
+    top: 1481px;
+    background: #9F0202;
+    color: white;
+}
+
+.bottombar {
+    position: absolute;
+    width: 1440px;
+    height: 108px;
+    left: 0px;
+    top: 1431px;
+    background: #9F0202;
+}
+
+.QandA {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 1307px;
+    top: 1446px;
+    background: #9F0202;
+}
+
+
+/****************** end of bottom bar *****************************/
+
+.picture1 {
+    position: absolute;
+    width: 109px;
+    height: 97px;
+    left: 186px;
+    top: 627px;
+}
+
+.picture2 {
+    position: absolute;
+    width: 109px;
+    height: 97px;
+    left: 186px;
+    top: 739px;
+}
+
+.picture3 {
+    position: absolute;
+    width: 340px;
+    height: 32.52px;
+    left: 550px;
+    top: 375px;
+}
+
+.picture4 {
+    position: absolute;
+    width: 41.92px;
+    height: 38px;
+    left: 214px;
+    top: 468px;
+}
+
+.textCartConcludtion {
+    position: absolute;
+    width: 222px;
+    height: 30px;
+    left: 609px;
+    top: 335px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #404040;
+}
+
+.text {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #404040;
+}
+
+.textYour {
+    position: absolute;
+    width: 121px;
+    height: 30px;
+    left: 284px;
+    top: 472px;
+}
+
+.textSpaghetti {
+    position: absolute;
+    width: 361px;
+    height: 30px;
+    left: 312px;
+    top: 664px;
+}
+
+.textFloat {
+    position: absolute;
+    width: 190px;
+    height: 30px;
+    left: 312px;
+    top: 773px;
+}
+
+.textQuantity {
+    position: absolute;
+    width: 111px;
+    height: 30px;
+    left: 896px;
+    top: 558px;
+}
+
+.texttotal {
+    position: absolute;
+    width: 63px;
+    height: 30px;
+    left: 1100px;
+    top: 558px;
+}
+
+.text110 {
+    position: absolute;
+    width: 71px;
+    height: 30px;
+    left: 1099px;
+    top: 667px;
+}
+
+.text90 {
+    position: absolute;
+    width: 66px;
+    height: 30px;
+    left: 1099px;
+    top: 776px;
+}
+
+.text200 {
+    position: absolute;
+    width: 81px;
+    height: 30px;
+    left: 1100px;
+    top: 919px;
+}
+
+.textsubtotal {
+    position: absolute;
+    width: 134px;
+    height: 30px;
+    left: 878px;
+    top: 919px;
+}
+
+.textshipping {
+    position: absolute;
+    width: 491px;
+    height: 30px;
+    left: 799px;
+    top: 969px;
+}
+
+.textTime {
+    position: absolute;
+    width: 546px;
+    height: 120px;
+    left: 160px;
+    top: 1297px;
+}
+
+.line1 {
+    position: absolute;
+    width: 1140px;
+    height: 0px;
+    left: 150px;
+    top: 535.48px;
+    border: 3px solid #808080;
+    transform: rotate(0.1deg);
+}
+
+.line2 {
+    position: absolute;
+    width: 1140px;
+    height: 0px;
+    left: 150px;
+    top: 608px;
+    border: 3px solid #808080;
+}
+
+.line3 {
+    position: absolute;
+    width: 1140px;
+    height: 0px;
+    left: 150px;
+    top: 899px;
+    border: 3px solid #808080;
+}
+
+.check {
+    position: absolute;
+    width: 189px;
+    height: 50px;
+    left: 1085px;
+    top: 1347px;
+    background: #FFBC35;
+    border-radius: 5px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #796B52;
+}
+
+.check:hover {
+    background-color: rgb(248, 214, 120)
+}
+
+.calendar {
+    position: absolute;
+    left: 111px;
+    top: 962px;
+}
+
+.btn {
+    background-color: #2196F3;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    outline: none;
 }
 
 .dropdown {
-  float: left;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 16px;  
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+    position: absolute;
+    display: inline-block;
 }
 
 .dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: 1;
 }
 
 .dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
 }
 
 .dropdown-content a:hover {
-  background-color: #ddd;
+    background-color: #ddd
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+    display: block;
 }
 
-.Taskbar {
-  text-align: right;
+.btn:hover,
+.dropdown:hover .btn {
+    background-color: #0b7dda;
 }
 
-.Taskbar-button button {
-  background-color: #ff9800;
-  color: white;
-  padding: 10px 24px;
-  cursor: pointer;
-  float: right;
+.container {
+    border-radius: 8px;
+    border: 2px solid #F68787;
+}
+
+.timeslottext {
+    position: absolute;
+    width: 100px;
+    height: 37px;
+    left: 400px;
+    top: 50px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: #000000;
+}
+
+.TIMESLOT {
+    position: absolute;
+    width: 205px;
+    height: 33px;
+    left: 500px;
+    top: 50px;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.converter1 input[type=number] {
+    position: absolute;
+    width: 72px;
+    height: 34px;
+    left: 916px;
+    top: 664px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.converter2 input[type=number] {
+    position: absolute;
+    width: 72px;
+    height: 34px;
+    left: 916px;
+    top: 773px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
 }

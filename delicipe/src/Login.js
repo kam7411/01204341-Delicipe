@@ -25,7 +25,7 @@ class Login extends React.Component {
           LOGIN
         </button>
         </a>
-        <a style={{ textDecoration: 'none' }}href='/Sign-Up'>
+        <a style={{ textDecoration: 'none' }}href='/Register'>
         <button type='button' className='Button-SignUp' onClick={this.submitSignUp.bind(this)}>
           SIGN UP
         </button>
@@ -35,14 +35,14 @@ class Login extends React.Component {
           type="text"
           value={this.state.value}
           onChange={this.handleChange}
-          placeholder='Username'
+          placeholder='  Username'
         />
         <input
-          className ="Password"
+          className ="Password-Login"
           type={"password"}
           value={this.state.value}
           onChange={this.handleChange}
-          placeholder='Password'
+          placeholder='  Password'
         />
         <a style={{ textDecoration: 'none' }}href='/forget-password'>
         <div className="Forget-password">

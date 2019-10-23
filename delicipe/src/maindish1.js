@@ -111,8 +111,8 @@ class maindish1 extends Component {
           <div class="detail_equipment">: 3</div>
           <table class="table_equipment">
             <tr>
-              <th>1</th>
-              <th>stir-fry pan</th>
+              <td>1</td>
+              <td>stir-fry pan</td>
             </tr>
             <tr>
               <td>1</td>
@@ -124,6 +124,147 @@ class maindish1 extends Component {
             </tr>
           </table>
         </div>
+        <div class="ingredient">
+          <div class="top_ingredient">What in the box !</div>
+          <table class="table_ingredient">
+            <tr>
+              <th>Ingrediants</th>
+              <th>Weight</th>
+              <th>Remove</th>
+            </tr>
+            <tr>
+              <td>chicken thigh</td>
+              <td>480 g</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>hommali rice</td>
+              <td>160 g</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>ginger</td>
+              <td>100 g</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>garlic</td>
+              <td>20 g</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>pandan leaves</td>
+              <td>50 g</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>spring onion</td>
+              <td>20 g</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>sesame oil</td>
+              <td>5 ml</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>lemongrass</td>
+              <td>2</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>Japanese cucumber</td>
+              <td>100 g</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>vegetable oil</td>
+              <td>90 ml</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>oyster sauce</td>
+              <td>30 ml</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>salt</td>
+              <td>3 g</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            <tr>
+              <td>sugar</td>
+              <td>4 g</td>
+              <td>
+              <div class="container">
+                <input type="checkbox"/>
+                <span class="checkmark"></span>
+              </div>
+              </td>
+            </tr>
+            </table>
+          </div>  
+          <div class="bottom_ingredient">*The box’s included recipe instruction</div>
         // {/* <h2>Weight Converter</h2>
         // <p>Type a value in the Pounds field to convert the value to Kilograms:</p>
 

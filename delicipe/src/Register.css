@@ -1,0 +1,400 @@
+.Fisish {
+    position: absolute;
+    width: 111px;
+    height: 44px;
+    left: 259px;
+    top: 1296px;   
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.City {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 598px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Province {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 658px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Postal-Code {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 718px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Tel-box {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 778px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Lastname-box {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 478px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Address-box {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 538px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Allergy_01 {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 1046px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Allergy_02 {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 1106px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Allergy_03 {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 1166px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Allergy-Ingredients {
+    position: absolute;
+    width: 136px;
+    height: 60px;
+    left: 140px;
+    top: 1053px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.Password-box {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 942px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Name-box {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 418px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.Address {
+    position: absolute;
+    width: 112px;
+    height: 30px;
+    left: 140px;
+    top: 547px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;    
+    color: #000000;
+}
+
+.Lastname {
+    position: absolute;
+    width: 137px;
+    height: 30px;
+    left: 140px;
+    top: 486px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.Name {
+    position: absolute;
+    width: 86px;
+    height: 30px;
+    left: 140px;
+    top: 425px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.Account-Info {
+    position: absolute;
+    width: 514px;
+    height: 44px;
+    left: 44px;
+    top: 325px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.Finish-Button {
+    position: absolute;
+    width: 189px;
+    height: 60px;
+    left: 223px;
+    top: 1288px;
+    background: #9F0202;
+    border-radius: 10px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+.Photo-box {
+    position: absolute;
+    width: 186px;
+    height: 212px;
+    left: 1085px;
+    top: 471px;
+    background: #D3D3D3;
+}
+
+.Add-Your-Photo {
+    position: absolute;
+    width: 184px;
+    height: 30px;
+    left: 1087px;
+    top: 425px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.Tel {
+    position: absolute;
+    width: 51px;
+    height: 30px;
+    left: 140px;
+    top: 785px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.Email {
+    position: absolute;
+    width: 83px;
+    height: 30px;
+    left: 140px;
+    top: 889px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.Password {
+    position: absolute;
+    width: 126px;
+    height: 30px;
+    left: 140px;
+    top: 949px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.Email-box {
+    position: absolute;
+    width: 597px;
+    height: 44px;
+    left: 325px;
+    top: 882px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.previewText {
+  width: 100%;
+  top: 20px;
+}
+
+.Add-Photo-box {
+    position: absolute;
+    width: 186px;
+    height: 212px;
+    left: 1085px;
+    top: 471px; 
+    background: #D3D3D3;
+}
+
+.Add-Photo-Pic{
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 1136px;
+    top: 535px;
+    /* opacity:0; */
+    background-image: url('../picture/Add-Photo.svg');
+}
+
+input[type=file]{
+    width:0;
+    height:0;
+    z-index:-1;
+    position:absolute;
+    overflow:hidden;
+    opacity:0;
+}
+
+label[for=add-photo] {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 1136px;
+    top: 535px;
+    /* opacity:0; */
+    background-image: url('../picture/Add-Photo.svg');
+}

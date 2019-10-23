@@ -376,5 +376,25 @@
     height: 85px;
     left: 1136px;
     top: 535px;
-    background: ;
+    /* opacity:0; */
+    background-image: url('../picture/Add-Photo.svg');
+}
+
+input[type=file]{
+    width:0;
+    height:0;
+    z-index:-1;
+    position:absolute;
+    overflow:hidden;
+    opacity:0;
+}
+
+label[for=add-photo] {
+    position: absolute;
+    width: 85px;
+    height: 85px;
+    left: 1136px;
+    top: 535px;
+    /* opacity:0; */
+    background-image: url('../picture/Add-Photo.svg');
 }

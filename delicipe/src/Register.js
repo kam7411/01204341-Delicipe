@@ -1,12 +1,11 @@
 import React from 'react';
 import './Register.css';
-import Add_Photo from '../picture/Add_Photo.svg';
+import Taskbar from './taskbar';
 
 class Register extends React.Component {
   constructor(props){
     super(props);
     this.state = { };
-    // this.onDrop = this.onDrop.bind(this);
 }
 _handleImageChange(e) {
   e.preventDefault();
@@ -29,6 +28,7 @@ submitRegister(e) {
   render() {
     return (
       <div className='Register'>
+        <Taskbar/>
         <div className="Account-Info">
           Account Infomation
         </div>
@@ -56,7 +56,7 @@ submitRegister(e) {
         <div className="Allergy-Ingredients">
           Allergy ingredients 
         </div>
-        <a style={{ textDecoration: 'none' }}href='/Profile'>
+        <a style={{ textDecoration: 'none' }}href='/Create_New_account'>
         <button type='button' className='Finish-Button' onClick={this.submitRegister.bind(this)}>
           FINISH
         </button>
@@ -143,68 +143,17 @@ submitRegister(e) {
           value={this.state.value}
           onChange={this.handleChange}
         />
-          <input
-            img src={Add_Photo} 
-            className="Add-Photo-box" 
-            type="file" 
-            onChange={(e)=>this._handleImageChange(e)} />
-        {/* <ImageUploader className = "Add-Photo-box"/> */}
+        <div className="Add-Photo-box">
+        </div> 
+        <input
+          className="Add-Photo-box"
+          id="add-photo"
+          type="file" 
+        />
+        <label for ="add-photo"></label>     
       </div>
     )
   }
 }
-// class ImageUpload extends React.Component {
-//   constructor(props) {
-//     super(props);
-//     this.state = {file: '',imagePreviewUrl: ''};
-//   }
-
-//   _handleSubmit(e) {
-//     e.preventDefault();
-//     // TODO: do something with -> this.state.file
-//     console.log('handle uploading-', this.state.file);
-//   }
-
-//   _handleImageChange(e) {
-//     e.preventDefault();
-
-//     let reader = new FileReader();
-//     let file = e.target.files[0];
-
-//     reader.onloadend = () => {
-//       this.setState({
-//         file: file,
-//         imagePreviewUrl: reader.result
-//       });
-//     }
-//     reader.readAsDataURL(file)
-//   }
-
-//   render() {
-//     let {imagePreviewUrl} = this.state;
-//     let $imagePreview = null;
-//     if (imagePreviewUrl) {
-//       $imagePreview = (<img src={imagePreviewUrl} />);
-//     } else {
-//       $imagePreview = (<div className="previewText">Please select an Image for Preview</div>);
-//     }
-
-//     return (
-//       <div className="previewComponent">
-//         <form onSubmit={(e)=>this._handleSubmit(e)}>
-//           <input className="fileInput" 
-//             type="file" 
-//             onChange={(e)=>this._handleImageChange(e)} />
-//           <button className="submitButton" 
-//             type="submit" 
-//             onClick={(e)=>this._handleSubmit(e)}>Upload Image</button>
-//         </form>
-//         <div className="imgPreview">
-//           {$imagePreview}
-//         </div>
-//       </div>
-//     )
-//   }
-// }
   
 export default Register;

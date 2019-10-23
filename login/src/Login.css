@@ -1,0 +1,110 @@
+.Forget-password {
+    /* Forget password? */
+  position: absolute;
+  width: 128px;
+  height: 19px;
+  left: 442px;
+  top: 343px;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 19px;
+  color: #000000;
+}
+
+.Sign-In {
+  position: absolute;
+  width: 103px;
+  height: 26px;
+  left: 331px;
+  top: 177px;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 30px;
+  color: #9F0202;
+}
+
+.Button-Login {
+  position: absolute;
+  width: 146px;
+  height: 45px;
+  left: 207px;
+  top: 398px;
+  background: #9F0202;
+  border-radius: 10px;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 23px;
+  color: #FFFFFF;
+}
+
+.Sign-Up {
+  position: absolute;
+  width: 94px;
+  height: 31px;
+  left: 442px;
+  top: 410px;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #4A4A4A;
+}
+
+.Password{
+  position: absolute;
+  width: 388px;
+  height: 44px;
+  left: 188px;
+  top: 299px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.Username{
+  position: absolute;
+  width: 388px;
+  height: 44px;
+  left: 188px;
+  top: 239px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.Button-SignUp{
+  position: absolute;
+  width: 146px;
+  height: 45px;
+  left: 416px;
+  top: 398px;
+  background: #FFBC35;
+  border-radius: 10px;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 19px;
+  line-height: 23px;
+  text-align: center;
+  color: #4A4A4A;
+}

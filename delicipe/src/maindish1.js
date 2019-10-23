@@ -4,9 +4,17 @@ import rice from '../picture/rice.svg';
 import muslim from '../picture/muslim.svg';
 import cook from '../picture/cook.svg';
 import level from '../picture/level.svg';
+import delicipe_sign from '../picture/Delicipe.svg';
+import chefhat from '../picture/chef-hat.svg';
+import search from '../picture/search.svg';
+import accountpic from '../picture/accountpic.svg';
+import cartpic from '../picture/cartpic.svg';
+import QandA from '../picture/QandA.svg';
+import 'typeface-arvo';
+// npm install --save typeface-arvo
 
 
-class App extends Component {
+class maindish1 extends Component {
   // <div class="func">
   //   function weightConverter(valNum) {
   //     document.getElementById("outputKilograms").innerHTML=valNum/2.2046;
@@ -15,7 +23,47 @@ class App extends Component {
   render() {
     return (
       <div class="background">
-        <div class="topbar"></div>
+        <div class="topbar">
+          <img src={delicipe_sign} class="delicipe_sign" alt="delicipe_sign" />
+          <img src={search} class="search" alt="search" />
+          <img src={accountpic} class="accountpic" alt="accountpic" />
+          <img src={cartpic} class="cartpic" alt="cartpic" />
+          <div class="topnav">
+            <div class="search-container">
+              <form action="/action_page.php">
+                <button class="account" type="submit">Account</button>
+                <button class="rontine" type="submit">Rontine</button>
+                <button class="onetime" type="submit">One-time purchase</button>
+                <button class="cart" type="submit">Cart</button>
+                <input type="text" placeholder="Search.." name="search" />
+              </form>
+            </div>
+            <img src={chefhat} class="chefhat" alt="chefhat" />
+          </div>
+        </div>  {/* topbar */}
+
+        <div class="topnav"> 
+          <div class="search-container">
+            <form action="/action_page.php">
+              <button class="home" type="submit">Home</button>
+              <button class="maindish" type="submit">Maindish</button>
+              <button class="dessert" type="submit">Dessert</button>
+              <button class="howitwork" type="submit">How it work?</button>
+              <input type="text" placeholder="Search.." name="search" />
+            </form>
+          </div>
+        </div>  
+
+        <div class="bottombar"></div>
+        <div class="bottomnav">
+          <div class="search-container">
+            <form action="/action_page.php">
+              <button class="EN" type="submit">EN</button>
+              <button class="TH" type="submit">TH</button>
+            </form>
+          </div>
+        </div>
+        <img src={QandA} className="QandA" alt="QandA" />
 
         <img src={rice} className="rice" alt="rice"/>
         <div class="topic">SINGAPORE CHICKEN RICE</div>
@@ -25,65 +73,57 @@ class App extends Component {
         
         <div class="frame_price"></div>
         <div class="price">110.00 ฿</div>
-          {/* <div class="quantity">
-            <label for="quantity">Quantity</label>
-            <input id="quantity" type="number" name="quantity" min="1" value="1"/>
-          </div> */}
-          {/* <h2>Weight Converter</h2>
-            <p>Type a value in the Pounds field to convert the value to Kilograms:</p>
-
-            <p>
-              <label>Pounds</label>
-              <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)"/>
-            </p>
-          <button onclick="myFunction()">ADD TO CART</button>  
- 
-
-          <div class="info3">
-            <p>COOK : 40 MINS</p>
-            <p>EASY</p>
-          </div> 
-        </div>
         
-        <div class="nutrition">
-          <h2>Nutrition</h2><p>: Per serving</p>
+        <div class="banner">Quantity</div>
+        <div class="converter">
+          <input id="inputQuantity" type="number" placeholder="Quantity" min="1" oninput="priceConverter(this.value)" onchange="priceConverter(this.value)"/>
         </div>
-        <table>
-          <tr>
-            <th>Calories(kcal)</th>
-            <th>1029</th>
-          </tr>
-          <tr>
-            <td>Fat(g)</td>
-            <td>60.9</td>
-          </tr>
-          <tr>
-            <td>Carbs(g)</td>
-            <td>82.3</td>
-          </tr>
-          <tr>
-            <td>Protien(g)</td>
-            <td>48.3</td>
-          </tr>
-        </table>
+        <button class="button" type="button">ADD TO CART</button>
+        
+        <img src={cook} className="pic_cook" alt="cook"/>
+        <div class="detail_cook">COOK : 40 MINS</div>
+        <img src={level} className="pic_level" alt="level"/>
+        <div class="detail_level">EASY</div>
 
-        <div class="equipment">
-          <h2>Equipment</h2><p>: 3</p>
+        <div class="zebra">
+          <div class="topic_nutrition">Nutrition</div>
+          <div class="detail_nutrition">: Per serving</div>
+          <table class="table_nutrition">
+            <tr>
+              <td>Calories(kcal)</td>
+              <td>1029</td>
+            </tr>
+            <tr>
+              <td>Fat(g)</td>
+              <td>60.9</td>
+            </tr>
+            <tr>
+              <td>Carbs(g)</td>
+              <td>82.3</td>
+            </tr>
+            <tr>
+              <td>Protien(g)</td>
+              <td>48.3</td>
+            </tr>
+          </table>
+
+          <div class="topic_equipment">Equipment</div>
+          <div class="detail_equipment">: 3</div>
+          <table class="table_equipment">
+            <tr>
+              <th>1</th>
+              <th>stir-fry pan</th>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>rice cooker</td>
+            </tr>
+            <tr>
+              <td>1</td>
+              <td>microwave</td>
+            </tr>
+          </table>
         </div>
-        <table>
-          <tr>
-            <th>1</th>
-            <th>stir-fry pan</th>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>rice cooker</td>
-          </tr>
-          <tr>
-            <td>1</td>
-            <td>microwave</td>
-          </tr>
-        </table> */}
         // {/* <h2>Weight Converter</h2>
         // <p>Type a value in the Pounds field to convert the value to Kilograms:</p>
 
@@ -97,4 +137,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default maindish1;

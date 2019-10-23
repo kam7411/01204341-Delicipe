@@ -1,29 +1,677 @@
-.label {
-  color: white;
-  padding: 8px;
-  font-family: Arial;
-}
-.other {background-color: #e7e7e7; color: rgb(98, 98, 98);}
-.space {background-color: #e7e7e7; color: #e7e7e7;}
-
-.btn {
-  border: none;
-  color: white;
-  padding: 14px 28px;
-  font-size: 16px;
-  cursor: pointer;
+.background {
+    position: absolute;
+    width: 1440px;
+    height: 1542px;
+    left: 0px;
+    top: 0px;
+    background: #FFE8CC;
 }
 
-.warning {background-color: #ff9800;} /* Orange */
 
-.Taskbar {
-  text-align: left;
+/****************************topbar**************************/
+
+.chefhat {
+    position: absolute;
+    width: 33.53px;
+    height: 37.74px;
+    left: 840.62px;
+    top: 39.68px;
+    transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
 }
 
-.Taskbar-button button {
-  background-color: #ff9800;
-  color: white;
-  padding: 10px 24px;
-  cursor: pointer;
-  float: right;
+.search {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    left: 1241px;
+    top: 21px;
+}
+
+.accountpic {
+    position: absolute;
+    width: 34.2px;
+    height: 36px;
+    left: 1383px;
+    top: 18px;
+}
+
+.cartpic {
+    position: absolute;
+    width: 39px;
+    height: 38px;
+    left: 1378px;
+    top: 79px;
+}
+
+.topbar {
+    position: absolute;
+    width: 1440px;
+    height: 191px;
+    left: 0px;
+    top: 0px;
+    background: #9F0202;
+}
+
+.delicipe_sign {
+    position: absolute;
+    width: 357px;
+    height: 136px;
+    left: 34px;
+    top: 32px;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    font-size: 22px;
+    position: absolute;
+    width: 220px;
+    height: 34px;
+    left: 1000px;
+    top: 18px;
+    background: #FFFFFF;
+}
+
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.topnav .search-container button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.onetime {
+    position: absolute;
+    width: 225px;
+    height: 42px;
+    left: 638px;
+    top: 19px;
+    background: #FFBC35;
+    border-radius: 5px;
+    border: #9F0202;
+}
+
+.rontine {
+    position: absolute;
+    width: 102px;
+    height: 43px;
+    left: 873px;
+    top: 19px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+}
+
+.account {
+    position: absolute;
+    width: 109px;
+    height: 50px;
+    left: 1274px;
+    top: 12px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+}
+
+.cart {
+    position: absolute;
+    width: 70px;
+    height: 33px;
+    left: 1305px;
+    top: 79px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+}
+
+
+/*************************** end of topbar ***********************/
+
+
+/*************************** topnav **************************/
+
+.home {
+    position: absolute;
+    width: 114px;
+    height: 55px;
+    left: 17px;
+    top: 210px;
+    background: #FFBC35;
+    border-radius: 18px;
+    color: white;
+    border: 3px solid #FFBC35;
+}
+
+.maindish {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 159px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #F5B85C;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.dessert {
+    position: absolute;
+    width: 120px;
+    height: 55px;
+    left: 335px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.howitwork {
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 483px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.homebuttonpic {
+    position: absolute;
+    width: 50px;
+    height: 46.3px;
+    left: 100px;
+    top: 234px;
+}
+
+.maindishbuttonpic {
+    position: absolute;
+    width: 52px;
+    height: 45px;
+    left: 280px;
+    top: 237px;
+}
+
+.dessertbuttonpic {
+    position: absolute;
+    width: 38px;
+    height: 39px;
+    left: 433px;
+    top: 240px;
+}
+
+.howitworkbuttonpic {
+    position: absolute;
+    width: 52px;
+    height: 51px;
+    left: 645px;
+    top: 240px;
+}
+
+
+/************************ end of top nav ***********************/
+
+
+/************************ bottom bar ******************************/
+
+.bottomnav {
+    overflow: hidden;
+}
+
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.bottomnav .search-container button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    border: #9F0202;
+}
+
+.EN {
+    position: absolute;
+    width: 51px;
+    height: 38px;
+    left: 1180px;
+    top: 1481px;
+    background: #FFBC35;
+    border-radius: 5px;
+}
+
+.TH {
+    position: absolute;
+    width: 51px;
+    height: 38px;
+    left: 1231px;
+    top: 1481px;
+    background: #9F0202;
+    color: white;
+}
+
+.bottombar {
+    position: absolute;
+    width: 1440px;
+    height: 108px;
+    left: 0px;
+    top: 1431px;
+    background: #9F0202;
+}
+
+.QandA {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 1307px;
+    top: 1446px;
+    background: #9F0202;
+}
+
+.picture1 {
+    position: absolute;
+    width: 109px;
+    height: 97px;
+    left: 755px;
+    top: 494px;
+}
+
+.picture2 {
+    position: absolute;
+    width: 109px;
+    height: 97px;
+    left: 755px;
+    top: 606px;
+}
+
+.picture3 {
+    position: absolute;
+    width: 340px;
+    height: 32.52px;
+    left: 550px;
+    top: 375px;
+}
+
+.textCartConcludtion {
+    position: absolute;
+    width: 222px;
+    height: 30px;
+    left: 609px;
+    top: 335px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #404040;
+}
+
+.textSpaghetti {
+    position: absolute;
+    width: 337px;
+    height: 30px;
+    left: 874px;
+    top: 523px;
+}
+
+.textFloating {
+    position: absolute;
+    width: 173px;
+    height: 30px;
+    left: 874px;
+    top: 624px;
+}
+
+.textorder {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.boxName {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 267px;
+    top: 568px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.boxLastName {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 267px;
+    top: 636px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.boxAddress1 {
+    position: absolute;
+    width: 381px;
+    height: 44px;
+    left: 268px;
+    top: 726px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.boxAddress2 {
+    position: absolute;
+    width: 381px;
+    height: 44px;
+    left: 268px;
+    top: 786px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.boxAddress3 {
+    position: absolute;
+    width: 381px;
+    height: 44px;
+    left: 268px;
+    top: 846px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.boxAddress4 {
+    position: absolute;
+    width: 381px;
+    height: 44px;
+    left: 268px;
+    top: 906px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.boxEmail {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 267px;
+    top: 984px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.boxTel {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 267px;
+    top: 1048px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.textinformation {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #404040;
+}
+
+.textName {
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    left: 102px;
+    top: 575px;
+}
+
+.textLastName {
+    position: absolute;
+    width: 132px;
+    height: 30px;
+    left: 102px;
+    top: 645px;
+}
+
+.textAddress {
+    position: absolute;
+    width: 104px;
+    height: 30px;
+    left: 102px;
+    top: 728px;
+}
+
+.textEmail {
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    left: 112px;
+    top: 993px;
+}
+
+.textTel {
+    position: absolute;
+    width: 49px;
+    height: 30px;
+    left: 115px;
+    top: 1051px;
+}
+
+.line {
+    position: absolute;
+    width: 800px;
+    height: 0px;
+    left: 721.88px;
+    top: 490px;
+    border: 3px solid #404040;
+    transform: rotate(90.21deg);
+}
+
+.boxsubtotal {
+    position: absolute;
+    width: 418px;
+    height: 202px;
+    left: 801px;
+    top: 762px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.textconclude {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.textSubtotal {
+    position: absolute;
+    width: 132px;
+    height: 30px;
+    left: 840px;
+    top: 799px;
+}
+
+.text200 {
+    position: absolute;
+    width: 58px;
+    height: 30px;
+    left: 1103px;
+    top: 799px;
+}
+
+
+/* .text14 {
+  position: absolute;
+width: 25px;
+height: 30px;
+left: 1120px;
+top: 837px;
+
+}
+.texttax {
+  position: absolute;
+width: 106px;
+height: 30px;
+left: 841px;
+top: 837px;
+}
+.textship {
+  position: absolute;
+width: 123px;
+height: 30px;
+left: 842px;
+top: 875px;
+} */
+
+.textbox {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #B3B3B3;
+}
+
+.textApart {
+    position: absolute;
+    width: 187px;
+    height: 30px;
+    left: 279px;
+    top: 735px;
+}
+
+.textCity {
+    position: absolute;
+    width: 84px;
+    height: 30px;
+    left: 279px;
+    top: 793px;
+}
+
+.textProvince {
+    position: absolute;
+    width: 119px;
+    height: 30px;
+    left: 279px;
+    top: 853px;
+}
+
+.textPostal {
+    position: absolute;
+    width: 153px;
+    height: 30px;
+    left: 281px;
+    top: 913px;
+}
+
+.textTotal {
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    left: 845px;
+    top: 913px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.texttotalvalue {
+    position: absolute;
+    width: 42px;
+    height: 30px;
+    left: 1103px;
+    top: 913px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.text110 {
+    position: absolute;
+    width: 73px;
+    height: 30px;
+    left: 1267px;
+    top: 523px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.text90 {
+    position: absolute;
+    width: 67px;
+    height: 30px;
+    left: 1267px;
+    top: 615px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.continue {
+    position: absolute;
+    width: 189px;
+    height: 50px;
+    left: 1123px;
+    top: 1251px;
+    background: #FFBC35;
+    border-radius: 5px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #796B52;
+}
+
+.continue:hover {
+    background-color: rgb(248, 214, 120)
 }

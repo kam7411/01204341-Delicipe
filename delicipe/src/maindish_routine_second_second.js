@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './maindish_routine_first_second.css';
+import './maindish_routine_second_second.css';
 import 'typeface-arvo'
 import 'typeface-archivo'
 import Select from 'react-select';

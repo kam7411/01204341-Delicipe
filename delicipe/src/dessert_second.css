@@ -453,6 +453,7 @@
     background: #FFFFFF;
     border: 3px solid #FFBC35;
     font-size: 20px;
+  cursor:pointer;
   }
   
   .second {
@@ -466,6 +467,7 @@
     border: 3px solid #FFBC35;
     box-sizing: border-box;
     font-size: 20px;
+  cursor:pointer;
   }
   
   .nextpage {
@@ -479,6 +481,7 @@
     box-sizing: border-box;
     border-radius: 5px;
     font-size: 20px;
+  cursor:pointer;
   }
   
   /*************** bottombar ***************/

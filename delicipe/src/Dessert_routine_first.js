@@ -4,21 +4,21 @@ import 'typeface-arvo'
 import 'typeface-archivo'
 import Select from 'react-select';
 
-import delicipe_sign from '../../picture/Delicipe.svg';
-import chefhat from '../../picture/chef-hat.svg';
-import search from '../../picture/search.svg';
-import accountpic from '../../picture/accountpic.svg';
-import cartpic from '../../picture/cartpic.svg';
-import dessertbuttonpic from '../../picture/dessertbuttonpic.svg';
-import pannacotta from '../../picture/pannacotta.svg';
-import tiramisu from '../../picture/tiramisu.svg';
-import cheesecake from '../../picture/cheesecake.svg';
-import thaibanana from '../../picture/thaibanana.svg';
-import floating from '../../picture/floating.svg';
-import waffles from '../../picture/waffles.svg';
+import delicipe_sign from '../picture/Delicipe.svg';
+import chefhat from '../picture/chef-hat.svg';
+import search from '../picture/search.svg';
+import accountpic from '../picture/accountpic.svg';
+import cartpic from '../picture/cartpic.svg';
+import dessertbuttonpic from '../picture/dessertbuttonpic.svg';
+import pannacotta from '../picture/pannacotta.svg';
+import tiramisu from '../picture/tiramisu.svg';
+import cheesecake from '../picture/cheesecake.svg';
+import thaibanana from '../picture/thaibanana.svg';
+import floating from '../picture/floating.svg';
+import waffles from '../picture/waffles.svg';
 
-import QandA from '../../picture/QandA.svg';
-import wall from '../../picture/wallroutine.svg';
+import QandA from '../picture/QandA.svg';
+import wall from '../picture/wallroutine.svg';
 
 const Cusine = [
   { label: "All Cuisines", value: 1 },

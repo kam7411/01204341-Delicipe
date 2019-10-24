@@ -215,7 +215,7 @@
   left: 595px;
   top: 291px;
 
-  background:url(../../picture/vector1.svg) no-repeat;
+  background:url(../picture/vector1.svg) no-repeat;
   cursor:pointer;
   color: white;
   font-family: Archivo;
@@ -225,7 +225,7 @@
   }
 
   .vectorfirst:active {
-      background:url(../../picture/vector1.svg) no-repeat;
+      background:url(../picture/vector1.svg) no-repeat;
   }
 
 .vectorsecond {
@@ -235,7 +235,7 @@
   left: 678px;
   top: 291px;
   
-  background:url(../../picture/vector2.svg) no-repeat;
+  background:url(../picture/vector2.svg) no-repeat;
   cursor:pointer;
   color: white;
   font-family: Archivo;
@@ -245,7 +245,7 @@
 }
 
 .vectorsecond:active {
-  background:url(../../picture/vector2.svg) no-repeat;
+  background:url(../picture/vector2.svg) no-repeat;
 }
 
 .vectorthird {
@@ -257,7 +257,7 @@
 
   color: white;
   cursor:pointer;
-  background:url(../../picture/vector2.svg) no-repeat;
+  background:url(../picture/vector2.svg) no-repeat;
   font-family: Archivo;
   font-size: 18px;
   font-weight: bold;
@@ -265,7 +265,7 @@
 }
 
 .vectorthrid:active {
-  background:url(../../picture/vector2.svg) no-repeat;
+  background:url(../picture/vector2.svg) no-repeat;
 }
 
 /************************ end of Date ***********************/

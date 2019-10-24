@@ -56,7 +56,7 @@ submitRegister(e) {
         <div className="Allergy-Ingredients">
           Allergy ingredients 
         </div>
-        <a style={{ textDecoration: 'none' }}href='/Create_New_account'>
+        <a style={{ textDecoration: 'none' }}href='/create_new_account'>
         <button type='button' className='Finish-Button' onClick={this.submitRegister.bind(this)}>
           FINISH
         </button>

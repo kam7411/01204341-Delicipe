@@ -163,24 +163,24 @@ class dessert1 extends Component {
               <th>Weight</th>
             </tr>
             <tr>
-              <th>whole milk</th>
-              <th>700 ml</th>
+              <td>whole milk</td>
+              <td>700 ml</td>
             </tr>
             <tr>
-              <th>Vanilla bean paste</th>
-              <th>2 tsp</th>
+              <td>Vanilla bean paste</td>
+              <td>2 tsp</td>
             </tr>
             <tr>
-              <th>large egg yolks</th>
-              <th>5</th>
+              <td>large egg yolks</td>
+              <td>5</td>
             </tr>
             <tr>
-              <th>caster sugar</th>
-              <th>200 g</th>
+              <td>caster sugar</td>
+              <td>200 g</td>
             </tr>
             <tr>
-              <th>large egg white</th>
-              <th>1</th>
+              <td>large egg white</td>
+              <td>1</td>
             </tr>
             </table>
           </div> 

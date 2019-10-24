@@ -1,0 +1,750 @@
+.background {
+    position: absolute;
+    width: 1440px;
+    height: 1621px;
+    left: 0px;
+    top: 0px;
+    /* text-align: center; */
+    background: floralwhite;
+  }
+  
+  .wall {
+    position: absolute;
+    width: 1440px;
+    height: 1322px;
+    left: 0px;
+    top: 191px;
+  }
+  
+  /****************************topbar**************************/
+  .chefhat {
+    position: absolute;
+    width: 33.53px;
+    height: 37.74px;
+    left: 960px;
+    top: 39px;
+  
+    transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
+  }
+  
+  .search {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    left: 1241px;
+    top: 21px;
+  }
+  
+  .accountpic {
+    position: absolute;
+    width: 34.2px;
+    height: 36px;
+    left: 1383px;
+    top: 18px;
+  }
+  
+  .cartpic{
+    position: absolute;
+    width: 39px;
+    height: 38px;
+    left: 1378px;
+    top: 79px;
+  }
+  
+  .topbar {
+    position: absolute;
+    width: 1440px;
+    height: 191px;
+    left: 0px;
+    top: 0px;
+    background: #9F0202;
+  }
+  
+  .delicipe_sign {
+    position: absolute;
+    width: 357px;
+    height: 136px;
+    left: 34px;
+    top: 32px;
+  }
+  
+  .topnav {
+    overflow: hidden;
+  }
+  
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    font-size: 22px;
+    position: absolute;
+    width: 220px;
+    height: 34px;
+    left: 1000px;
+    top: 18px;
+  
+    background: #FFFFFF;
+  }
+  
+  /* .topnav .search-container button:hover {
+    
+  } */
+  
+  .topnav .search-container button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .onetime {
+    position: absolute;
+    width: 225px;
+    height: 42px;
+    left: 638px;
+    top: 19px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+  }
+  
+  .rontine {
+    position: absolute;
+    width: 102px;
+    height: 43px;
+    left: 873px;
+    top: 19px;
+    background: #FFBC35;
+    border-radius: 5px;
+    border: #9F0202;
+  }
+  
+  .account {
+    position: absolute;
+    width: 109px;
+    height: 50px;
+    left: 1274px;
+    top: 12px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+  }
+  
+  .cart {
+    position: absolute;
+    width: 70px;
+    height: 33px;
+    left: 1305px;
+    top: 79px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+  }
+  
+  /*************************** end of topbar ***********************/
+  
+  /*************************** topnav **************************/
+  
+  .home {
+    position: absolute;
+    width: 114px;
+    height: 55px;
+    left: 17px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #F5B85C;
+    box-sizing: border-box;
+    border-radius: 18px;
+    color: #F68787;
+  }
+  
+  .maindish {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 159px;
+    top: 210px;
+    background: #FFBC35;
+    border-radius: 18px;
+    color: white;
+    border: 3px solid #FFBC35;
+  }
+  
+  .dessert {
+    position: absolute;
+    width: 120px;
+    height: 55px;
+    left: 335px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+    color: #F68787;
+  }
+  
+  .howitwork {
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 483px;
+    top: 210px;
+  
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+    color: #F68787;
+  }
+  
+  .maindishbuttonpic {
+    position: absolute;
+    width: 52px;
+    height: 45px;
+    left: 280px;
+    top: 237px;
+  }
+  
+  /************************ end of top nav ***********************/
+
+  /*************************** Date **************************/
+  .vectorfirst {
+    position: absolute;
+    width: 112px;
+    height: 65px;
+    left: 595px;
+    top: 291px;
+
+    background:url(../picture/vector1.svg) no-repeat;
+    cursor:pointer;
+    color: white;
+    font-family: Archivo;
+    font-size: 18px;
+    font-weight: bold;
+    border: unset;
+    }
+
+    .vectorfirst:active {
+        background:url(../picture/vector1.svg) no-repeat;
+    }
+  
+  .vectorsecond {
+    position: absolute;
+    width: 122px;
+    height: 65px;
+    left: 678px;
+    top: 291px;
+    
+    background:url(../picture/vector2.svg) no-repeat;
+    cursor:pointer;
+    color: white;
+    font-family: Archivo;
+    font-size: 18px;
+    font-weight: bold;
+    border: unset;
+  }
+
+  .vectorsecond:active {
+    background:url(../picture/vector2.svg) no-repeat;
+}
+  
+  .vectorthird {
+    position: absolute;
+    width: 122px;
+    height: 65px;
+    left: 762px;
+    top: 291px;
+
+    color: white;
+    cursor:pointer;
+    background:url(../picture/vector2.svg) no-repeat;
+    font-family: Archivo;
+    font-size: 18px;
+    font-weight: bold;
+    border: unset;
+  }
+
+  .vectorthrid:active {
+    background:url(../picture/vector2.svg) no-repeat;
+}
+  
+  /************************ end of Date ***********************/
+  
+  /*********************** selector ********************/
+  
+  .container {
+    border-radius: 8px;
+    border: 2px solid #F68787;
+  
+  }
+  
+  .cusinetext {
+    position: absolute;
+    width: 71px;
+    height: 37px;
+    left: 12px;
+    top: 377px;
+  
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: #000000;
+  }
+  
+  .CUSINE_S {
+    position: absolute;
+    width: 152px;
+    height: 33px;
+    left: 87px;
+    top: 377px;
+    box-sizing: border-box;
+    border-radius: 15px;
+  }
+  
+  .meattext {
+    position: absolute;
+    width: 71px;
+    height: 37px;
+    left: 260px;
+    top: 377px;
+  
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: #000000;
+  }
+  
+  .ALLMEATS_S {
+    position: absolute;
+    width: 152px;
+    height: 33px;
+    left: 330px;
+    top: 377px;
+  
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+  
+  .dishtypetext {
+    position: absolute;
+    width: 123px;
+    height: 37px;
+    left: 502px;
+    top: 377px;
+  
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: #000000;
+  }
+  
+  .DISHTYPE_S {
+    position: absolute;
+    width: 152px;
+    height: 33px;
+    left: 607px;
+    top: 377px;
+  
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+  
+  .difficultytext {
+    position: absolute;
+  width: 200px;
+  height: 32px;
+  left: 767px;
+  top: 377px;
+  
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 48px;
+  text-align: center;
+  color: #000000;
+  }
+  
+  .LEVEL_S {
+    position: absolute;
+    width: 152px;
+    height: 33px;
+    left: 965px;
+    top: 377px;
+  
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+  
+  .pricetext {
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 1137px;
+    top: 377px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: #000000;
+  }
+  
+  .PRICE_S {
+    position: absolute;
+    width: 152px;
+    height: 33px;
+    left: 1270px;
+    top: 377px;
+  
+    background: #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+  }
+  
+  /******************* end of selector ******************/
+  
+  .spaghetti {
+    position: absolute;
+    width: 443px;
+    height: 322px;
+    left: 26px;
+    top: 421px;
+  }
+  
+  .SPAGHITTI {
+    position: absolute;
+    width: 421px;
+    height: 99px;
+    left: 61px;
+    top: 767px;
+  
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .spicytwo {
+    position: absolute;
+    width: 49.04px;
+    height: 50px;
+    left: 307px;
+    top: 812px;
+  }
+  
+  .dory {
+    position: absolute;
+    width: 387px;
+    height: 255px;
+    left: 530px;
+    top: 489px;
+  }
+  
+  .DORY {
+    position: absolute;
+    width: 421px;
+    height: 99px;
+    left: 519px;
+    top: 767px;
+  
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  
+  }
+  
+  .porkchop {
+    position: absolute;
+    width: 387px;
+    height: 254px;
+    left: 980px;
+    top: 489px;
+  }
+  
+  .PORKCHOP {
+    position: absolute;
+    width: 421px;
+    height: 135px;
+    left: 971px;
+    top: 765px;
+  
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .tteokbokki {
+    position: absolute;
+    width: 387px;
+    height: 255px;
+    left: 75px;
+    top: 985px;
+  }
+  
+  .TTEOKBOKKI {
+    position: absolute;
+    width: 421px;
+    height: 98px;
+    left: 75px;
+    top: 1261px;
+  
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 48px;
+    text-align: center;
+  
+    color: #000000;
+  }
+  
+  .spicythree {
+    position: absolute;
+    width: 74px;
+    height: 68px;
+    left: 317px;
+    top: 1295px;
+  }
+  
+  .chickenrice {
+    position: absolute;
+    width: 387px;
+    height: 256px;
+    left: 532px;
+    top: 984px;
+  }
+  
+  .CHICKENRICE {
+    position: absolute;
+    width: 421px;
+    height: 99px;
+    left: 507px;
+    top: 1261px;
+  
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  .caponata {
+    position: absolute;
+    width: 428px;
+    height: 325px;
+    left: 940px;
+    top: 915px;
+  }
+  
+  .CAPONATA {
+    position: absolute;
+    width: 421px;
+    height: 99px;
+    left: 971px;
+    top: 1261px;
+  
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 21px;
+    line-height: 48px;
+    text-align: center;
+    color: #000000;
+  }
+  
+  /************** ADD TO CART **************/
+  
+  .SPAGHITTI_B {
+    position: absolute;
+    width: 149px;
+    height: 45px;
+    left: 200px;
+    top: 878px;
+  
+    background: #9F0202;
+    color: white;
+    font-family: Arvo;
+    font-size: 16px;
+  }
+  
+  .DORY_B {
+    position: absolute;
+    width: 149px;
+    height: 45px;
+    left: 646px;
+    top: 878px;
+  
+    background: #9F0202;
+    color: white;
+    font-family: Arvo;
+    font-size: 16px;
+  }
+  
+  .PORKCHOP_B {
+    position: absolute;
+    width: 149px;
+    height: 45px;
+    left: 1100px;
+    top: 911px;
+    background: #9F0202;
+    color: white;
+    font-family: Arvo;
+    font-size: 16px;
+  }
+  
+  .TTEOKBOKKI_B {
+    position: absolute;
+    width: 149px;
+    height: 45px;
+    left: 208px;
+    top: 1363px;
+    background: #9F0202;
+    color: white;
+    font-family: Arvo;
+    font-size: 16px;
+  }
+  
+  .CHICKENRICE_B {
+    position: absolute;
+    width: 149px;
+    height: 45px;
+    left: 646px;
+    top: 1363px;
+    background: #9F0202;
+    color: white;
+    font-family: Arvo;
+    font-size: 16px;
+  }
+  
+  .CAPONATA_B {
+    position: absolute;
+    width: 149px;
+    height: 45px;
+    left: 1104px;
+    top: 1363px;
+    background: #9F0202;
+    color: white;
+    font-family: Arvo;
+    font-size: 16px;
+  }
+  
+  /*************** next page ****************/
+  
+  .first {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 623px;
+    top: 1445px;
+    border-radius: 50px;
+    background: #FFBC35;
+    border: 3px solid #FFBC35;
+    font-size: 20px;
+    cursor:pointer;
+  }
+  
+  .second {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    left: 684px;
+    top: 1445px;
+    border-radius: 50px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    font-size: 20px;
+    cursor:pointer;
+  }
+  
+  .nextpage {
+    position: absolute;
+    width: 70px;
+    height: 45px;
+    left: 745px;
+    top: 1445px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor:pointer;
+  }
+  
+  /*************** bottombar ***************/
+  
+  .bottomnav {
+    overflow: hidden;
+  }
+  
+  /* .topnav .search-container button:hover {
+    
+  } */
+  
+  .bottomnav .search-container button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    border: #9F0202;
+  
+  }
+  
+  .EN {
+    position: absolute;
+    width: 51px;
+    height: 38px;
+    left: 1180px;
+    top: 1563px;
+  
+    background: #FFBC35;
+    border-radius: 5px;
+  }
+  
+  .TH {
+    position: absolute;
+    width: 51px;
+    height: 38px;
+    left: 1231px;
+    top: 1563px;
+    background: #9F0202;
+    color: white;
+  }
+  
+  .bottombar {
+    position: absolute;
+    width: 1440px;
+    height: 108px;
+    left: 0px;
+    top: 1513px;
+  
+    background: #9F0202;
+  }
+  
+  .QandA {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 1307px;
+    top: 1528px;
+  }

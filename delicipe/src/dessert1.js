@@ -97,23 +97,23 @@ class dessert1 extends Component {
           <div class="detail_nutrition">: Per serving</div>
           <table class="table_nutrition">
             <tr>
-              <td>Calories(kcal)</td>
+              <td>Calories (kcal)</td>
               <td>383</td>
             </tr>
             <tr>
-              <td>Fat(g)</td>
+              <td>Fat (g)</td>
               <td>12</td>
             </tr>
             <tr>
-              <td>Carbs(g)</td>
+              <td>Carbs (g)</td>
               <td>58</td>
             </tr>
             <tr>
-              <td>Protien(g)</td>
+              <td>Protien (g)</td>
               <td>10</td>
             </tr>
             <tr>
-              <td>Saturates(g)</td>
+              <td>Saturates (g)</td>
               <td>6</td>
             </tr>
             <tr>

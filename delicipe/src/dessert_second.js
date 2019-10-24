@@ -20,7 +20,7 @@ const Cusine = [
   { label: "All Cuisines", value: 1 },
   { label: "Thai", value: 2 },
   { label: "English", value: 3 },
-  { label: "Frances", value: 4 },
+  { label: "France", value: 4 },
 ];
 
 const Typesofdessert = [

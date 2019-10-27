@@ -154,6 +154,8 @@ class Cart extends Component {
         <div class="converter2">
           <input id="inputQuantity" type="number" placeholder="Quantity" min="0" oninput="priceConverter(this.value)" onchange="priceConverter(this.value)" />
         </div>
+        <button class="cancel1">X</button>
+        <button class="cancel2">X</button>
       </div>
     );
   }

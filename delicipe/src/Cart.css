@@ -574,3 +574,21 @@
     border: 1px solid #000000;
     box-sizing: border-box;
 }
+
+.cancel1 {
+    position: absolute;
+width: px;
+height: 35px;
+left: 1238px;
+top: 658px;
+
+}
+
+.cancel2 {
+    position: absolute;
+width: px;
+height: 35px;
+left: 1238px;
+top: 769px;
+
+}

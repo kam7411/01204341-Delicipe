@@ -1,9 +1,5 @@
 import React, { Component } from 'react';
-import './Cart.css';
-import img1 from "../picture/Spaghetti.svg"
-import img2 from "../picture/Floating.svg"
-import img3 from "../picture/Component.svg"
-import img4 from "../picture/Cart.svg"
+import './Time.css';
 import 'typeface-arvo'
 import Calendar from 'react-calendar'
 import Select from 'react-select'
@@ -64,9 +60,7 @@ class Cart extends Component {
                 <input type="text" placeholder="Search.." name="search" />
               </form>
             </div>
-            <img src={homebuttonpic} class="homebuttonpic" alt="homebuttonpic" />
             <img src={maindishbuttonpic} class="maindishbuttonpic" alt="Maindisbuttonpic" />
-            <img src={dessertbuttonpic} class="dessertbuttonpic" alt="dessertbuttonpic" />
             <img src={howitworkbuttonpic} class="howitworkbuttonepic" alt="howitworkbuttonpic" />
           </div>
 
@@ -82,44 +76,6 @@ class Cart extends Component {
           <img src={QandA} className="QandA" alt="QandA" />
 
         </div>
-        <img class="picture1" src={img1} />
-        <img class="picture2" src={img2} />
-        <img class="picture3" src={img3} />
-        <img class="picture4" src={img4} />
-        <div class="textCartConcludtion">
-          <label>Cart Concludtion</label>
-        </div>
-        <div class="text">
-          <div class="textYour">
-            <label>Your Cart</label>
-          </div>
-          <div class="textSpaghetti">
-            <label>Spaghetti Bacon Chilli Garlic</label>
-          </div>
-          <div class="textFloat">
-            <label>Floating island</label>
-          </div>
-          <div class="textQuantity">
-            <label>Quantity</label>
-          </div>
-          <div class="texttotal">
-            <label>Total</label>
-          </div>
-          <div class="text110">
-            <label>110.00 ฿</label>
-          </div>
-          <div class="text90">
-            <label>90.00 ฿</label>
-          </div>
-          <div class="text200">
-            <label>200.00 ฿</label>
-          </div>
-          <div class="textsubtotal">
-            <label>SUBTOTAL</label>
-          </div>
-          <div class="textshipping">
-            <label>Shipping & taxes calculated at checkout</label>
-          </div>
           <div class="textTime">
             <label>
               * Time Slot Suggestion
@@ -130,11 +86,6 @@ class Cart extends Component {
    <br></br>
               06:00 PM to 08:00 PM suggest for breakfast</label>
           </div>
-        </div>
-        <p class="line1"></p>
-        <p class="line2"></p>
-        <p class="line3"></p>
-        <button class="check">CHECK OUT</button>
 
         <div class="calendar">
           <Calendar
@@ -148,14 +99,6 @@ class Cart extends Component {
             </div>
           </div>
         </div>
-        <div class="converter1">
-          <input id="inputQuantity" type="number" placeholder="Quantity" min="0" oninput="priceConverter(this.value)" onchange="priceConverter(this.value)" />
-        </div>
-        <div class="converter2">
-          <input id="inputQuantity" type="number" placeholder="Quantity" min="0" oninput="priceConverter(this.value)" onchange="priceConverter(this.value)" />
-        </div>
-        <button class="cancel1">X</button>
-        <button class="cancel2">X</button>
       </div>
     );
   }

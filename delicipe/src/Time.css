@@ -14,8 +14,8 @@
     position: absolute;
     width: 33.53px;
     height: 37.74px;
-    left: 840.62px;
-    top: 39.68px;
+    left: 965px;
+    top: 39px;    
     transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
 }
 
@@ -93,8 +93,8 @@
     height: 42px;
     left: 638px;
     top: 19px;
-    background: #FFBC35;
-    border-radius: 5px;
+    background: #9F0202;
+    color: white;
     border: #9F0202;
 }
 
@@ -104,9 +104,10 @@
     height: 43px;
     left: 873px;
     top: 19px;
-    background: #9F0202;
-    color: white;
+    background: #FFBC35;
+    border-radius: 5px;
     border: #9F0202;
+
 }
 
 .account {
@@ -155,7 +156,7 @@
     height: 55px;
     left: 159px;
     top: 210px;
-    background: #FFFFFF;
+    background: #F5B85C;
     border: 3px solid #F5B85C;
     box-sizing: border-box;
     border-radius: 18px;
@@ -279,207 +280,10 @@
 
 
 /****************** end of bottom bar *****************************/
-
-.picture1 {
-    position: absolute;
-    width: 109px;
-    height: 97px;
-    left: 186px;
-    top: 627px;
-}
-
-.picture2 {
-    position: absolute;
-    width: 109px;
-    height: 97px;
-    left: 186px;
-    top: 739px;
-}
-
-.picture3 {
-    position: absolute;
-    width: 340px;
-    height: 32.52px;
-    left: 550px;
-    top: 375px;
-}
-
-.picture4 {
-    position: absolute;
-    width: 41.92px;
-    height: 38px;
-    left: 214px;
-    top: 468px;
-}
-
-.textCartConcludtion {
-    position: absolute;
-    width: 222px;
-    height: 30px;
-    left: 609px;
-    top: 335px;
-    font-family: Arvo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
-    /* identical to box height */
-    text-decoration-line: underline;
-    color: #404040;
-}
-
-.text {
-    font-family: Arvo;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 24px;
-    line-height: 30px;
-    /* identical to box height */
-    color: #404040;
-}
-
-.textYour {
-    position: absolute;
-    width: 121px;
-    height: 30px;
-    left: 284px;
-    top: 472px;
-}
-
-.textSpaghetti {
-    position: absolute;
-    width: 361px;
-    height: 30px;
-    left: 312px;
-    top: 664px;
-}
-
-.textFloat {
-    position: absolute;
-    width: 190px;
-    height: 30px;
-    left: 312px;
-    top: 773px;
-}
-
-.textQuantity {
-    position: absolute;
-    width: 111px;
-    height: 30px;
-    left: 896px;
-    top: 558px;
-}
-
-.texttotal {
-    position: absolute;
-    width: 63px;
-    height: 30px;
-    left: 1100px;
-    top: 558px;
-}
-
-.text110 {
-    position: absolute;
-    width: 71px;
-    height: 30px;
-    left: 1099px;
-    top: 667px;
-}
-
-.text90 {
-    position: absolute;
-    width: 66px;
-    height: 30px;
-    left: 1099px;
-    top: 776px;
-}
-
-.text200 {
-    position: absolute;
-    width: 81px;
-    height: 30px;
-    left: 1100px;
-    top: 919px;
-}
-
-.textsubtotal {
-    position: absolute;
-    width: 134px;
-    height: 30px;
-    left: 878px;
-    top: 919px;
-}
-
-.textshipping {
-    position: absolute;
-    width: 491px;
-    height: 30px;
-    left: 799px;
-    top: 969px;
-}
-
-.textTime {
-    position: absolute;
-    width: 546px;
-    height: 120px;
-    left: 160px;
-    top: 1297px;
-}
-
-.line1 {
-    position: absolute;
-    width: 1140px;
-    height: 0px;
-    left: 150px;
-    top: 535.48px;
-    border: 3px solid #808080;
-    transform: rotate(0.1deg);
-}
-
-.line2 {
-    position: absolute;
-    width: 1140px;
-    height: 0px;
-    left: 150px;
-    top: 608px;
-    border: 3px solid #808080;
-}
-
-.line3 {
-    position: absolute;
-    width: 1140px;
-    height: 0px;
-    left: 150px;
-    top: 899px;
-    border: 3px solid #808080;
-}
-
-.check {
-    position: absolute;
-    width: 189px;
-    height: 50px;
-    left: 1085px;
-    top: 1347px;
-    background: #FFBC35;
-    border-radius: 5px;
-    font-family: Arvo;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 24px;
-    line-height: 30px;
-    /* identical to box height */
-    text-decoration-line: underline;
-    color: #796B52;
-}
-
-.check:hover {
-    background-color: rgb(248, 214, 120)
-}
-
 .calendar {
     position: absolute;
-    left: 111px;
-    top: 962px;
+    left: 391px;
+    top: 536px;
 }
 
 .btn {
@@ -553,42 +357,19 @@
     border-radius: 15px;
 }
 
-.converter1 input[type=number] {
+.textTime {
     position: absolute;
-    width: 72px;
-    height: 34px;
-    left: 916px;
-    top: 664px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-}
+width: 546px;
+height: 120px;
+left: 280px;
+top: 964px;
 
-.converter2 input[type=number] {
-    position: absolute;
-    width: 72px;
-    height: 34px;
-    left: 916px;
-    top: 773px;
-    background: #FFFFFF;
-    border: 1px solid #000000;
-    box-sizing: border-box;
-}
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
 
-.cancel1 {
-    position: absolute;
-width: px;
-height: 35px;
-left: 1238px;
-top: 658px;
-
-}
-
-.cancel2 {
-    position: absolute;
-width: px;
-height: 35px;
-left: 1238px;
-top: 769px;
+color: #404040;
 
 }

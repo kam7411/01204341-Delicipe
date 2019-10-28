@@ -1,13 +1,13 @@
 import React from 'react'
 import 'typeface-arvo'
 import './Profile.css'
-import delicipe_sign from '../picture/Delicipe.svg';
-import chefhat from '../picture/chef-hat.svg';
-import search from '../picture/search.svg';
-import accountpic from '../picture/accountpic.svg';
-import cartpic from '../picture/cartpic.svg';
-import QandA from '../picture/QandA.svg';
-import profilepic from '../picture/profilepic.svg';
+import delicipe_sign from './picture/Delicipe.svg';
+import chefhat from './picture/chef-hat.svg';
+import search from './picture/search.svg';
+import accountpic from './picture/accountpic.svg';
+import cartpic from './picture/cartpic.svg';
+import QandA from './picture/QandA.svg';
+import profilepic from './picture/profilepic.svg';
 
 
 class Profile extends React.Component{
@@ -61,13 +61,14 @@ class Profile extends React.Component{
                  {/*data informmation*/}
                 <img src={profilepic} className = "profile-pic"/>  
                 <button class = "edit-button">Edit profile</button>
+                <button class = "my-order-button">My order</button>               
                 <div className = "name-p">Name</div>
                 <div className = "last-name-p">Last name</div>
                 <div className = "address-p">Address</div>
                 <div className = "email-p">Email</div>
                 <div className = "tel-p">Tel</div>
                 {/*data informmation*/}
-                <div className = "name-i">MR Tada</div>
+                <div className = "name-i">Tada</div>
                 <div className = "last-name-i">Sanakorn</div>
                 <div className = "address-i">10.....</div>
                 <div className = "email-i">tada.s@gmail.com</div>

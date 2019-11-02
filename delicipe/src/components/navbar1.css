@@ -1,0 +1,129 @@
+.chefhat {
+    position: absolute;
+    width: 33.53px;
+    height: 37.74px;
+    left: 840.62px;
+    top: 39.68px;
+  
+    transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
+  }
+  
+  .search {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    left: 1241px;
+    top: 21px;
+  }
+  
+  .accountpic {
+    position: absolute;
+    width: 34.2px;
+    height: 36px;
+    left: 1383px;
+    top: 18px;
+  }
+  
+  .cartpic{
+    position: absolute;
+    width: 39px;
+    height: 38px;
+    left: 1378px;
+    top: 79px;
+  }
+  
+  .topbar {
+    position: absolute;
+    width: 1440px;
+    height: 191px;
+    left: 0px;
+    top: 0px;
+    background: #9F0202;
+  }
+  
+  .delicipe_sign {
+    position: absolute;
+    width: 357px;
+    height: 136px;
+    left: 34px;
+    top: 32px;
+
+    background:url(../../picture/vector1.svg) no-repeat;
+    cursor:pointer;
+    border: unset;
+  }
+
+  .delicipe_sign:active {
+    background:url(../../picture/vector1.svg) no-repeat;
+}
+  
+  .topnav {
+    overflow: hidden;
+  }
+  
+  .topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    font-size: 22px;
+    position: absolute;
+    width: 220px;
+    height: 34px;
+    left: 1000px;
+    top: 18px;
+  
+    background: #FFFFFF;
+  }
+  
+  /* .topnav .search-container button:hover {
+    
+  } */
+  
+  .topnav .search-container button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .onetime {
+    position: absolute;
+    width: 225px;
+    height: 42px;
+    left: 638px;
+    top: 19px;
+    background: #FFBC35;
+    border-radius: 5px;
+    border: #9F0202;
+  }
+  
+  .rontine {
+    position: absolute;
+    width: 102px;
+    height: 43px;
+    left: 873px;
+    top: 19px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+  }
+  
+  .account {
+    position: absolute;
+    width: 109px;
+    height: 50px;
+    left: 1274px;
+    top: 12px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+  }
+  
+  .cart {
+    position: absolute;
+    width: 70px;
+    height: 33px;
+    left: 1305px;
+    top: 79px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+  }

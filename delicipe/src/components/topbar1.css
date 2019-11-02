@@ -1,0 +1,61 @@
+.home {
+    position: absolute;
+    width: 114px;
+    height: 55px;
+    left: 17px;
+    top: 210px;
+  
+    background: #FFBC35;
+    border-radius: 18px;
+    color: white;
+    border: 3px solid #FFBC35;
+  }
+  
+  .maindish {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 159px;
+    top: 210px;
+  
+    background: #FFFFFF;
+    border: 3px solid #F5B85C;
+    box-sizing: border-box;
+    border-radius: 18px;
+    color: #F68787;
+  }
+  
+  .dessert {
+    position: absolute;
+    width: 120px;
+    height: 55px;
+    left: 335px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+    color: #F68787;
+  }
+  
+  .howitwork {
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 483px;
+    top: 210px;
+  
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+    color: #F68787;
+  }
+  
+  .homebuttonpic {
+    position: absolute;
+    width: 50px;
+    height: 46.3px;
+    left: 100px;
+    top: 234px;
+  }

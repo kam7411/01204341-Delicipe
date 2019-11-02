@@ -6,23 +6,23 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-import wallhome from '../picture/wallhome.svg'
-import ingre from '../picture/ingre.svg';
-import delicipe_sign from '../picture/Delicipe.svg';
-import chefhat from '../picture/chef-hat.svg';
-import search from '../picture/search.svg';
-import accountpic from '../picture/accountpic.svg';
-import cartpic from '../picture/cartpic.svg';
-import homebuttonpic from '../picture/homebuttonpic.svg';
-import daily_menu_main from '../picture/daily-menu.svg';
-import daily_menu_dessert from '../picture/daily-dessert.svg';
-import checked1 from '../picture/checked1.svg';
-import checked2 from '../picture/checked2.svg';
-import checked3 from '../picture/checked3.svg';
-import ingredient from '../picture/ingredient.svg';
-import recipe from '../picture/recipe.svg';
-import guide from '../picture/guide.svg';
-import QandA from '../picture/QandA.svg';
+import wallhome from '../../picture/wallhome.svg'
+import ingre from '../../picture/ingre.svg';
+import delicipe_sign from '../../picture/Delicipe.svg';
+import chefhat from '../../picture/chef-hat.svg';
+import search from '../../picture/search.svg';
+import accountpic from '../../picture/accountpic.svg';
+import cartpic from '../../picture/cartpic.svg';
+import homebuttonpic from '../../picture/homebuttonpic.svg';
+import daily_menu_main from '../../picture/daily-menu.svg';
+import daily_menu_dessert from '../../picture/daily-dessert.svg';
+import checked1 from '../../picture/checked1.svg';
+import checked2 from '../../picture/checked2.svg';
+import checked3 from '../../picture/checked3.svg';
+import ingredient from '../../picture/ingredient.svg';
+import recipe from '../../picture/recipe.svg';
+import guide from '../../picture/guide.svg';
+import QandA from '../../picture/QandA.svg';
 
 class Home extends Component {
   render() {

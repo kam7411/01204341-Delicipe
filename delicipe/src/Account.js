@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import './Account.css';
-import img1 from "../picture/Spaghetti.svg"
-import img2 from "../picture/Floating.svg"
-import img3 from "../picture/Component.svg"
-import img4 from "../picture/toriko.svg"
+import spaghetti from "../picture/Spaghetti.svg"
+import floating from "../picture/Floating.svg"
+import component from "../picture/Component.svg"
+import toriko from "../picture/toriko.svg"
 import 'typeface-arvo'
 import delicipe_sign from '../picture/Delicipe.svg';
 import chefhat from '../picture/chef-hat.svg';
@@ -70,10 +70,10 @@ class Account extends Component {
 <img src={QandA} className="QandA" alt="QandA" />
 
 </div>
-        <img class="picture1" src={img1}/>
-        <img class="picture2" src={img2}/>
-        <img class="picture3" src={img3}/>
-        <img class="picture4" src={img4}/>
+        <img class="picture1" src={spaghetti} />
+        <img class="picture2" src={floating} />
+        <img class="picture3" src={component} />
+        <img class="picture4" src={toriko}/>
         <div class="textCartConcludtion">
           <label>Cart Concludtion</label>
         </div>

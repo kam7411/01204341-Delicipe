@@ -1,12 +1,12 @@
 import React from 'react'
-import { navbar1, topbar1, home_detail, bottombar} from '../components'
+import { navbar1, home_detail } from '../components'
 
 const Home = () => (
-    <>
-        <navbar1 />
-        <topbar design='default' />
+    <div className='homepage'>
+        {/* <topbar design='default' /> */}
+        <navebar1 />
         <home_detail />
-        <bottombar />
-    </>
+        {/* <bottombar /> */}
+    </div>
 )
-export default Home
+export default Home 

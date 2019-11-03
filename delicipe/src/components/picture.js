@@ -1,13 +1,13 @@
 import React from 'react'
-import 'typeface-arvo'
-import 'typeface-archivo'
-import 'typeface-atma'
+// import 'typeface-arvo'
+// import 'typeface-archivo'
+// import 'typeface-atma'
 
-import Select from 'react-select';
-import Slider from "react-slick";
-import Calendar from 'react-calendar'
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
+// import Select from 'react-select';
+// import Slider from "react-slick";
+// import Calendar from 'react-calendar'
+// import "slick-carousel/slick/slick.css";
+// import "slick-carousel/slick/slick-theme.css";
 //all
 import spaghetti from "../../picture/Spaghetti.svg";
 import dory from '../../picture/SteamedDory.svg';

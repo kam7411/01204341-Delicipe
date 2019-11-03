@@ -1,0 +1,54 @@
+.bottomnav {
+    overflow: hidden;
+  }
+  
+  /* .topnav .search-container button:hover {
+    
+  } */
+  
+  .bottomnav .search-container button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    border: #9F0202;
+  }
+  
+  .EN {
+    position: absolute;
+    width: 51px;
+    height: 38px;
+    left: 1180px;
+    top: 1481px;
+  
+    background: #FFBC35;
+    border-radius: 5px;
+  }
+  
+  .TH {
+    position: absolute;
+    width: 51px;
+    height: 38px;
+    left: 1231px;
+    top: 1481px;
+    background: #9F0202;
+    color: white;
+  }
+  
+  .bottombar {
+    position: absolute;
+    width: 1440px;
+    height: 108px;
+    left: 0px;
+    top: 1431px;
+  
+    background: #9F0202;
+  }
+  
+  .QandA {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 1307px;
+    top: 1446px;
+    background: #9F0202;
+  }

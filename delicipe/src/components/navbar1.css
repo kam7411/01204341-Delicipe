@@ -48,13 +48,13 @@
     left: 34px;
     top: 32px;
 
-    background:url(../../picture/vector1.svg) no-repeat;
+    background:url(../picture/vector1.svg) no-repeat;
     cursor:pointer;
     border: unset;
   }
 
   .delicipe_sign:active {
-    background:url(../../picture/vector1.svg) no-repeat;
+    background:url(../picture/vector1.svg) no-repeat;
 }
   
   .topnav {

@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import './topbar1.css';
+import 'typeface-arvo'
+import 'typeface-atma'
 import {
-    Menu,
-    Airplane,
-    Back,
-    SettingButton,
-    ShareButton,
-    SummaryButton,
-} from './Icon'
+    homebuttonpic,
+} from './picture'
 
 class topbar1 extends Component {
     constructor(props) {
@@ -18,18 +16,26 @@ class topbar1 extends Component {
     }
     render() {
         return (
-            <>
-                <div class="search-container">
-                    <form action="/action_page.php">
-                        <button class="account" type="submit">Account</button>
-                        <button class="rontine" type="submit">Rontine</button>
-                        <button class="onetime" type="submit">One-time purchase</button>
-                        <button class="cart" type="submit">Cart</button>
-                        <input type="text" placeholder="Search.." name="search" />
-                    </form>
-                </div> 
-            </>
+        <div class="topnav">
+          <div class="search-container">
+            <form action="/action_page.php">
+            <Link to='/home'>
+              <button class="home" type="submit">Home</button>
+            </Link>  
+            <Link to='/maindish'>
+              <button class="maindish" type="submit">Main dish</button>
+            </Link>  
+            <Link to='/dessert'>  
+              <button class="dessert" type="submit">Dessert</button>
+            </Link>  
+            <Link to='/howitwork'>
+              <button class="howitwork" type="submit">How it work?</button>
+            </Link>    
+            </form>
+          </div>
+          <img src={homebuttonpic} class="homebuttonpic" alt="homebuttonpic" />
+        </div>
         )
     }
 }
-export default topbar
+export default topbar1

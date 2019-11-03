@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
+import 'typeface-arvo'
+import 'typeface-atma'
+import './navbar1.css';
 import {
     delicipe_sign,
     chefhat,
@@ -12,25 +15,8 @@ class navbar1 extends Component {
     constructor(props) {
         super(props)
         this.state = {
-            messages: []
+
         };
-        let app = this.props.db.database().ref('messages');
-        app.on('value', snapshot => {
-          this.getData(snapshot.val());
-        });
-      }
-      getData(values){
-        let messagesVal = values;
-        let messages = _(messagesVal)
-            .keys()
-            .map(messageKey => {
-                let cloned = _.clone(messagesVal[messageKey]);
-                cloned.key = messageKey;
-                return cloned;
-            }).value();
-        this.setState({
-          messages: messages
-        });
     }
 
     render() {   

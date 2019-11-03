@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { Link } from 'react-router-dom'
-import './navbar1.css';
+import '../css/home_detail.css';
 import 'typeface-arvo'
 import 'typeface-atma'
 import Slider from "react-slick";

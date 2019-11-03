@@ -1,10 +1,10 @@
 import React from 'react'
-import { navbar1, home_detail } from '../components'
+import { home_detail } from './../components/home_detail.js'
 
 const Home = () => (
     <div className='homepage'>
         {/* <topbar design='default' /> */}
-        <navbar1 />
+        {/* <navbar1 /> */}
         <home_detail />
         {/* <bottombar /> */}
     </div>

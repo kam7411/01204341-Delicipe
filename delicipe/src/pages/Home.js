@@ -1,5 +1,5 @@
 import React from 'react'
-import { home_detail } from './../components/home_detail.js'
+import { home_detail } from '../components/home_detail.js'
 
 const Home = () => (
     <div className='homepage'>

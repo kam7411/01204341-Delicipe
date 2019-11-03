@@ -43,8 +43,8 @@ import icecream from '../../picture/icecream.svg';
 import smoothie from '../../picture/smoothie.svg';
 import wall from '../../picture/wall.svg';
 import wallroutine from '../../picture/wallroutine.svg';
-import cook from '../../picture/cook.svg';
-import level from '../../picture/level.svg';
+// import cook from '../../picture/cook.svg';
+// import level from '../../picture/level.svg';
 import profilepic from '../../picture/profilepic.svg';
 // account
 import toriko from "../../picture/toriko.svg";
@@ -74,8 +74,8 @@ import oom from '../../picture/oom.png';
 import nune from '../../picture/nune.png';
 import net from '../../picture/net.png';
 //maindish1
-import rice from '../../picture/rice.svg';
-import muslim from '../../picture/muslim.svg';
+// import rice from '../../picture/rice.svg';
+// import muslim from '../../picture/muslim.svg';
 //dessert1
 import island from '../../picture/island.svg';
 import gluten from '../../picture/gluten.svg';

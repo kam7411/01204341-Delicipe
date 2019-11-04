@@ -1,0 +1,191 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'react',
+1 verbose cli   'react-dropzone',
+1 verbose cli   'supergent',
+1 verbose cli   '--save' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData react@^16.10.2
+8 silly fetchPackageMetaData react-dropzone
+9 silly fetchPackageMetaData supergent
+10 silly fetchNamedPackageData react
+11 silly mapToRegistry name react
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry uri https://registry.npmjs.org/react
+15 silly fetchNamedPackageData react-dropzone
+16 silly mapToRegistry name react-dropzone
+17 silly mapToRegistry using default registry
+18 silly mapToRegistry registry https://registry.npmjs.org/
+19 silly mapToRegistry uri https://registry.npmjs.org/react-dropzone
+20 silly fetchNamedPackageData supergent
+21 silly mapToRegistry name supergent
+22 silly mapToRegistry using default registry
+23 silly mapToRegistry registry https://registry.npmjs.org/
+24 silly mapToRegistry uri https://registry.npmjs.org/supergent
+25 verbose request uri https://registry.npmjs.org/supergent
+26 verbose request no auth needed
+27 info attempt registry request try #1 at 5:59:01 PM
+28 verbose request id 127f0a5dda7c458f
+29 http request GET https://registry.npmjs.org/supergent
+30 verbose request uri https://registry.npmjs.org/react-dropzone
+31 verbose request no auth needed
+32 info attempt registry request try #1 at 5:59:01 PM
+33 verbose etag W/"bb518829988d2acb2e25abbf0ed96689"
+34 verbose lastModified Sun, 06 Oct 2019 09:41:28 GMT
+35 http request GET https://registry.npmjs.org/react-dropzone
+36 verbose request uri https://registry.npmjs.org/react
+37 verbose request no auth needed
+38 info attempt registry request try #1 at 5:59:01 PM
+39 verbose etag W/"928e202345353813c0bd479cd16a6456"
+40 verbose lastModified Mon, 21 Oct 2019 08:43:48 GMT
+41 http request GET https://registry.npmjs.org/react
+42 http 304 https://registry.npmjs.org/react
+43 verbose headers { date: 'Mon, 21 Oct 2019 10:59:02 GMT',
+43 verbose headers   connection: 'keep-alive',
+43 verbose headers   'set-cookie':
+43 verbose headers    [ '__cfduid=de76a28a469473b0898aae878e7bbca571571655542; expires=Tue, 20-Oct-20 10:59:02 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+43 verbose headers   'cf-cache-status': 'HIT',
+43 verbose headers   'cache-control': 'max-age=300',
+43 verbose headers   'cf-ray': '5292b8426f97819c-BKK',
+43 verbose headers   age: '171',
+43 verbose headers   etag: '"928e202345353813c0bd479cd16a6456"',
+43 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+43 verbose headers   'last-modified': 'Mon, 21 Oct 2019 08:43:48 GMT',
+43 verbose headers   vary: 'accept-encoding, accept',
+43 verbose headers   'x-amz-meta-rev': '1302-1f88afb200c113c49a839104bd8c29a5',
+43 verbose headers   server: 'cloudflare' }
+44 silly get cb [ 304,
+44 silly get   { date: 'Mon, 21 Oct 2019 10:59:02 GMT',
+44 silly get     connection: 'keep-alive',
+44 silly get     'set-cookie':
+44 silly get      [ '__cfduid=de76a28a469473b0898aae878e7bbca571571655542; expires=Tue, 20-Oct-20 10:59:02 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+44 silly get     'cf-cache-status': 'HIT',
+44 silly get     'cache-control': 'max-age=300',
+44 silly get     'cf-ray': '5292b8426f97819c-BKK',
+44 silly get     age: '171',
+44 silly get     etag: '"928e202345353813c0bd479cd16a6456"',
+44 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+44 silly get     'last-modified': 'Mon, 21 Oct 2019 08:43:48 GMT',
+44 silly get     vary: 'accept-encoding, accept',
+44 silly get     'x-amz-meta-rev': '1302-1f88afb200c113c49a839104bd8c29a5',
+44 silly get     server: 'cloudflare' } ]
+45 verbose etag https://registry.npmjs.org/react from cache
+46 verbose get saving react to /home/tonton/.npm/registry.npmjs.org/react/.cache.json
+47 http 304 https://registry.npmjs.org/react-dropzone
+48 verbose headers { date: 'Mon, 21 Oct 2019 10:59:02 GMT',
+48 verbose headers   connection: 'keep-alive',
+48 verbose headers   'set-cookie':
+48 verbose headers    [ '__cfduid=d668e96646a1343771ba6c1894718c2fd1571655542; expires=Tue, 20-Oct-20 10:59:02 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+48 verbose headers   'cf-cache-status': 'HIT',
+48 verbose headers   'cache-control': 'max-age=300',
+48 verbose headers   'cf-ray': '5292b8428b8281e4-BKK',
+48 verbose headers   age: '16',
+48 verbose headers   etag: '"bb518829988d2acb2e25abbf0ed96689"',
+48 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+48 verbose headers   'last-modified': 'Sun, 06 Oct 2019 09:41:28 GMT',
+48 verbose headers   vary: 'accept-encoding, accept',
+48 verbose headers   'x-amz-meta-rev': '171-0942c6e5e5489c084febad9071408978',
+48 verbose headers   server: 'cloudflare' }
+49 silly get cb [ 304,
+49 silly get   { date: 'Mon, 21 Oct 2019 10:59:02 GMT',
+49 silly get     connection: 'keep-alive',
+49 silly get     'set-cookie':
+49 silly get      [ '__cfduid=d668e96646a1343771ba6c1894718c2fd1571655542; expires=Tue, 20-Oct-20 10:59:02 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+49 silly get     'cf-cache-status': 'HIT',
+49 silly get     'cache-control': 'max-age=300',
+49 silly get     'cf-ray': '5292b8428b8281e4-BKK',
+49 silly get     age: '16',
+49 silly get     etag: '"bb518829988d2acb2e25abbf0ed96689"',
+49 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+49 silly get     'last-modified': 'Sun, 06 Oct 2019 09:41:28 GMT',
+49 silly get     vary: 'accept-encoding, accept',
+49 silly get     'x-amz-meta-rev': '171-0942c6e5e5489c084febad9071408978',
+49 silly get     server: 'cloudflare' } ]
+50 verbose etag https://registry.npmjs.org/react-dropzone from cache
+51 verbose get saving react-dropzone to /home/tonton/.npm/registry.npmjs.org/react-dropzone/.cache.json
+52 http 404 https://registry.npmjs.org/supergent
+53 verbose headers { date: 'Mon, 21 Oct 2019 10:59:03 GMT',
+53 verbose headers   'content-type': 'application/json',
+53 verbose headers   'content-length': '21',
+53 verbose headers   connection: 'keep-alive',
+53 verbose headers   'set-cookie':
+53 verbose headers    [ '__cfduid=dc11b2bbf1b203fd50b92879d2c275e5d1571655542; expires=Tue, 20-Oct-20 10:59:02 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+53 verbose headers   'cf-cache-status': 'MISS',
+53 verbose headers   'cache-control': 'max-age=300',
+53 verbose headers   'cf-ray': '5292b8426fe481fc-BKK',
+53 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+53 verbose headers   vary: 'accept-encoding, accept',
+53 verbose headers   server: 'cloudflare' }
+54 silly get cb [ 404,
+54 silly get   { date: 'Mon, 21 Oct 2019 10:59:03 GMT',
+54 silly get     'content-type': 'application/json',
+54 silly get     'content-length': '21',
+54 silly get     connection: 'keep-alive',
+54 silly get     'set-cookie':
+54 silly get      [ '__cfduid=dc11b2bbf1b203fd50b92879d2c275e5d1571655542; expires=Tue, 20-Oct-20 10:59:02 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+54 silly get     'cf-cache-status': 'MISS',
+54 silly get     'cache-control': 'max-age=300',
+54 silly get     'cf-ray': '5292b8426fe481fc-BKK',
+54 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+54 silly get     vary: 'accept-encoding, accept',
+54 silly get     server: 'cloudflare' } ]
+55 silly fetchPackageMetaData Error: Not found : supergent
+55 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+55 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+55 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+55 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+55 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+55 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+55 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+55 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+55 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+55 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+55 silly fetchPackageMetaData  error for supergent { Error: Not found : supergent
+55 silly fetchPackageMetaData     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+55 silly fetchPackageMetaData     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+55 silly fetchPackageMetaData     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+55 silly fetchPackageMetaData     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+55 silly fetchPackageMetaData     at emitTwo (events.js:126:13)
+55 silly fetchPackageMetaData     at Request.emit (events.js:214:7)
+55 silly fetchPackageMetaData     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+55 silly fetchPackageMetaData     at emitOne (events.js:121:20)
+55 silly fetchPackageMetaData     at Request.emit (events.js:211:7)
+55 silly fetchPackageMetaData     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12) pkgid: 'supergent', statusCode: 404, code: 'E404' }
+56 silly rollbackFailedOptional Starting
+57 silly rollbackFailedOptional Finishing
+58 silly runTopLevelLifecycles Starting
+59 silly runTopLevelLifecycles Finishing
+60 silly install printInstalled
+61 verbose stack Error: Not found : supergent
+61 verbose stack     at makeError (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:264:12)
+61 verbose stack     at CachingRegistryClient.<anonymous> (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:252:14)
+61 verbose stack     at Request._callback (/usr/share/npm/node_modules/npm-registry-client/lib/request.js:172:14)
+61 verbose stack     at Request.self.callback (/usr/share/npm/node_modules/request/request.js:198:22)
+61 verbose stack     at emitTwo (events.js:126:13)
+61 verbose stack     at Request.emit (events.js:214:7)
+61 verbose stack     at Request.<anonymous> (/usr/share/npm/node_modules/request/request.js:1082:10)
+61 verbose stack     at emitOne (events.js:121:20)
+61 verbose stack     at Request.emit (events.js:211:7)
+61 verbose stack     at IncomingMessage.<anonymous> (/usr/share/npm/node_modules/request/request.js:1009:12)
+62 verbose statusCode 404
+63 verbose pkgid supergent
+64 verbose cwd /home/tonton/Delicipe/01204341-Delicipe/delicipe/src
+65 error Linux 4.15.0-65-generic
+66 error argv "/usr/bin/node" "/usr/bin/npm" "install" "react" "react-dropzone" "supergent" "--save"
+67 error node v8.10.0
+68 error npm  v3.5.2
+69 error code E404
+70 error 404 Not found : supergent
+71 error 404
+72 error 404 'supergent' is not in the npm registry.
+73 error 404 You should bug the author to publish it (or use the name yourself!)
+74 error 404 Note that you can also install from a
+75 error 404 tarball, folder, http url, or git url.
+76 verbose exit [ 1, true ]

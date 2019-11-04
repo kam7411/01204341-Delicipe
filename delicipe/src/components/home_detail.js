@@ -24,7 +24,7 @@ class home_detail extends Component {
         super(props)
         this.state = {
             
-        };
+        }
     }
     render() {   
         var settings = {
@@ -47,9 +47,9 @@ class home_detail extends Component {
                     </div>
                 </Slider>
             </div>
-            <Link to='/home'></Link>
+            <Link to='/home'>
                 <div class="Everyday_Delicipy">Everyday Delicipy !</div>
-            
+            </Link>
             <div class="Detail">find more than 100 dishs for quick breakfast, easy meals, speedy week night dinner, desserts, and more</div>
             <img src={checked1} className="checked1" alt="checked1" />
             <img src={checked2} className="checked2" alt="checked2" />

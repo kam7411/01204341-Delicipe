@@ -41,7 +41,11 @@ class Taskbar extends Component {
               <button class="home" type="submit">Home</button>
               <button class="maindish" type="submit">Maindish</button>
               <button class="dessert" type="submit">Dessert</button>
-              <button class="howitwork" type="submit">How it work?</button>
+              <a style={{ textDecoration: 'none' }}href='/how_it_work'>
+              <button type='button' className='howitwork'>
+                How it work?
+              </button>
+              </a>
               <input type="text" placeholder="Search.." name="search" />
             </form>
           </div>

@@ -1,0 +1,18 @@
+.Pic {
+    position: absolute;
+    width: 1015px;
+    height: 672px;
+    left: 205px;
+    top: 372px;
+}
+
+.Picture-Box {
+    position: absolute;
+    left: 132px;
+    top: 343px;
+    width: 1174px;
+    height: 751px;
+    background: #EDE4D8;
+    border: 5px solid #9F0202;
+    border-radius: 50px;
+}

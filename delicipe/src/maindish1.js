@@ -11,6 +11,7 @@ import accountpic from '../picture/accountpic.svg';
 import cartpic from '../picture/cartpic.svg';
 import QandA from '../picture/QandA.svg';
 import 'typeface-arvo';
+import Taskbar from './taskbar';
 // npm install --save typeface-arvo
 
 
@@ -22,47 +23,8 @@ class maindish1 extends Component {
   // </div>
   render() {
     return (
-      <div class="background">
-        <div class="topbar">
-          <img src={delicipe_sign} class="delicipe_sign" alt="delicipe_sign" />
-          <img src={search} class="search" alt="search" />
-          <img src={accountpic} class="accountpic" alt="accountpic" />
-          <img src={cartpic} class="cartpic" alt="cartpic" />
-          <div class="topnav">
-            <div class="search-container">
-              <form action="/action_page.php">
-                <button class="account" type="submit">Account</button>
-                <button class="rontine" type="submit">Rontine</button>
-                <button class="onetime" type="submit">One-time purchase</button>
-                <button class="cart" type="submit">Cart</button>
-                <input type="text" placeholder="Search.." name="search" />
-              </form>
-            </div>
-            <img src={chefhat} class="chefhat" alt="chefhat" />
-          </div>
-        </div>  {/* topbar */}
-
-        <div class="topnav"> 
-          <div class="search-container">
-            <form action="/action_page.php">
-              <button class="home" type="submit">Home</button>
-              <button class="maindish" type="submit">Maindish</button>
-              <button class="dessert" type="submit">Dessert</button>
-              <button class="howitwork" type="submit">How it work?</button>
-              <input type="text" placeholder="Search.." name="search" />
-            </form>
-          </div>
-        </div>  
-
-        <div class="bottombar"></div>
-        <div class="bottomnav">
-          <div class="search-container">
-            <form action="/action_page.php">
-              <button class="EN" type="submit">EN</button>
-              <button class="TH" type="submit">TH</button>
-            </form>
-          </div>
-        </div>
+      <dev class='maindish1'>
+        <Taskbar/>
         <img src={QandA} className="QandA" alt="QandA" />
 
         <img src={rice} className="rice" alt="rice"/>
@@ -265,7 +227,7 @@ class maindish1 extends Component {
             </table>
           </div>  
           <div class="bottom_ingredient">*The box’s included recipe instruction</div>
-        // {/* <h2>Weight Converter</h2>
+        {/* <h2>Weight Converter</h2>
         // <p>Type a value in the Pounds field to convert the value to Kilograms:</p>
 
         // <p>
@@ -273,7 +235,7 @@ class maindish1 extends Component {
         //   <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)"/>
         // </p>
         // <p>Kilograms: <span id="outputKilograms"></span></p> */}
-      </div>
+    </dev>
     );
   }
 }

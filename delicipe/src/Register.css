@@ -380,6 +380,20 @@
     background-image: url('../picture/Add-Photo.svg');
 }
 
+.Finish {
+    position: absolute;
+    width: 111px;
+    height: 44px;
+    left: 259px;
+    top: 1296px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
 input[type=file]{
     width:0;
     height:0;

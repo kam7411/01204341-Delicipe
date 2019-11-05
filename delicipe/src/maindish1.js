@@ -66,29 +66,29 @@ class maindish1 extends Component {
         <img src={QandA} className="QandA" alt="QandA" />
 
         <img src={rice} className="rice" alt="rice"/>
-        <div class="topic">SINGAPORE CHICKEN RICE</div>
+        <div class="topic_food">SINGAPORE CHICKEN RICE</div>
         
         <img src={muslim} className="pic_muslim" alt="muslim"/>
         <div class="name_muslim">: MUSLIMS</div>
         
-        <div class="frame_price"></div>
-        <div class="price">110.00 ฿</div>
+        <div class="frame_price_food"></div>
+        <div class="price_food">110.00 ฿</div>
         
-        <div class="banner">Quantity</div>
-        <div class="converter">
+        <div class="banner_food">Quantity</div>
+        <div class="converter_food">
           <input id="inputQuantity" type="number" placeholder="Quantity" min="1" oninput="priceConverter(this.value)" onchange="priceConverter(this.value)"/>
         </div>
-        <button class="button" type="button">ADD TO CART</button>
+        <button class="button_food" type="button">ADD TO CART</button>
         
-        <img src={cook} className="pic_cook" alt="cook"/>
-        <div class="detail_cook">COOK : 40 MINS</div>
-        <img src={level} className="pic_level" alt="level"/>
-        <div class="detail_level">EASY</div>
+        <img src={cook} className="pic_cook_food" alt="cook"/>
+        <div class="detail_cook_food">COOK : 40 MINS</div>
+        <img src={level} className="pic_level_food" alt="level"/>
+        <div class="detail_level_food">EASY</div>
 
-        <div class="zebra">
-          <div class="topic_nutrition">Nutrition</div>
-          <div class="detail_nutrition">: Per serving</div>
-          <table class="table_nutrition">
+        <div class="zebra_food">
+          <div class="topic_nutrition_food">Nutrition</div>
+          <div class="detail_nutrition_food">: Per serving</div>
+          <table class="table_nutrition_food">
             <tr>
               <td>Calories(kcal)</td>
               <td>1029</td>
@@ -107,9 +107,9 @@ class maindish1 extends Component {
             </tr>
           </table>
 
-          <div class="topic_equipment">Equipment</div>
-          <div class="detail_equipment">: 3</div>
-          <table class="table_equipment">
+          <div class="topic_equipment_food">Equipment</div>
+          <div class="detail_equipment_food">: 3</div>
+          <table class="table_equipment_food">
             <tr>
               <td>1</td>
               <td>stir-fry pan</td>
@@ -124,9 +124,9 @@ class maindish1 extends Component {
             </tr>
           </table>
         </div>
-        <div class="ingredient">
-          <div class="top_ingredient">What in the box !</div>
-          <table class="table_ingredient">
+        <div class="ingredient_food">
+          <div class="top_ingredient_food">What in the box !</div>
+          <table class="table_ingredient_food">
             <tr>
               <th>Ingrediants</th>
               <th>Weight</th>
@@ -138,7 +138,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -148,7 +148,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -158,7 +158,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -168,7 +168,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -178,7 +178,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -188,7 +188,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -198,7 +198,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -208,7 +208,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -218,7 +218,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -228,7 +228,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -238,7 +238,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -248,7 +248,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -258,13 +258,13 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
             </table>
           </div>  
-          <div class="bottom_ingredient">*The box’s included recipe instruction</div>
+          <div class="bottom_ingredient_food">*The box’s included recipe instruction</div>
         // {/* <h2>Weight Converter</h2>
         // <p>Type a value in the Pounds field to convert the value to Kilograms:</p>
 

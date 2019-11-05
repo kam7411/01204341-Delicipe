@@ -94,7 +94,7 @@ class Account extends Component {
         <p className="boxEmail"></p>
         <p className="boxTel"></p>
         <div class="textTada">
-          <label>MR.Tada Sanakorn</label>
+          <label>Tada Sanakorn</label>
         </div>
         <div class="texttadamail">
           <label>tada.s@gmail.com</label>

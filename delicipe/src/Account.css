@@ -1,0 +1,805 @@
+.background {
+    position: absolute;
+    width: 1440px;
+    height: 1542px;
+    left: 0px;
+    top: 0px;
+    background: #FFE8CC;
+}
+
+
+/****************************topbar**************************/
+
+.chefhat {
+    position: absolute;
+    width: 33.53px;
+    height: 37.74px;
+    left: 840.62px;
+    top: 39.68px;
+    transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
+}
+
+.search {
+    position: absolute;
+    width: 34px;
+    height: 32px;
+    left: 1241px;
+    top: 21px;
+}
+
+.accountpic {
+    position: absolute;
+    width: 34.2px;
+    height: 36px;
+    left: 1383px;
+    top: 18px;
+}
+
+.cartpic {
+    position: absolute;
+    width: 39px;
+    height: 38px;
+    left: 1378px;
+    top: 79px;
+}
+
+.topbar {
+    position: absolute;
+    width: 1440px;
+    height: 191px;
+    left: 0px;
+    top: 0px;
+    background: #9F0202;
+}
+
+.delicipe_sign {
+    position: absolute;
+    width: 357px;
+    height: 136px;
+    left: 34px;
+    top: 32px;
+}
+
+.topnav {
+    overflow: hidden;
+}
+
+.topnav input[type=text] {
+    float: right;
+    padding: 6px;
+    font-size: 22px;
+    position: absolute;
+    width: 220px;
+    height: 34px;
+    left: 1000px;
+    top: 18px;
+    background: #FFFFFF;
+}
+
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.topnav .search-container button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.onetime {
+    position: absolute;
+    width: 225px;
+    height: 42px;
+    left: 638px;
+    top: 19px;
+    background: #FFBC35;
+    border-radius: 5px;
+    border: #9F0202;
+}
+
+.rontine {
+    position: absolute;
+    width: 102px;
+    height: 43px;
+    left: 873px;
+    top: 19px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+}
+
+.account {
+    position: absolute;
+    width: 109px;
+    height: 50px;
+    left: 1274px;
+    top: 12px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+}
+
+.cart {
+    position: absolute;
+    width: 70px;
+    height: 33px;
+    left: 1305px;
+    top: 79px;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+}
+
+
+/*************************** end of topbar ***********************/
+
+
+/*************************** topnav **************************/
+
+.home {
+    position: absolute;
+    width: 114px;
+    height: 55px;
+    left: 17px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #F5B85C;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.maindish {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 159px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #F5B85C;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.dessert {
+    position: absolute;
+    width: 120px;
+    height: 55px;
+    left: 335px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.howitwork {
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 483px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.homebuttonpic {
+    position: absolute;
+    width: 50px;
+    height: 46.3px;
+    left: 100px;
+    top: 234px;
+}
+
+.maindishbuttonpic {
+    position: absolute;
+    width: 52px;
+    height: 45px;
+    left: 280px;
+    top: 237px;
+}
+
+.dessertbuttonpic {
+    position: absolute;
+    width: 38px;
+    height: 39px;
+    left: 433px;
+    top: 240px;
+}
+
+.howitworkbuttonpic {
+    position: absolute;
+    width: 52px;
+    height: 51px;
+    left: 645px;
+    top: 240px;
+}
+
+
+/************************ end of top nav ***********************/
+
+
+/************************ bottom bar ******************************/
+
+.bottomnav {
+    overflow: hidden;
+}
+
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.bottomnav .search-container button {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+    border: #9F0202;
+}
+
+.EN {
+    position: absolute;
+    width: 51px;
+    height: 38px;
+    left: 1180px;
+    top: 1481px;
+    background: #FFBC35;
+    border-radius: 5px;
+}
+
+.TH {
+    position: absolute;
+    width: 51px;
+    height: 38px;
+    left: 1231px;
+    top: 1481px;
+    background: #9F0202;
+    color: white;
+}
+
+.bottombar {
+    position: absolute;
+    width: 1440px;
+    height: 108px;
+    left: 0px;
+    top: 1431px;
+    background: #9F0202;
+}
+
+.QandA {
+    position: absolute;
+    width: 77px;
+    height: 77px;
+    left: 1307px;
+    top: 1446px;
+    background: #9F0202;
+}
+
+
+/* my code */
+
+.picture1_account {
+    position: absolute;
+    width: 109px;
+    height: 97px;
+    left: 755px;
+    top: 494px;
+}
+
+.picture2_account {
+    position: absolute;
+    width: 109px;
+    height: 97px;
+    left: 755px;
+    top: 606px;
+}
+
+.picture3_account {
+    position: absolute;
+    width: 340px;
+    height: 32.52px;
+    left: 550px;
+    top: 375px;
+}
+
+.textCartConcludtion_account {
+    position: absolute;
+    width: 222px;
+    height: 30px;
+    left: 609px;
+    top: 335px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #404040;
+}
+
+.textSpaghetti_account {
+    position: absolute;
+    width: 350px;
+    height: 30px;
+    left: 874px;
+    top: 523px;
+}
+
+.textFloating_account {
+    position: absolute;
+    width: 200px;
+    height: 30px;
+    left: 874px;
+    top: 624px;
+}
+
+.textorder_account {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.boxName_account {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 261px;
+    top: 762px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.boxLastName_account {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 261px;
+    top: 830px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.boxAddress1_account {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 261px;
+    top: 917px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.boxAddress2_account {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 261px;
+    top: 975px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.boxAddress3_account {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 261px;
+    top: 1031px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.boxAddress4_account {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 261px;
+    top: 1086px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.boxEmail_account {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 261px;
+    top: 1178px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.boxTel_account {
+    position: absolute;
+    width: 382px;
+    height: 44px;
+    left: 261px;
+    top: 1242px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.textinformation_account {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #404040;
+}
+
+.textName_account {
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    left: 96px;
+    top: 769px;
+}
+
+.textLastName_account {
+    position: absolute;
+    width: 132px;
+    height: 30px;
+    left: 96px;
+    top: 839px;
+}
+
+.textAddress_account {
+    position: absolute;
+    width: 104px;
+    height: 30px;
+    left: 96px;
+    top: 922px;
+}
+
+.textEmail_account {
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    left: 106px;
+    top: 1187px;
+}
+
+.textTel_account {
+    position: absolute;
+    width: 49px;
+    height: 30px;
+    left: 109px;
+    top: 1245px;
+}
+
+.line_account {
+    position: absolute;
+    width: 800px;
+    height: 0px;
+    left: 300px;
+    top: 850px;
+    border: 3px solid #404040;
+    transform: rotate(90.21deg);
+}
+
+.boxsubtotal_account {
+    position: absolute;
+    width: 418px;
+    height: 202px;
+    left: 801px;
+    top: 762px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+}
+
+.textconclude_account {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.textSubtotal_account {
+    position: absolute;
+    width: 132px;
+    height: 30px;
+    left: 840px;
+    top: 799px;
+}
+
+.text200_account {
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    left: 1103px;
+    top: 799px;
+}
+
+.textbox_account {
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.textnametada_account {
+    position: absolute;
+    width: 56px;
+    height: 30px;
+    left: 278px;
+    top: 786px;
+}
+
+.textlastsana_account {
+    position: absolute;
+    width: 114px;
+    height: 30px;
+    left: 278px;
+    top: 854px;
+}
+
+.textApart_account {
+    position: absolute;
+    width: 500px;
+    height: 30px;
+    left: 278px;
+    top: 941px;
+}
+
+.textCity_account {
+    position: absolute;
+    width: 68px;
+    height: 30px;
+    left: 278px;
+    top: 999px;
+}
+
+.textProvince_account {
+    position: absolute;
+    width: 105px;
+    height: 30px;
+    left: 278px;
+    top: 1055px;
+}
+
+.textPostal_account {
+    position: absolute;
+    width: 62px;
+    height: 30px;
+    left: 278px;
+    top: 1110px;
+}
+
+.textemailtada_account {
+    position: absolute;
+    width: 218px;
+    height: 30px;
+    left: 278px;
+    top: 1202px;
+}
+
+.texttel_account {
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    left: 278px;
+    top: 1266px;
+}
+
+.textTotal_account {
+    position: absolute;
+    width: 85px;
+    height: 30px;
+    left: 845px;
+    top: 913px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #000000;
+}
+
+.texttotalvalue_account {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1103px;
+    top: 913px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.text110_account {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1267px;
+    top: 523px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.text90_account {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    left: 1267px;
+    top: 615px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.picture4_account {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 131px;
+    top: 550px;
+}
+
+.textTada_account {
+    position: absolute;
+    width: 222px;
+    height: 30px;
+    left: 261px;
+    top: 556px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.texttadamail_account {
+    position: absolute;
+    width: 218px;
+    height: 30px;
+    left: 261px;
+    top: 607px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    color: #000000;
+}
+
+.continue_account {
+    position: absolute;
+    width: 189px;
+    height: 50px;
+    left: 1123px;
+    top: 1251px;
+    background: #FFBC35;
+    border-radius: 5px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #796B52;
+}
+
+.continue_account:hover {
+    background-color: rgb(248, 214, 120)
+}
+
+.logout_account {
+    position: absolute;
+    width: 189px;
+    height: 50px;
+    left: 435px;
+    top: 669px;
+    background: #FFBC35;
+    border-radius: 5px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    text-decoration-line: underline;
+    color: #796B52;
+}
+
+.logout_account:hover {
+    background-color: rgb(248, 214, 120)
+}
+
+.line2_account {
+    position: absolute;
+    width: 546.01px;
+    height: 0px;
+    left: 97px;
+    top: 739px;
+    border: 1px solid #000000;
+}

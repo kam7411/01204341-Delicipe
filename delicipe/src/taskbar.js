@@ -12,6 +12,22 @@ import dessertbuttonpic from '../picture/dessertbuttonpic.svg';
 import howitworkbuttonpic from '../picture/howitworkbuttonpic.svg';
 import QandA from '../picture/QandA.svg';
 class Taskbar extends Component {
+  constructor(props){
+    super(props);
+    this.state = {  
+      isLogin:false ,
+      is_go_to_home:false ,
+      is_go_to_maindish:false ,
+      is_go_to_how:false
+    };
+  }
+  // onGoToHome() {
+  //   if (this.props.is_go_to_how) {
+  //     this.props.is_go_to_how = true
+    // }
+    // this.props.is_go_to_how = true
+    // {console.log(this.state.is_go_to_how)}
+  // }
   render() {
     return (
       <div className="background">
@@ -41,7 +57,11 @@ class Taskbar extends Component {
               <button class="home" type="submit">Home</button>
               <button class="maindish" type="submit">Maindish</button>
               <button class="dessert" type="submit">Dessert</button>
-              <button class="howitwork" type="submit">How it work?</button>
+              <a style={{ textDecoration: 'none' }}>
+              <button type='button' className='howitwork'>
+                How it work?
+              </button>
+              </a>
               <input type="text" placeholder="Search.." name="search" />
             </form>
           </div>
@@ -61,7 +81,6 @@ class Taskbar extends Component {
           </div>
         </div>
         <img src={QandA} className="QandA" alt="QandA" />
-
       </div>
     );
   }

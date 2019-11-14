@@ -1,46 +1,77 @@
 import React from 'react';
 import './Login.css';
+import fire from './Fire.js';
+import { Link } from 'react-router-dom';
 
 class Login extends React.Component {
   constructor(props){
     super(props);
-      this.state = {  isLoginOpen: true, 
-                    };
+    this.handleChange=this.handleChange.bind(this);
+      this.state = {  
+        email:'',
+        password:'' ,
+        currentUser: null ,
+        isLogined:false
+      };
   }
-  submitLogin(e) {
-    this.setState({isLoginOpen: true, isSignUp: false})
+  // componentDidMount() {
+  //   let isLogin = this.state.isLogined
+  //   this.props.onAnswer(isLogin)
+  // }
+  onLogin = e => {
+    e.preventDefault();
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    fire.auth()
+    .signInWithEmailAndPassword(email, password)
+    // .then(response => {
+    //   this.setState({
+    //     currentUser: response.user
+    //   })
+    // })
+    .then(()=>{ alert("sucessful , "+email) ,
+                this.state.isLogined = true ,
+                this.state.currentUser = email}
+              )
+    .catch((error) => {alert("Email or Password is incorrect")})
+    console.log(this.state.isLogined)
+    console.log(this.state.currentUser)  
   }
-  submitSignUp(e) {
-    this.setState({isLoginOpen: false, isSignUp: true})
-  }
-  showLoginBox() {
-    this.setState({isLoginOpen: true, isSignUp: false})
+
+  handleChange(e) {
+    this.setState({ [e.target.name]: e.target.value});
   }
 
   render() {
+    // if (currentUser) {
+    //   return (
+    //     <div>
+    //       <p>Hello {currentUser.email}</p>
+    //     </div>
+    //   )
+    // }
     return (
       <div className='login'>
-        <a style={{ textDecoration: 'none' }}href='/Login'>
-        <button href='/Home' type='submit' className='Button-Login' onClick={this.submitLogin.bind(this)}>
-          LOGIN
-        </button>
-        </a>
         <a style={{ textDecoration: 'none' }}href='/Register'>
-        <button type='button' className='Button-SignUp' onClick={this.submitSignUp.bind(this)}>
-          SIGN UP
-        </button>
+          <button type='button' className='Button-SignUp'>
+            SIGN UP
+          </button>
         </a>
         <input
-          className ="Username"
-          type="text"
-          value={this.state.value}
+          className="Username"
+          type="email"
+          name='email'
+          id='email'
+          value={this.state.email}
           onChange={this.handleChange}
-          placeholder='  Username'
+          placeholder='  Email'
         />
         <input
-          className ="Password-Login"
-          type={"password"}
-          value={this.state.value}
+          className="Password-Login"
+          type="password"
+          name="password"
+          id='password'
+          value={this.state.password}
           onChange={this.handleChange}
           placeholder='  Password'
         />
@@ -52,6 +83,11 @@ class Login extends React.Component {
         <div className="Sign-In">
           SIGN IN
         </div>
+        <a>
+          <button type='submit' className='Button-Login' onClick={this.onLogin}>
+            <Link style={{ textDecoration: 'none' , color: '#ffffff'}} to="/Profile">LOGIN</Link>
+          </button>
+        </a>
       </div>
     )
   }

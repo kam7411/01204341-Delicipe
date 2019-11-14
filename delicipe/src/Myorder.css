@@ -1,0 +1,447 @@
+.chefhat {
+  position: absolute;
+  width: 33.53px;
+  height: 37.74px;
+  left: 840.62px;
+  top: 39.68px;
+
+  transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
+}
+
+.search {
+  position: absolute;
+  width: 34px;
+  height: 32px;
+  left: 1241px;
+  top: 21px;
+}
+
+.accountpic {
+  position: absolute;
+  width: 34.2px;
+  height: 36px;
+  left: 1383px;
+  top: 18px;
+}
+
+.cartpic{
+  position: absolute;
+  width: 39px;
+  height: 38px;
+  left: 1378px;
+  top: 79px;
+}
+
+.topbar {
+  position: absolute;
+  width: 1440px;
+  height: 191px;
+  left: 0px;
+  top: 0px;
+  background: #9F0202;
+}
+
+.delicipe_sign {
+  position: absolute;
+  width: 357px;
+  height: 136px;
+  left: 34px;
+  top: 32px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  font-size: 22px;
+  position: absolute;
+  width: 220px;
+  height: 34px;
+  left: 1000px;
+  top: 18px;
+
+  background: #FFFFFF;
+}
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.topnav .search-container button {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.onetime {
+  position: absolute;
+  width: 225px;
+  height: 42px;
+  left: 638px;
+  top: 19px;
+  background: #FFBC35;
+  border-radius: 5px;
+  border: #9F0202;
+}
+
+.rontine {
+  position: absolute;
+  width: 102px;
+  height: 43px;
+  left: 873px;
+  top: 19px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+}
+
+.account {
+  position: absolute;
+  width: 109px;
+  height: 50px;
+  left: 1274px;
+  top: 12px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+}
+
+.cart {
+  position: absolute;
+  width: 70px;
+  height: 33px;
+  left: 1305px;
+  top: 79px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+}
+
+/*************************** end of topbar ***********************/
+
+/*************************** topnav **************************/
+
+.home {
+  position: absolute;
+  width: 114px;
+  height: 55px;
+  left: 17px;
+  top: 210px;
+
+  background: white;
+  border-radius: 18px;
+  color: #F68787;
+  border: 3px solid #FFBC35;
+}
+
+.maindish_order {
+  position: absolute;
+  width: 150px;
+  height: 55px;
+  left: 159px;
+  top: 210px;
+  color: #F68787;
+  background: #FFFFFF;
+  border: 3px solid #F5B85C;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+
+.dessert {
+  position: absolute;
+  width: 120px;
+  height: 55px;
+  left: 335px;
+  top: 210px;
+  color: #F68787;
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+
+.howitwork {
+  position: absolute;
+  width: 180px;
+  height: 55px;
+  left: 483px;
+  top: 210px;
+  color: #F68787;
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+
+.homebuttonpic {
+  position: absolute;
+  width: 50px;
+  height: 46.3px;
+  left: 100px;
+  top: 234px;
+}
+
+.maindishbuttonpic {
+  position: absolute;
+  width: 52px;
+  height: 45px;
+  left: 280px;
+  top: 237px;
+}
+
+.dessertbuttonpic {
+  position: absolute;
+  width: 38px;
+  height: 39px;
+  left: 433px;
+  top: 240px;
+}
+
+.howitworkbuttonpic {
+  position: absolute;
+  width: 52px;
+  height: 51px;
+  left: 645px;
+  top: 240px;
+}
+
+/************************ end of top nav ***********************/
+
+/************************ bottom bar ******************************/
+
+.bottomnav {
+  overflow: hidden;
+}
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.bottomnav .search-container button {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+  border: #9F0202;
+}
+
+.EN {
+  position: absolute;
+  width: 51px;
+  height: 38px;
+  left: 1180px;
+  top: 1481px;
+
+  background: #FFBC35;
+  border-radius: 5px;
+}
+
+.TH {
+  position: absolute;
+  width: 51px;
+  height: 38px;
+  left: 1231px;
+  top: 1481px;
+  background: #9F0202;
+  color: white;
+}
+
+.bottombar {
+  position: absolute;
+  width: 1440px;
+  height: 108px;
+  left: 0px;
+  top: 1431px;
+
+  background: #9F0202;
+}
+
+.QandA {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 1307px;
+  top: 1446px;
+  background: #9F0202;
+}
+
+.bg_order {
+  position: absolute;
+width: 1440px;
+height: 397px;
+left: 0px;
+top: 391px;
+
+background: #FFE8CC;
+}
+.myorder {
+
+  position: absolute;
+width: 214px;
+height: 44px;
+left: 106px;
+top: 314px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 44px;
+text-decoration-line: underline;
+
+color: #000000;
+
+  
+  
+}
+
+.backprofile_order-button {
+  position: absolute;
+  width: 299px;
+  height: 75px;
+  left: 987px;
+  top: 839px;  
+  
+  background: #9F0202;
+  border-radius: 5px;
+
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  line-height: 44px;
+  
+  color: #FFFFFF;
+  
+}
+.backprofile-button:hover {
+  background-color: rgb(209, 62, 62);
+}
+
+.texttopic_order {
+font-family: Arvo;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+}
+
+.orderid_order {
+  position: absolute;
+width: 118px;
+height: 30px;
+left: 162px;
+top: 414px;
+
+
+}
+
+.price_order {
+  position: absolute;
+width: 100px;
+height: 29px;
+left: 165px;
+top: 577px;
+}
+
+.date_order {
+  position: absolute;
+width: 206px;
+height: 30px;
+left: 162px;
+top: 623px;
+}
+
+.slottime_order {
+  position: absolute;
+  width: 122px;
+  height: 30px;
+  left: 161px;
+  top: 671px;
+  
+}
+
+.track_order {
+  position: absolute;
+width: 129px;
+height: 30px;
+left: 160px;
+top: 719px;
+}
+
+.info_order {
+  font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+
+color: #000000;
+
+}
+
+.orderidinfo_order {
+  position: absolute;
+width: 222px;
+height: 30px;
+left: 318px;
+top: 414px;
+}
+
+.menu1_order {
+  position: absolute;
+/* width: 151px; */
+height: 30px;
+left: 206px;
+top: 467px;
+}
+
+.menu2_order {
+  position: absolute;
+/* width: 169px; */
+height: 30px;
+left: 206px;
+top: 514px;
+}
+
+.priceinfo_order {
+  position: absolute;
+width: 100px;
+height: 30px;
+left: 275px;
+top: 578px;
+}
+
+.dateinfo_order {
+  position: absolute;
+/* width: 182px; */
+height: 30px;
+left: 403px;
+top: 623px;
+}
+
+.slottimeinfo_order {
+  position: absolute;
+width: 300px;
+height: 30px;
+left: 325px;
+top: 671px;
+}
+
+.trackinfo_order {
+  position: absolute;
+width: 93px;
+height: 30px;
+left: 325px;
+top: 718px;
+}

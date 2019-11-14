@@ -1,0 +1,26 @@
+.desserttest {
+    display: flex;
+    flex-wrap: wrap;
+}
+.desserttest .box{
+    width:456px;
+    height: 502px;
+}
+.desserttest .box button{
+    display: flex;
+    margin: auto;
+    background: #9F0202;
+    color: white;
+    font-family: Arvo;
+    font-size: 16px;
+}
+.desserttest .box .detail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arvo;
+    font-size: 21px;
+}
+.desserttest .box .img{
+    object-fit: cover;
+}

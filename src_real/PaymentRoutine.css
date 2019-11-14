@@ -1,0 +1,706 @@
+.chefhat {
+  position: absolute;
+  width: 33.53px;
+  height: 37.74px;
+  left: 948.62px;
+  top: 45px;
+  
+  transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
+}
+
+.search {
+  position: absolute;
+  width: 34px;
+  height: 32px;
+  left: 1241px;
+  top: 21px;
+}
+
+.accountpic {
+  position: absolute;
+  width: 34.2px;
+  height: 36px;
+  left: 1383px;
+  top: 18px;
+}
+
+.cartpic{
+  position: absolute;
+  width: 39px;
+  height: 38px;
+  left: 1378px;
+  top: 79px;
+}
+
+.topbar {
+  position: absolute;
+  width: 1440px;
+  height: 191px;
+  left: 0px;
+  top: 0px;
+  background: #9F0202;
+}
+
+.delicipe_sign {
+  position: absolute;
+  width: 357px;
+  height: 136px;
+  left: 34px;
+  top: 32px;
+}
+
+.topnav {
+  overflow: hidden;
+}
+
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  font-size: 22px;
+  position: absolute;
+  width: 220px;
+  height: 34px;
+  left: 1000px;
+  top: 18px;
+
+  background: #FFFFFF;
+}
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.topnav .search-container button {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.onetime {
+  position: absolute;
+  width: 225px;
+  height: 42px;
+  left: 638px;
+  top: 19px;
+  color: white;
+  background: #9F0202;
+  
+  border: #9F0202;
+}
+
+.rontine {
+  position: absolute;
+  width: 102px;
+  height: 43px;
+  left: 873px;
+  top: 19px;
+  color: #000000;
+  background: #FFBC35;
+  border-radius: 5px;
+  border: #9F0202;
+}
+
+.account {
+  position: absolute;
+  width: 109px;
+  height: 50px;
+  left: 1274px;
+  top: 12px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+}
+
+.cart {
+  position: absolute;
+  width: 70px;
+  height: 33px;
+  left: 1305px;
+  top: 79px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+}
+
+/*************************** end of topbar ***********************/
+
+/*************************** topnav **************************/
+
+.home {
+  position: absolute;
+  width: 114px;
+  height: 55px;
+  left: 17px;
+  top: 210px;
+
+  background: white;
+  border-radius: 18px;
+  border: 3px solid #FFBC35;
+}
+
+.maindish {
+  position: absolute;
+  width: 150px;
+  height: 55px;
+  left: 159px;
+  top: 210px;
+
+  background: #FFFFFF;
+  border: 3px solid #F5B85C;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+
+.dessert {
+  position: absolute;
+  width: 120px;
+  height: 55px;
+  left: 335px;
+  top: 210px;
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+
+.howitwork {
+  position: absolute;
+  width: 180px;
+  height: 55px;
+  left: 483px;
+  top: 210px;
+
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+
+.homebuttonpic {
+  position: absolute;
+  width: 50px;
+  height: 46.3px;
+  left: 100px;
+  top: 234px;
+}
+
+.maindishbuttonpic {
+  position: absolute;
+  width: 52px;
+  height: 45px;
+  left: 280px;
+  top: 237px;
+}
+
+.dessertbuttonpic {
+  position: absolute;
+  width: 38px;
+  height: 39px;
+  left: 433px;
+  top: 240px;
+}
+
+.howitworkbuttonpic {
+  position: absolute;
+  width: 52px;
+  height: 51px;
+  left: 645px;
+  top: 240px;
+}
+
+/************************ end of top nav ***********************/
+
+/************************ bottom bar ******************************/
+
+.bottomnav {
+  overflow: hidden;
+}
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.bottomnav .search-container button {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+  border: #9F0202;
+}
+
+.EN {
+  position: absolute;
+  width: 51px;
+  height: 38px;
+  left: 1180px;
+  top: 1481px;
+
+  background: #FFBC35;
+  border-radius: 5px;
+}
+
+.TH {
+  position: absolute;
+  width: 51px;
+  height: 38px;
+  left: 1231px;
+  top: 1481px;
+  background: #9F0202;
+  color: white;
+}
+
+.bottombar {
+  position: absolute;
+  width: 1440px;
+  height: 108px;
+  left: 0px;
+  top: 1431px;
+
+  background: #9F0202;
+}
+
+.QandA {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 1307px;
+  top: 1446px;
+  background: #9F0202;
+}
+
+.tag {
+  position: absolute;
+  width: 340px;
+  height: 32.52px;
+  left: 550px;
+  top: 366px;
+  
+}
+.Rectangle-19 {
+  position: absolute;
+  width: 653px;
+  height: 321px;
+  left: 98px;
+  top: 487px;
+  background: #FFFFFF;
+  border: 2px solid #000000;
+  box-sizing: border-box;
+  }
+  
+  .Rectangle-20 {
+    position: absolute;
+    width: 418px;
+    height: 202px;
+    left: 890px;
+    top: 488px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    box-sizing: border-box;
+  }
+  
+  .column1 {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .column2 {
+    float: right;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .Rectangle-return {
+    position: absolute;
+    width: 297px;
+    height: 50px;
+    left: 98px;
+    top: 1180px;
+    background: #9F0202;
+    border-radius: 5px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    line-height: 30px;
+    color: #FFFFFF;
+  }
+  .Rectangle-return:hover {
+    background-color: rgb(209, 62, 62);
+  }
+  .Rectangle-cont {
+    position: absolute;
+    width: 189px;
+    height: 50px;
+    left: 1119px;
+    top: 1180px;
+    
+    background: #FFBC35;
+    border-radius: 5px;
+
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    text-align: center;
+    cursor: pointer;
+    font-size: 24px;
+    line-height: 30px;
+    color: #796B52;
+  }
+  .Rectangle-cont:hover {
+    background-color: rgb(248, 214, 120)
+  }
+  .Return-to-information {
+    position: absolute;
+    width: 259px;
+    height: 25px;
+    left: 117px;
+    top: 1151px;
+
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+  }
+
+  .DATE-SLOT {
+    position: absolute;
+    width: 158px;
+    height: 30px;
+    left: 98px;
+    top: 854px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #000000;
+    
+  }
+
+  .PAYMENT-METHOD {
+    position: absolute;
+    width: 255px;
+    height: 30px;
+    left: 890px;
+    top: 735px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-decoration-line: underline;
+    
+    color: #000000;
+    
+  }
+
+  .total {
+    position: absolute;
+    width: 374px;
+    height: 156px;
+    left: 919px;
+    top: 511px;
+    text-align: left;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+
+  }
+  .container {
+    display: block;
+    position: relative;
+    left: 0px;
+    top: 425px;
+    padding-left: 0px;
+    margin-bottom: 47px;
+    cursor: pointer;
+    font-size: 24px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: rgb(243, 189, 139);
+    border-radius: 50%;
+  }
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  .container input:checked ~ .checkmark {
+    background-color: #8C8C8C;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .container .checkmark:after {
+    top: 9px;
+   left: 9px;
+   width: 8px;
+   height: 8px;
+   border-radius: 50%;
+   background: black;
+ }
+  .cash{
+    position: absolute;
+    width: 59px;
+    height: 30px;
+    left: 985px;
+    top: 783px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+  }
+  
+  .card{
+    position: absolute;
+    width: 57px;
+    height: 30px;
+    left: 985px;
+    top: 831px;
+
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+  }
+
+.info{
+  position: absolute;
+  width: 573px;
+  height: 229px;
+  left: 127px;
+  top: 521px;
+  text-align: left;
+  
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 22px;
+  
+  color: #000000;
+}
+
+.visa {
+  position: absolute;
+  width: 76px;
+  height: 32px;
+  left: 1050px;
+  top: 855px;
+
+}
+
+.paypal {
+  position: absolute;
+  width: 76px;
+  height: 32px;
+  left: 1160px;
+  top: 855px;
+   
+}
+
+.card-number {
+  position: absolute;
+  width: 140px;
+  height: 22px;
+  left: 961px;
+  top: 897px;
+  
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  
+  color: #000000;
+}
+.ccv{
+  position: absolute;
+  width: 40px;
+  height: 22px;
+  left: 1230px;
+  top: 897px;
+  
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  
+  color: #000000;
+  
+}
+.expiration-date {
+  position: absolute;
+  width: 134px;
+  height: 22px;
+  left: 960px;
+  top: 990px;
+  
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  
+  color: #000000;
+  
+}
+
+.Rectangle-card-number {
+  position: absolute;
+  width: 228px;
+  height: 35px;
+  left: 960px;
+  top: 950px;
+  font-size: 20px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.Rectangle-cvv {
+  position: absolute;
+  width: 78px;
+  height: 35px;
+  left: 1230px;
+  top: 950px;
+  font-size: 20px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.month {
+  position: absolute;
+  width: 37px;
+  height: 22px;
+  left: 961px;
+  top: 1030px;
+  
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  
+  color: #000000;
+  
+}
+.year {
+  position: absolute;
+  width: 21px;
+  height: 22px;
+  left: 1094px;
+  top: 1030px;
+  
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  
+  color: #000000;
+}
+.Rectangle-mm {
+  position: absolute;
+  width: 51px;
+  height: 35px;
+  left: 1005px;
+  top: 1040px;
+  font-size: 18px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.Rectangle-yy {
+  position: absolute;
+  width: 51px;
+  height: 35px;
+  left: 1122px;
+  top: 1040px;
+  font-size: 18px;
+  background: #FFFFFF;
+  border: 1px solid #000000;
+  box-sizing: border-box;
+}
+.DATE-SLOT-info {
+  position: absolute;
+  width: 476px;
+  height: 91px;
+  left: 177px;
+  top: 935px;
+  text-align: left;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  text-decoration-line: underline;
+  
+  color: #000000;
+   
+}

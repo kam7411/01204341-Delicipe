@@ -356,9 +356,9 @@
     line-height: 30px;
     color: #796B52;
   }
-  .Rectangle-cont:hover {
+  /* .Rectangle-cont:hover {
     background-color: rgb(248, 214, 120)
-  }
+  } */
   .Return-to-information {
     position: absolute;
     width: 259px;
@@ -421,7 +421,7 @@
     
   }
 
-  .total {
+  .total_payment {
     position: absolute;
     width: 374px;
     height: 156px;
@@ -437,11 +437,11 @@
     color: #000000;
 
   }
-  .container {
+  .container_payment {
     display: block;
     position: relative;
-    left: 0px;
-    top: 475px;
+    left: 230px;
+    top: 480px;
     padding-left: 0px;
     margin-bottom: 47px;
     cursor: pointer;
@@ -451,12 +451,12 @@
     -ms-user-select: none;
     user-select: none;
   }
-  .container input {
+  .container_payment input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
   }
-  .checkmark {
+  .checkmark_payment {
     position: absolute;
     top: 0;
     left: 0;
@@ -465,21 +465,21 @@
     background-color: rgb(243, 189, 139);
     border-radius: 50%;
   }
-  .container:hover input ~ .checkmark {
+  .container_payment:hover input ~ .checkmark_payment {
     background-color: #ccc;
   }
-  .container input:checked ~ .checkmark {
+  .container_payment input:checked ~ .checkmark_payment {
     background-color: #8C8C8C;
   }
-  .checkmark:after {
+  .checkmark_payment:after {
     content: "";
     position: absolute;
     display: none;
   }
-  .container input:checked ~ .checkmark:after {
+  .container_payment input:checked ~ .checkmark_payment:after {
     display: block;
   }
-  .container .checkmark:after {
+  .container_payment .checkmark_payment:after {
     top: 9px;
    left: 9px;
    width: 8px;
@@ -704,4 +704,48 @@
   
   color: #000000;
    
+}
+
+.payment_continue {
+  position: absolute;
+  width: 189px;
+  height: 50px;
+  left: 1119px;
+  top: 1161px;
+  
+  background: #FFBC35;
+  border-radius: 5px;
+
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  color: #796B52;
+}
+
+.payment_return {
+  position: absolute;
+  width: 297px;
+  height: 50px;
+  left: 98px;
+  top: 1151px;
+  
+  background: #9F0202;
+  border-radius: 5px;
+
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 30px;
+  /* identical to box height */
+  
+  text-decoration-line: underline;
+  
+  color: #FFFFFF;
 }

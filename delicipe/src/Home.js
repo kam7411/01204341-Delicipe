@@ -34,35 +34,62 @@ class Home extends Component {
       slidesToScroll: 1
     };
     return (
-      <div class="background">
+      <div class="background_h">
         
-        <img src={wallhome} class="wallhome" alt="wallhome" />
-        <div class="topbar">
-          <img src={delicipe_sign} class="delicipe_sign" alt="delicipe_sign" />
-          <img src={search} class="search" alt="search" />
-          <img src={accountpic} class="accountpic" alt="accountpic" />
-          <img src={cartpic} class="cartpic" alt="cartpic" />
-          <div class="topnav">
-            <div class="search-container">
-              <form action="/action_page.php">
-                <button class="account" type="submit">Account</button>
-                <button class="rontine" type="submit">Rontine</button>
-                <button class="onetime" type="submit">One-time purchase</button>
-                <button class="cart" type="submit">Cart</button>
+        <div class="topbar_h">
+          <img src={delicipe_sign} class="delicipe_sign_h" alt="delicipe_sign" />
+          <img src={search} class="search_h" alt="search" />
+          <img src={accountpic} class="accountpic_h" alt="accountpic" />
+          <img src={cartpic} class="cartpic_h" alt="cartpic" />
+          <div class="topnav_h">
+            <div class="search-container_h">
+              {/* <form action="/action_page.php"> */}
+                <a href='/login'>
+                  <button class="account_h" type="submit">Account</button>
+                </a>
+                <a href='/time'>
+                  <button class="rontine_h" type="submit">Routine</button>
+                </a>
+                {/* <button class="rontine" type="submit">Rontine</button> */}
+                <button class="onetime_h" type="submit">One-time purchase</button>
+                <button class="cart_h" type="submit">Cart</button>
                 <input type="text" placeholder="Search.." name="search" />
-              </form>
+              {/* </form> */}
             </div>
-            <img src={chefhat} class="chefhat" alt="chefhat" />
+            <img src={chefhat} class="chefhat_h" alt="chefhat" />
           </div>
         </div>  {/* topbar */}
 
-        <div class="topnav">
-          <div class="search-container">
+        <img src={wallhome} class="wallhome" alt="wallhome" />
+        
+        
+        <div class="topnav_h">
+          <div class="search-container_h">
             <form action="/action_page.php">
-              <button class="home" type="submit">Home</button>
-              <button class="maindish" type="submit">Maindish</button>
-              <button class="dessert" type="submit">Dessert</button>
-              <button class="howitwork" type="submit">How it work?</button>
+              <a style={{ textDecoration: 'none' }}href='/home'>
+                <button type='button' className='home_home'>
+                  Home
+                </button>
+              </a>
+              <a style={{ textDecoration: 'none' }}href='/maindish1'>
+                <button type='button' className='maindish_home'>
+                  Maindish
+                </button>
+              </a>
+              <a style={{ textDecoration: 'none' }}href='/dessert1'>
+                <button type='button' className='dessert_home'>
+                  Dessert
+                </button>
+              </a>
+              <a style={{ textDecoration: 'none' }}href='/how_it_work'>
+                <button type='button' className='howitwork_home'>
+                  How it work?
+                </button>
+              </a>
+              {/* <button class="home_home" type="submit">Home</button> */}
+              {/* <button class="maindish_home" type="submit">Maindish</button> */}
+              {/* <button class="dessert_home" type="submit">Dessert</button> */}
+              {/* <button class="howitwork_home" type="submit">How it work?</button> */}
               <input type="text" placeholder="Search.." name="search" />
             </form>
           </div>
@@ -105,9 +132,11 @@ class Home extends Component {
             </form>
           </div>
         </div>
-        <img src={QandA} className="QandA" alt="QandA" />
-        <img src={ingre} class="ingre" alt="ingre" />
+        <a href='/QA'>
+            <input type="image" src={QandA} class="QandA" />
+          </a>
         
+        <img src={ingre} class="ingre" alt="ingre" />
         
       </div> //background
     );

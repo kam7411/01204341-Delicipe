@@ -1,0 +1,26 @@
+.main-dish2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-dish2 .box{
+    width:456px;
+    height: 502px;
+}
+.main-dish2 .box button{
+    display: flex;
+    margin: auto;
+    background: #9F0202;
+    color: white;
+    font-family: Arvo;
+    font-size: 16px;
+}
+.main-dish2 .box .detail{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: Arvo;
+    font-size: 21px;
+}
+.main-dish2 .box .img{
+    object-fit: cover;
+}

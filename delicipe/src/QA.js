@@ -54,13 +54,26 @@ class QA extends React.Component{
 
         <div class="topnav"> 
           <div class="search-container">
-            <form action="/action_page.php">
-              <button class="home" type="submit">Home</button>
-              <button class="maindish" type="submit">Main dish</button>
-              <button class="dessert" type="submit">Dessert</button>
-              <button class="howitwork" type="submit">How it work?</button>
-              <input type="text" placeholder="Search.." name="search" />
-            </form>
+          <a style={{ textDecoration: 'none' }}href='/home'>
+                <button type='button' className='home_hiw'>
+                  Home
+                </button>
+              </a>
+              <a style={{ textDecoration: 'none' }}href='/maindish1'>
+                <button type='button' className='maindish_cart'>
+                  Maindish
+                </button>
+              </a>
+              <a style={{ textDecoration: 'none' }}href='/dessert1'>
+                <button type='button' className='dessert_cart'>
+                  Dessert
+                </button>
+              </a>
+              <a style={{ textDecoration: 'none' }}href='/how_it_work'>
+                <button type='button' className='howitwork_cart'>
+                  How it work?
+                </button>
+              </a>
           </div>
          
         </div>  
@@ -74,9 +87,11 @@ class QA extends React.Component{
             </form>
           </div>
         </div>
-        <img src={QandA} className="QandA" alt="QandA" />
+        <a href='/QA'>
+            <input type="image" src={QandA} class="QandA" />
+          </a>
         <div className = "BG"></div>       
-        <div className = "welcome">Welcom to Delicipe</div>
+        <div className = "welcome">Welcome to Delicipe</div>
         <div className = "under-welcome">Enter your question below, we will answer at your email. </div>
         <input
           className ="help-box"

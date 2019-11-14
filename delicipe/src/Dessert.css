@@ -1,0 +1,651 @@
+.background_dss {
+  position: absolute;
+  width: 1440px;
+  height: 1542px;
+  left: 0px;
+  top: 0px;
+
+  background: floralwhite;
+}
+
+.wall {
+  position: absolute;
+  width: 1440px;
+  height: 1243px;
+  left: 0px;
+  top: 191px;
+}
+
+/****************************topbar**************************/
+.chefhat {
+  position: absolute;
+  width: 33.53px;
+  height: 37.74px;
+  left: 840.62px;
+  top: 39.68px;
+
+  transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
+}
+
+.search {
+  position: absolute;
+  width: 34px;
+  height: 32px;
+  left: 1241px;
+  top: 21px;
+}
+
+.accountpic {
+  position: absolute;
+  width: 34.2px;
+  height: 36px;
+  left: 1383px;
+  top: 18px;
+}
+
+.cartpic{
+  position: absolute;
+  width: 39px;
+  height: 38px;
+  left: 1378px;
+  top: 79px;
+}
+
+.topbar_dss {
+  position: absolute;
+  width: 1440px;
+  height: 191px;
+  left: 0px;
+  top: 0px;
+  background: #9F0202;
+}
+
+.delicipe_sign {
+  position: absolute;
+  width: 357px;
+  height: 136px;
+  left: 34px;
+  top: 32px;
+}
+
+.topnav_dss {
+  overflow: hidden;
+}
+
+.topnav_dss input[type=text] {
+  float: right;
+  padding: 6px;
+  font-size: 22px;
+  position: absolute;
+  width: 220px;
+  height: 34px;
+  left: 1000px;
+  top: 18px;
+
+  background: #FFFFFF;
+}
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.topnav_dss .search-container_dss button {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.onetime_dss {
+  position: absolute;
+  width: 225px;
+  height: 42px;
+  left: 638px;
+  top: 19px;
+  background: #FFBC35;
+  border-radius: 5px;
+  border: #9F0202;
+}
+
+.rontine_dss {
+  position: absolute;
+  width: 102px;
+  height: 43px;
+  left: 873px;
+  top: 19px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+}
+
+.account {
+  position: absolute;
+  width: 109px;
+  height: 50px;
+  left: 1274px;
+  top: 12px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+}
+
+.cart {
+  position: absolute;
+  width: 70px;
+  height: 33px;
+  left: 1305px;
+  top: 79px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+}
+
+/*************************** end of topbar ***********************/
+
+/*************************** topnav **************************/
+
+.home_dessert {
+  position: absolute;
+  width: 114px;
+  height: 55px;
+  left: 17px;
+  top: 210px;
+  background: #FFFFFF;
+  border: 3px solid #F5B85C;
+  box-sizing: border-box;
+  border-radius: 18px;
+  color: #F68787;
+}
+
+.maindish_dessert {
+  position: absolute;
+  width: 150px;
+  height: 55px;
+  left: 159px;
+  top: 210px;
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  border-radius: 18px;
+  border: 3px solid #FFBC35;
+  color: #F68787;
+}
+
+.dessert_dessert {
+  position: absolute;
+  width: 120px;
+  height: 55px;
+  left: 335px;
+  top: 210px;
+  background: #FFBC35;
+  border: 3px solid #F5B85C;
+  box-sizing: border-box;
+  border-radius: 18px;
+  color: white;
+}
+
+.howitwork_dessert {
+  position: absolute;
+  width: 180px;
+  height: 55px;
+  left: 483px;
+  top: 210px;
+
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  box-sizing: border-box;
+  border-radius: 18px;
+  color: #F68787;
+}
+
+.dessertbuttonpic {
+  position: absolute;
+  width: 38px;
+  height: 39px;
+  left: 429px;
+  top: 245px;
+
+}
+
+/************ end of top nav ************/
+
+
+/*********************** selector ********************/
+
+.container_dessert {
+  border-radius: 8px;
+  border: 2px solid #F68787;
+
+}
+
+.cusinetext {
+  position: absolute;
+  width: 71px;
+  height: 37px;
+  left: 80px;
+  top: 312px;
+
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.CUSINE_S {
+  position: absolute;
+  width: 152px;
+  height: 33px;
+  left: 156px;
+  top: 312px;
+  box-sizing: border-box;
+  border-radius: 15px;
+}
+
+.Typesofdesserttext {
+  position: absolute;
+  width: 300px;
+  height: 37px;
+  left: 339px;
+  top: 312px;
+
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.ALLTYPES_S {
+  position: absolute;
+  width: 152px;
+  height: 33px;
+  left: 517px;
+  top: 312px;
+
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.difficultytext {
+  position: absolute;
+width: 200px;
+height: 32px;
+left: 688px;
+top: 312px;
+
+font-family: Arvo;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 48px;
+text-align: center;
+color: #000000;
+}
+
+.LEVEL_S {
+  position: absolute;
+  width: 152px;
+  height: 33px;
+  left: 885px;
+  top: 312px;
+
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+.pricetext {
+  position: absolute;
+  width: 150px;
+  height: 32px;
+  left: 1063px;
+  top: 312px;
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 48px;
+  color: #000000;
+}
+
+.PRICE_S {
+  position: absolute;
+  width: 152px;
+  height: 33px;
+  left: 1195px;
+  top: 312px;
+
+  background: #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+/******************* end of selector ******************/
+
+/**************** menu ****************/
+.pannacotta {
+  position: absolute;
+  width: 443.02px;
+  height: 316px;
+  left: 18px;
+  top: 358px;
+}
+
+.PANNACOTTA {
+  position: absolute;
+  width: 421px;
+  height: 99px;
+  left: 46px;
+  top: 692px;
+
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.tiramisu {
+  position: absolute;
+  width: 382.5px;
+  height: 255px;
+  left: 536px;
+  top: 418px;
+}
+
+.TIRAMISU {
+  position: absolute;
+  width: 421px;
+  height: 99px;
+  left: 507px;
+  top: 692px;
+
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.cheesecake {
+  position: absolute;
+  width: 432.48px;
+  height: 329px;
+  left: 932px;
+  top: 345px;
+} 
+
+.CHEESECAKE {
+  position: absolute;
+  width: 421px;
+  height: 99px;
+  left: 956px;
+  top: 692px;
+
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.thaibanana {
+  position: absolute;
+  width: 388px;
+  height: 255px;
+  left: 80px;
+  top: 901px;
+}
+
+.THAIBANANA {
+  position: absolute;
+  width: 421px;
+  height: 99px;
+  left: 44px;
+  top: 1174px;
+
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #000000;
+
+}
+
+.floating  {
+  position: absolute;
+  width: 374px;
+  height: 256px;
+  left: 543px;
+  top: 901px;
+}
+
+.FLOATING {
+  position: absolute;
+  width: 421px;
+  height: 99px;
+  left: 512px;
+  top: 1174px;
+
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #000000;
+}
+
+.waffles {
+  position: absolute;
+  width: 384px;
+  height: 255px;
+  left: 989px;
+  top: 901px;
+}
+
+.WAFFLES {
+  position: absolute;
+  width: 421px;
+  height: 99px;
+  left: 954px;
+  top: 1174px;
+
+  font-family: Arvo;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 21px;
+  line-height: 48px;
+  text-align: center;
+
+  color: #000000;
+}
+
+/************** ADD TO CART **************/
+
+.PANNACOTTA_B {
+  position: absolute;
+  width: 149px;
+  height: 45px;
+  left: 185px;
+  top: 803px;
+
+  background: #9F0202;
+  color: white;
+  font-family: Arvo;
+  font-size: 16px;
+}
+
+.TIRAMISU_B {
+  position: absolute;
+  width: 149px;
+  height: 45px;
+  left: 646px;
+  top: 803px;
+
+  background: #9F0202;
+  color: white;
+  font-family: Arvo;
+  font-size: 16px;
+}
+
+.CHEESECAKE_B {
+  position: absolute;
+  width: 149px;
+  height: 45px;
+  left: 1100px;
+  top: 803px;
+  background: #9F0202;
+  color: white;
+  font-family: Arvo;
+  font-size: 16px;
+}
+
+.THAIBANANA_B {
+  position: absolute;
+  width: 149px;
+  height: 45px;
+  left: 185px;
+  top: 1288px;
+  background: #9F0202;
+  color: white;
+  font-family: Arvo;
+  font-size: 16px;
+}
+
+.FLOATING_B {
+  position: absolute;
+  width: 149px;
+  height: 45px;
+  left: 646px;
+  top: 1288px;
+  background: #9F0202;
+  color: white;
+  font-family: Arvo;
+  font-size: 16px;
+}
+
+.WAFFLES_B {
+  position: absolute;
+  width: 149px;
+  height: 45px;
+  left: 1104px;
+  top: 1288px;
+  background: #9F0202;
+  color: white;
+  font-family: Arvo;
+  font-size: 16px;
+}
+
+/*************** next page ****************/
+
+.first {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 623px;
+  top: 1373px;
+  border-radius: 50px;
+  background: #FFBC35;
+  border: 3px solid #FFBC35;
+  font-size: 20px;
+}
+
+.second {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  left: 684px;
+  top: 1373px;
+  border-radius: 50px;
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+
+.nextpage {
+  position: absolute;
+  width: 70px;
+  height: 45px;
+  left: 745px;
+  top: 1375px;
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+
+/*************** bottombar ***************/
+
+.bottomnav {
+  overflow: hidden;
+}
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.bottomnav .search-container button {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+  border: #9F0202;
+
+}
+
+.EN {
+  position: absolute;
+  width: 51px;
+  height: 38px;
+  left: 1180px;
+  top: 1481px;
+
+  background: #FFBC35;
+  border-radius: 5px;
+}
+
+.TH {
+  position: absolute;
+  width: 51px;
+  height: 38px;
+  left: 1231px;
+  top: 1481px;
+  background: #9F0202;
+  color: white;
+}
+
+.bottombar {
+  position: absolute;
+  width: 1440px;
+  height: 108px;
+  left: 0px;
+  top: 1431px;
+
+  background: #9F0202;
+}
+
+.QandA {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 1307px;
+  top: 1446px;
+}

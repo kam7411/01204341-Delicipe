@@ -34,13 +34,26 @@ class Myorder extends Component {
 
                     <div class="topnav"> 
                     <div class="search-container">
-                        <form action="/action_page.php">
-                        <button class="home" type="submit">Home</button>
-                        <button class="maindish" type="submit">Main dish</button>
-                        <button class="dessert" type="submit">Dessert</button>
-                        <button class="howitwork" type="submit">How it work?</button>
-                        <input type="text" placeholder="Search.." name="search" />
-                        </form>
+                    <a style={{ textDecoration: 'none' }}href='/home'>
+                  <button type='button' className='home_cart'>
+                    Home
+                  </button>
+                </a>
+                <a style={{ textDecoration: 'none' }}href='/maindish1'>
+                  <button type='button' className='maindish_cart'>
+                    Maindish
+                  </button>
+                </a>
+                <a style={{ textDecoration: 'none' }}href='/dessert1'>
+                  <button type='button' className='dessert_cart'>
+                    Dessert
+                  </button>
+                </a>
+                <a style={{ textDecoration: 'none' }}href='/how_it_work'>
+                  <button type='button' className='howitwork_cart'>
+                    How it work?
+                  </button>
+                </a>
                     </div>
                     
                 </div>  
@@ -54,38 +67,29 @@ class Myorder extends Component {
                         </form>
                     </div>
                 </div>
-                <img src={QandA} className="QandA" alt="QandA" />
+                <a href='/QA'>
+            <input type="image" src={QandA} class="QandA" />
+          </a>
                 <div className="myorder">My Order !</div>   
-                <div className="bg"></div>
-                 {/*data informmation*/}
-                <button class="backprofile-button">Back to profile</button>
-                <div className="name-p">Name</div>
-                <div className="last-name-p">Last name</div>
-                <div className="address-p">Address</div>
-                <div className="email-p">Email</div>
-                <div className="tel-p">Tel</div>
-                {/*data informmation*/}
-                <div className="name-i">MR Tada</div>
-                <div className="last-name-i">Sanakorn</div>
-                <div className="address-i">10.....</div>
-                <div className="email-i">tada.s@gmail.com</div>
-                <div className="tel-i">0880820860</div>
-                <div class="texttopic">
-                    <div class="orderid">Order ID : </div>
-                    <div class="price">Price : </div>
-                    <div class="date">Date of delivery :</div>
-                    <div class="slottime">Slot time : </div>
-                    <div class="track">Tracking : </div>
+                <div className="bg_order"></div>
+
+                <div class="texttopic_order">
+                    <div class="orderid_order">Order ID : </div>
+                    <div class="price_order">Price : </div>
+                    <div class="date_order">Date of delivery :</div>
+                    <div class="slottime_order">Slot time : </div>
+                    <div class="track_order">Tracking : </div>
                 </div>
-                <div class="info">
-                    <div class="orderidinfo">17022113464789143 </div>
-                    <div class="menu1">Chicken rice</div>
-                    <div class="menu2">floating Island</div>
-                    <div class="priceinfo">210 ฿</div>
-                    <div class="dateinfo">21 October 2019</div>
-                    <div class="slottimeinfo">08:00 AM to 10:00 AM</div>
-                    <div class="trackinfo">prepare</div>
+                <div class="info_order">
+                    <div class="orderidinfo_order">17022113464789143 </div>
+                    <div class="menu1_order">Spaghetti Bacon Chilli Garlic</div>
+                    <div class="menu2_order">Floating Island</div>
+                    <div class="priceinfo_order">264 ฿</div>
+                    <div class="dateinfo_order">7 November 2019</div>
+                    <div class="slottimeinfo_order">02:00 P.M. TO 04:00 P.M.</div>
+                    <div class="trackinfo_order">prepare</div>
                 </div>
+                <button class="backprofile_order-button">Back to profile</button>
             </body>
         )
     }

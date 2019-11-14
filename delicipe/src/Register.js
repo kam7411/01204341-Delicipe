@@ -1,8 +1,19 @@
 import React from 'react';
 import './Register.css';
 import Taskbar from './taskbar';
-import firebase from 'firebase';
+import fire from './Fire.js';
 import { Link } from 'react-router-dom';
+import delicipe_sign from '../picture/Delicipe.svg';
+import chefhat from '../picture/chef-hat.svg';
+import search from '../picture/search.svg';
+import accountpic from '../picture/accountpic.svg';
+import cartpic from '../picture/cartpic.svg';
+import successpic from '../picture/success.gif';
+import homebuttonpic from '../picture/homebuttonpic.svg';
+import maindishbuttonpic from '../picture/maindishbuttonpic.svg';
+import dessertbuttonpic from '../picture/dessertbuttonpic.svg';
+import howitworkbuttonpic from '../picture/howitworkbuttonpic.svg';
+import QandA from '../picture/QandA.svg';
 
 class Register extends React.Component {
   constructor(props){
@@ -11,7 +22,7 @@ class Register extends React.Component {
   }
 
   handleSignUp(email , password){
-    firebase.auth().createUserWithEmailAndPassword(email,password)
+    fire.auth().createUserWithEmailAndPassword(email,password)
       // function(error){
       //   var errorCode = error.code;
       //   var 
@@ -23,7 +34,7 @@ class Register extends React.Component {
     //   alert("Please Insert Email");
     //   return;
     // };
-    var firebaseRef=firebase.database().ref("User");
+    var firebaseRef=fire.database().ref("User");
     firebaseRef.push({
     Name:Name ,
     Lastname:Lastname ,
@@ -53,16 +64,82 @@ class Register extends React.Component {
     var Allergy_Ingredients_1 = document.getElementById('Allergy Ingredients 1');   
     var Allergy_Ingredients_2 = document.getElementById('Allergy Ingredients 2'); 
     var Allergy_Ingredients_3 = document.getElementById('Allergy Ingredients 3'); 
-    // console.log(Name.value) 
-    this.handleSignUp(Email.value , Password.value)
+    console.log(Name.value) 
     this.insertData(Name.value , Lastname.value , Apartment.value , City.value , Province.value , Postal_Code.value , Tel.value , Allergy_Ingredients_1.value , Allergy_Ingredients_2.value , Allergy_Ingredients_3.value , Email.value);
+    this.handleSignUp(Email.value , Password.value)
   }
 
 
   render() {
     return (
       <div className='Register'>
-        <Taskbar/>
+        <div className="background">
+          <div class="topbar">
+            <img src={delicipe_sign} class="delicipe_sign" alt="delicipe_sign" />
+            <img src={search} class="search" alt="search" />
+            <img src={accountpic} class="accountpic" alt="accountpic" />
+            <img src={cartpic} class="cartpic" alt="cartpic" />
+            <div class="topnav">
+              <div class="search-container">
+                <form action="/action_page.php">
+                  <button class="account" type="submit">Account</button>
+                  <button class="rontine" type="submit">Rontine</button>
+                  <button class="onetime" type="submit">One-time purchase</button>
+                  <button class="cart" type="submit">Cart</button>
+                  <input type="text" placeholder="Search.." name="search" />
+                </form>
+              </div>
+              <img src={chefhat} class="chefhat" alt="chefhat" />
+            </div>
+          </div>  {/* topbar */}
+
+          <div class="topnav">
+            <div class="search-container">
+              <form action="/action_page.php">
+               <a style={{ textDecoration: 'none' }}href='/home'>
+                <button type='button' className='home_hiw'>
+                  Home
+                </button>
+              </a>
+              <a style={{ textDecoration: 'none' }}href='/maindish1'>
+                <button type='button' className='maindish_cart'>
+                  Maindish
+                </button>
+              </a>
+              <a style={{ textDecoration: 'none' }}href='/dessert1'>
+                <button type='button' className='dessert_cart'>
+                  Dessert
+                </button>
+              </a>
+              <a style={{ textDecoration: 'none' }}href='/how_it_work'>
+                <button type='button' className='howitwork_cart'>
+                  How it work?
+                </button>
+              </a>
+                <input type="text" placeholder="Search.." name="search" />
+              </form>
+            </div>
+            {/* <img src={homebuttonpic} class="homebuttonpic" alt="homebuttonpic" />
+            <img src={maindishbuttonpic} class="maindishbuttonpic" alt="Maindisbuttonpic" />
+            <img src={dessertbuttonpic} class="dessertbuttonpic" alt="dessertbuttonpic" /> */}
+            {/* <img src={howitworkbuttonpic} class="howitworkbuttonpic" alt="howitworkbuttonpic" /> */}
+          </div>
+
+          <div class="bottombar"></div>
+          <div class="bottomnav">
+            <div class="search-container">
+              <form action="/action_page.php">
+                <button class="EN" type="submit">EN</button>
+                <button class="TH" type="submit">TH</button>
+              </form>
+            </div>
+          </div>
+          <a href='/QA'>
+            <input type="image" src={QandA} class="QandA" />
+          </a>
+        </div>
+  
+
         <div className="Account-Info">
           Account Infomation
         </div>

@@ -11,7 +11,6 @@ import accountpic from '../picture/accountpic.svg';
 import cartpic from '../picture/cartpic.svg';
 import QandA from '../picture/QandA.svg';
 import 'typeface-arvo';
-import Taskbar from './taskbar';
 // npm install --save typeface-arvo
 
 
@@ -23,34 +22,95 @@ class maindish1 extends Component {
   // </div>
   render() {
     return (
-      <dev class='maindish1'>
-        <Taskbar/>
-        <img src={QandA} className="QandA" alt="QandA" />
+      <div class="background_md1">
+        <div class="topbar_md1">
+          <img src={delicipe_sign} class="delicipe_sign" alt="delicipe_sign" />
+          <img src={search} class="search" alt="search" />
+          <img src={accountpic} class="accountpic" alt="accountpic" />
+          <img src={cartpic} class="cartpic" alt="cartpic" />
+          <div class="topnav_md1">
+            <div class="search-container_md1">
+              <form action="/action_page.php">
+                <button class="account" type="submit">Account</button>
+                <button class="rontine_md1" type="submit">Rontine</button>
+                <button class="onetime_md1" type="submit">One-time purchase</button>
+                <button class="cart" type="submit">Cart</button>
+                <input type="text" placeholder="Search.." name="search" />
+              </form>
+            </div>
+            <img src={chefhat} class="chefhat" alt="chefhat" />
+          </div>
+        </div>  {/* topbar */}
+
+        <div class="topnav"> 
+          <div class="search-container">
+            <form action="/action_page.php">
+              <a style={{ textDecoration: 'none' }}href='/home'>
+                  <button type='button' className='home_cart'>
+                    Home
+                  </button>
+                </a>
+                <a style={{ textDecoration: 'none' }}href='/maindish1'>
+                  <button type='button' className='maindish_cart'>
+                    Maindish
+                  </button>
+                </a>
+                <a style={{ textDecoration: 'none' }}href='/dessert1'>
+                  <button type='button' className='dessert_cart'>
+                    Dessert
+                  </button>
+                </a>
+                <a style={{ textDecoration: 'none' }}href='/how_it_work'>
+                  <button type='button' className='howitwork_cart'>
+                    How it work?
+                  </button>
+                </a>
+              {/* <button class="home" type="submit">Home</button> */}
+              {/* <button class="maindish" type="submit">Maindish</button> */}
+              {/* <button class="dessert" type="submit">Dessert</button> */}
+              {/* <button class="howitwork" type="submit">How it work?</button> */}
+              <input type="text" placeholder="Search.." name="search" />
+            </form>
+          </div>
+        </div>  
+
+        <div class="bottombar"></div>
+        <div class="bottomnav">
+          <div class="search-container">
+            <form action="/action_page.php">
+              <button class="EN" type="submit">EN</button>
+              <button class="TH" type="submit">TH</button>
+            </form>
+          </div>
+        </div>
+        <a href='/QA'>
+            <input type="image" src={QandA} class="QandA" />
+          </a>
 
         <img src={rice} className="rice" alt="rice"/>
-        <div class="topic">SINGAPORE CHICKEN RICE</div>
+        <div class="topic_food">SINGAPORE CHICKEN RICE</div>
         
         <img src={muslim} className="pic_muslim" alt="muslim"/>
         <div class="name_muslim">: MUSLIMS</div>
         
-        <div class="frame_price"></div>
-        <div class="price">110.00 ฿</div>
+        <div class="frame_price_food"></div>
+        <div class="price_food">110.00 ฿</div>
         
-        <div class="banner">Quantity</div>
-        <div class="converter">
+        <div class="banner_food">Quantity</div>
+        <div class="converter_food">
           <input id="inputQuantity" type="number" placeholder="Quantity" min="1" oninput="priceConverter(this.value)" onchange="priceConverter(this.value)"/>
         </div>
-        <button class="button" type="button">ADD TO CART</button>
+        <button class="button_food" type="button">ADD TO CART</button>
         
-        <img src={cook} className="pic_cook" alt="cook"/>
-        <div class="detail_cook">COOK : 40 MINS</div>
-        <img src={level} className="pic_level" alt="level"/>
-        <div class="detail_level">EASY</div>
+        <img src={cook} className="pic_cook_food" alt="cook"/>
+        <div class="detail_cook_food">COOK : 40 MINS</div>
+        <img src={level} className="pic_level_food" alt="level"/>
+        <div class="detail_level_food">EASY</div>
 
-        <div class="zebra">
-          <div class="topic_nutrition">Nutrition</div>
-          <div class="detail_nutrition">: Per serving</div>
-          <table class="table_nutrition">
+        <div class="zebra_food">
+          <div class="topic_nutrition_food">Nutrition</div>
+          <div class="detail_nutrition_food">: Per serving</div>
+          <table class="table_nutrition_food">
             <tr>
               <td>Calories(kcal)</td>
               <td>1029</td>
@@ -69,9 +129,9 @@ class maindish1 extends Component {
             </tr>
           </table>
 
-          <div class="topic_equipment">Equipment</div>
-          <div class="detail_equipment">: 3</div>
-          <table class="table_equipment">
+          <div class="topic_equipment_food">Equipment</div>
+          <div class="detail_equipment_food">: 3</div>
+          <table class="table_equipment_food">
             <tr>
               <td>1</td>
               <td>stir-fry pan</td>
@@ -86,9 +146,9 @@ class maindish1 extends Component {
             </tr>
           </table>
         </div>
-        <div class="ingredient">
-          <div class="top_ingredient">What in the box !</div>
-          <table class="table_ingredient">
+        <div class="ingredient_food">
+          <div class="top_ingredient_food">What in the box !</div>
+          <table class="table_ingredient_food">
             <tr>
               <th>Ingrediants</th>
               <th>Weight</th>
@@ -100,7 +160,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -110,7 +170,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -120,7 +180,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -130,7 +190,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -140,7 +200,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -150,7 +210,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -160,7 +220,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -170,7 +230,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -180,7 +240,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -190,7 +250,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -200,7 +260,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -210,7 +270,7 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
@@ -220,14 +280,14 @@ class maindish1 extends Component {
               <td>
               <div class="container">
                 <input type="checkbox"/>
-                <span class="checkmark"></span>
+                {/* <span class="checkmark"></span> */}
               </div>
               </td>
             </tr>
             </table>
           </div>  
-          <div class="bottom_ingredient">*The box’s included recipe instruction</div>
-        {/* <h2>Weight Converter</h2>
+          <div class="bottom_ingredient_food">*The box’s included recipe instruction</div>
+        // {/* <h2>Weight Converter</h2>
         // <p>Type a value in the Pounds field to convert the value to Kilograms:</p>
 
         // <p>
@@ -235,7 +295,7 @@ class maindish1 extends Component {
         //   <input id="inputPounds" type="number" placeholder="Pounds" oninput="weightConverter(this.value)" onchange="weightConverter(this.value)"/>
         // </p>
         // <p>Kilograms: <span id="outputKilograms"></span></p> */}
-    </dev>
+      </div>
     );
   }
 }

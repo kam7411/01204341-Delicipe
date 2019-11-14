@@ -1,3 +1,276 @@
+/****************************topbar**************************/
+.chefhat {
+  position: absolute;
+  width: 33.53px;
+  height: 37.74px;
+  left: 840.62px;
+  top: 39.68px;
+
+  transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
+}
+
+.search {
+  position: absolute;
+  width: 34px;
+  height: 32px;
+  left: 1241px;
+  top: 21px;
+}
+
+.accountpic {
+  position: absolute;
+  width: 34.2px;
+  height: 36px;
+  left: 1383px;
+  top: 18px;
+}
+
+.cartpic{
+  position: absolute;
+  width: 39px;
+  height: 38px;
+  left: 1378px;
+  top: 79px;
+}
+
+.topbar_md1 {
+  position: absolute;
+  width: 1440px;
+  height: 191px;
+  left: 0px;
+  top: 0px;
+  background: #9F0202;
+}
+
+.delicipe_sign {
+  position: absolute;
+  width: 357px;
+  height: 136px;
+  left: 34px;
+  top: 32px;
+}
+
+.topnav_md1 {
+  overflow: hidden;
+  
+}
+
+.topnav_md1 input[type=text] {
+  float: right;
+  padding: 6px;
+  font-size: 22px;
+  position: absolute;
+  width: 220px;
+  height: 34px;
+  left: 1000px;
+  top: 18px;
+
+  background: #FFFFFF;
+}
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.topnav_md1 .search-container_md1 button {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+  /* color: #F68787; */
+
+}
+
+.onetime_md1 {
+  position: absolute;
+  width: 225px;
+  height: 42px;
+  left: 638px;
+  top: 19px;
+  background: #FFBC35;
+  border-radius: 5px;
+  border: #9F0202;
+}
+
+.rontine_md1 {
+  position: absolute;
+  width: 102px;
+  height: 43px;
+  left: 873px;
+  top: 19px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+}
+
+.account {
+  position: absolute;
+  width: 109px;
+  height: 50px;
+  left: 1274px;
+  top: 12px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+}
+
+.cart {
+  position: absolute;
+  width: 70px;
+  height: 33px;
+  left: 1305px;
+  top: 79px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+}
+
+/*************************** end of topbar ***********************/
+
+/*************************** topnav **************************/
+
+.home {
+  position: absolute;
+  width: 114px;
+  height: 55px;
+  left: 17px;
+  top: 210px;
+
+  background: #FFFFFF;
+  border: 3px solid #F5B85C;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+
+.maindish {
+  position: absolute;
+  width: 150px;
+  height: 55px;
+  left: 159px;
+  top: 210px;
+
+  background: #FFFFFF;
+  border: 3px solid #F5B85C;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+
+.dessert {
+  position: absolute;
+  width: 120px;
+  height: 55px;
+  left: 335px;
+  top: 210px;
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+
+.howitwork {
+  position: absolute;
+  width: 180px;
+  height: 55px;
+  left: 483px;
+  top: 210px;
+
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  box-sizing: border-box;
+  border-radius: 18px;
+}
+
+.homebuttonpic {
+  position: absolute;
+  width: 50px;
+  height: 46.3px;
+  left: 100px;
+  top: 234px;
+}
+
+.maindishbuttonpic {
+  position: absolute;
+  width: 52px;
+  height: 45px;
+  left: 280px;
+  top: 237px;
+}
+
+.dessertbuttonpic {
+  position: absolute;
+  width: 38px;
+  height: 39px;
+  left: 433px;
+  top: 240px;
+}
+
+.howitworkbuttonpic {
+  position: absolute;
+  width: 52px;
+  height: 51px;
+  left: 645px;
+  top: 240px;
+}
+
+/************************ end of top nav ***********************/
+
+/************************ bottom bar ******************************/
+
+.bottomnav {
+  overflow: hidden;
+}
+
+/* .topnav .search-container button:hover {
+  
+} */
+
+.bottomnav .search-container button {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
+  border: #9F0202;
+}
+
+.EN {
+  position: absolute;
+  width: 51px;
+  height: 38px;
+  left: 1180px;
+  top: 1654px;
+
+  background: #FFBC35;
+  border-radius: 5px;
+}
+
+.TH {
+  position: absolute;
+  width: 51px;
+  height: 38px;
+  left: 1231px;
+  top: 1654px;
+  background: #9F0202;
+  color: white;
+}
+
+.bottombar {
+  position: absolute;
+  width: 1440px;
+  height: 108px;
+  left: 0px;
+  top: 1604px;
+
+background: #9F0202;
+}
+
+.QandA {
+  position: absolute;
+  width: 77px;
+  height: 77px;
+  left: 1307px;
+  top: 1619px;
+  background: #9F0202;}
+
+/****************** end of bottom bar *****************************/
+
 .rice {
   position: absolute;
   width: 660px;
@@ -6,7 +279,7 @@
   top: 345px;
 }
 
-.topic {
+.topic_food {
   position: absolute;
   width: 512px;
   height: 70px;
@@ -50,7 +323,7 @@
   color: #000000;
 }
 
-.frame_price {
+.frame_price_food {
   position: absolute;
   width: 177px;
   height: 52px;
@@ -62,7 +335,7 @@
   box-sizing: border-box;
 }
 
-.price {
+.price_food {
   position: absolute;
   width: 120px;
   height: 38px;
@@ -81,7 +354,7 @@
   color: #000000;
 }
 
-.banner {
+.banner_food {
   position: absolute;
   width: 95px;
   height: 27px;
@@ -102,7 +375,7 @@
 
 
 
-.converter input[type=number]{
+.converter_food input[type=number]{
   position: absolute;
   width: 71px;
   height: 28px;
@@ -114,7 +387,7 @@
   box-sizing: border-box;
 }
 
-.button {
+.button_food {
   position: absolute;
   width: 177px;
   height: 46px;
@@ -131,7 +404,7 @@
   color: #FFFFFF;
 }
 
-.pic_cook {
+.pic_cook_food {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -139,7 +412,7 @@
   top: 680px;
 }
 
-.detail_cook {
+.detail_cook_food {
   position: absolute;
   width: 186px;
   height: 28px;
@@ -159,7 +432,7 @@
   color: #000000;
 }
 
-.pic_level {
+.pic_level_food {
   position: absolute;
   width: 50px;
   height: 50px;
@@ -167,7 +440,7 @@
   top: 680px;
 }
 
-.detail_level {
+.detail_level_food {
   position: absolute;
   width: 61px;
   height: 28px;
@@ -186,7 +459,7 @@
   color: #000000;
 }
 
-.topic_nutrition {
+.topic_nutrition_food {
   position: absolute;
   width: 139px;
   height: 18px;
@@ -207,7 +480,7 @@
   color: #000000;
 }
 
-.detail_nutrition {
+.detail_nutrition_food {
   position: absolute;
   width: 162px;
   height: 18px;
@@ -228,11 +501,11 @@
   color: #000000;
 }
 
-.zebra tr:nth-child(odd) {
+.zebra_food tr:nth-child(odd) {
   background-color: #E5E5E5
 }
 
-.table_nutrition {
+.table_nutrition_food {
   position: absolute;
   width: 402px;
   height: 160px;
@@ -250,7 +523,7 @@
   color: #000000;
 }
 
-.topic_equipment {
+.topic_equipment_food {
   position: absolute;
   width: 146px;
   height: 18px;
@@ -271,7 +544,7 @@
   color: #000000;
 }
 
-.detail_equipment {
+.detail_equipment_food {
   position: absolute;
   width: 31px;
   height: 18px;
@@ -292,7 +565,7 @@
   color: #000000;
 }
 
-.table_equipment {
+.table_equipment_food {
   position: absolute;
   width: 380px;
   height: 120px;
@@ -310,7 +583,7 @@
   color: #000000;
 }
 
-.top_ingredient {
+.top_ingredient_food {
   position: absolute;
   width: 241px;
   height: 18px;
@@ -331,11 +604,11 @@
   color: #000000;
 }
 
-.ingredient tr:nth-child(1) {
+.ingredient_food tr:nth-child(1) {
   background-color: #E5E5E5
 }
 
-.table_ingredient {
+.table_ingredient_food {
   position: absolute;
   width: 630px;
   height: 630px;
@@ -353,7 +626,7 @@
   color: #000000; 
 }
 
-.bottom_ingredient {
+.bottom_ingredient_food {
   position: absolute;
   width: 467px;
   height: 31px;

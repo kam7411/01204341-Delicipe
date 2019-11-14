@@ -370,16 +370,6 @@
     background: #D3D3D3;
 }
 
-.Add-Photo-Pic{
-    position: absolute;
-    width: 85px;
-    height: 85px;
-    left: 1136px;
-    top: 535px;
-    /* opacity:0; */
-    background-image: url('../picture/Add-Photo.svg');
-}
-
 .Finish {
     position: absolute;
     width: 111px;

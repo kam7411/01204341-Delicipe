@@ -1,43 +1,41 @@
 import React from 'react';
 import './Login.css';
-import firebase from 'firebase';
+import fire from './Fire.js';
 import { Link } from 'react-router-dom';
 
 class Login extends React.Component {
   constructor(props){
     super(props);
-    this.login=this.login.bind(this);
     this.handleChange=this.handleChange.bind(this);
       this.state = {  
         email:'',
-        password:'' 
+        password:'' ,
+        currentUser: null ,
+        isLogined:false
       };
   }
-  submitLogin(e) {
-    this.setState({isLoginOpen: true, isSignUp: false})
-  }
-  submitSignUp(e) {
-    this.setState({isLoginOpen: false, isSignUp: true})
-  }
-  
-  login(e) {
-    firebase.auth().onAuthStateChanged(function(user){
-      // document.getElementById('')
-      if (user) {
-        var displayName = user.displayName;
-        var email = user.email;
-        var emailVerified = user.emailVerified;
-        var photoURL = user.photoURL;
-        var uid = user.uid;
-        var providerData = user.providerData;
-        // document.getElementById('sign-in-status').textContent = "Signed in"
-      }  
-    })
+  // componentDidMount() {
+  //   let isLogin = this.state.isLogined
+  //   this.props.onAnswer(isLogin)
+  // }
+  onLogin = e => {
     e.preventDefault();
-    firebase.auth().signInWithEmailAndPassword(this.state.email, this.state.password).then((u)=>{
-    }).catch((error) => {
-      console.log(error);
-    })
+    var email = document.getElementById('email').value;
+    var password = document.getElementById('password').value;
+    fire.auth()
+    .signInWithEmailAndPassword(email, password)
+    // .then(response => {
+    //   this.setState({
+    //     currentUser: response.user
+    //   })
+    // })
+    .then(()=>{ alert("sucessful , "+email) ,
+                this.state.isLogined = true ,
+                this.state.currentUser = email}
+              )
+    .catch((error) => {alert("Email or Password is incorrect")})
+    console.log(this.state.isLogined)
+    console.log(this.state.currentUser)  
   }
 
   handleChange(e) {
@@ -45,17 +43,19 @@ class Login extends React.Component {
   }
 
   render() {
+    // if (currentUser) {
+    //   return (
+    //     <div>
+    //       <p>Hello {currentUser.email}</p>
+    //     </div>
+    //   )
+    // }
     return (
       <div className='login'>
-        <a>
-          <button type='submit' className='Button-Login' onClick={this.login}>
-            <Link style={{ textDecoration: 'none' , color: '#ffffff'}} to="/maindish1">LOGIN</Link>
-          </button>
-        </a>
         <a style={{ textDecoration: 'none' }}href='/Register'>
-        <button type='button' className='Button-SignUp' onClick={this.submitSignUp.bind(this)}>
-          SIGN UP
-        </button>
+          <button type='button' className='Button-SignUp'>
+            SIGN UP
+          </button>
         </a>
         <input
           className="Username"
@@ -83,9 +83,11 @@ class Login extends React.Component {
         <div className="Sign-In">
           SIGN IN
         </div>
-        <div className="User_Details">
-          {/* Firebase sign-in status: <span id='sign-in-status'>Unknown</span> */}
-        </div>
+        <a>
+          <button type='submit' className='Button-Login' onClick={this.onLogin}>
+            <Link style={{ textDecoration: 'none' , color: '#ffffff'}} to="/Profile">LOGIN</Link>
+          </button>
+        </a>
       </div>
     )
   }

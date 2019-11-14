@@ -1,4 +1,4 @@
-.background {
+.background_h {
   position: absolute;
   width: 1440px;
   height: 1542px;
@@ -24,7 +24,7 @@
 }
 
 /****************************topbar**************************/
-.chefhat {
+.chefhat_h {
   position: absolute;
   width: 33.53px;
   height: 37.74px;
@@ -34,7 +34,7 @@
   transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
 }
 
-.search {
+.search_h {
   position: absolute;
   width: 34px;
   height: 32px;
@@ -42,7 +42,7 @@
   top: 21px;
 }
 
-.accountpic {
+.accountpic_h {
   position: absolute;
   width: 34.2px;
   height: 36px;
@@ -50,7 +50,7 @@
   top: 18px;
 }
 
-.cartpic{
+.cartpic_h{
   position: absolute;
   width: 39px;
   height: 38px;
@@ -58,7 +58,7 @@
   top: 79px;
 }
 
-.topbar {
+.topbar_h {
   position: absolute;
   width: 1440px;
   height: 191px;
@@ -67,7 +67,7 @@
   background: #9F0202;
 }
 
-.delicipe_sign {
+.delicipe_sign_h {
   position: absolute;
   width: 357px;
   height: 136px;
@@ -75,11 +75,11 @@
   top: 32px;
 }
 
-.topnav {
+.topnav_h {
   overflow: hidden;
 }
 
-.topnav input[type=text] {
+.topnav_h input[type=text] {
   float: right;
   padding: 6px;
   font-size: 22px;
@@ -96,13 +96,13 @@
   
 } */
 
-.topnav .search-container button {
+.topnav_h .search-container_h button {
   float: right;
   font-size: 24px;
   cursor: pointer;
 }
 
-.onetime {
+.onetime_h {
   position: absolute;
   width: 225px;
   height: 42px;
@@ -113,7 +113,7 @@
   border: #9F0202;
 }
 
-.rontine {
+.rontine_h {
   position: absolute;
   width: 102px;
   height: 43px;
@@ -124,7 +124,7 @@
   border: #9F0202;
 }
 
-.account {
+.account_h {
   position: absolute;
   width: 109px;
   height: 50px;
@@ -135,7 +135,7 @@
   border: #9F0202;
 }
 
-.cart {
+.cart_h {
   position: absolute;
   width: 70px;
   height: 33px;
@@ -150,7 +150,7 @@
 
 /*************************** topnav **************************/
 
-.home {
+.home_home {
   position: absolute;
   width: 114px;
   height: 55px;
@@ -163,7 +163,7 @@
   border: 3px solid #FFBC35;
 }
 
-.maindish {
+.maindish_home {
   position: absolute;
   width: 150px;
   height: 55px;
@@ -177,7 +177,7 @@
   color: #F68787;
 }
 
-.dessert {
+.dessert_home {
   position: absolute;
   width: 120px;
   height: 55px;
@@ -190,7 +190,7 @@
   color: #F68787;
 }
 
-.howitwork {
+.howitwork_home {
   position: absolute;
   width: 180px;
   height: 55px;

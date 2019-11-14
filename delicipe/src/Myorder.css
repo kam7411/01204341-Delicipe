@@ -137,7 +137,7 @@
   border: 3px solid #FFBC35;
 }
 
-.maindish {
+.maindish_order {
   position: absolute;
   width: 150px;
   height: 55px;
@@ -267,7 +267,7 @@
   background: #9F0202;
 }
 
-.bg {
+.bg_order {
   position: absolute;
 width: 1440px;
 height: 397px;
@@ -297,7 +297,7 @@ color: #000000;
   
 }
 
-.backprofile-button {
+.backprofile_order-button {
   position: absolute;
   width: 299px;
   height: 75px;
@@ -320,7 +320,7 @@ color: #000000;
   background-color: rgb(209, 62, 62);
 }
 
-.texttopic {
+.texttopic_order {
 font-family: Arvo;
 font-style: normal;
 font-weight: bold;
@@ -333,7 +333,7 @@ text-align: center;
 color: #000000;
 }
 
-.orderid {
+.orderid_order {
   position: absolute;
 width: 118px;
 height: 30px;
@@ -343,15 +343,15 @@ top: 414px;
 
 }
 
-.price {
+.price_order {
   position: absolute;
-width: 70px;
+width: 100px;
 height: 29px;
 left: 165px;
 top: 577px;
 }
 
-.date {
+.date_order {
   position: absolute;
 width: 206px;
 height: 30px;
@@ -359,7 +359,7 @@ left: 162px;
 top: 623px;
 }
 
-.slottime {
+.slottime_order {
   position: absolute;
   width: 122px;
   height: 30px;
@@ -368,7 +368,7 @@ top: 623px;
   
 }
 
-.track {
+.track_order {
   position: absolute;
 width: 129px;
 height: 30px;
@@ -376,7 +376,7 @@ left: 160px;
 top: 719px;
 }
 
-.info {
+.info_order {
   font-family: Arvo;
 font-style: normal;
 font-weight: normal;
@@ -390,7 +390,7 @@ color: #000000;
 
 }
 
-.orderidinfo {
+.orderidinfo_order {
   position: absolute;
 width: 222px;
 height: 30px;
@@ -398,47 +398,47 @@ left: 318px;
 top: 414px;
 }
 
-.menu1 {
+.menu1_order {
   position: absolute;
-width: 151px;
+/* width: 151px; */
 height: 30px;
 left: 206px;
 top: 467px;
 }
 
-.menu2 {
+.menu2_order {
   position: absolute;
-width: 169px;
+/* width: 169px; */
 height: 30px;
 left: 206px;
 top: 514px;
 }
 
-.priceinfo {
+.priceinfo_order {
   position: absolute;
-width: 39px;
+width: 100px;
 height: 30px;
 left: 275px;
 top: 578px;
 }
 
-.dateinfo {
+.dateinfo_order {
   position: absolute;
-width: 182px;
+/* width: 182px; */
 height: 30px;
 left: 403px;
 top: 623px;
 }
 
-.slottimeinfo {
+.slottimeinfo_order {
   position: absolute;
-width: 263px;
+width: 300px;
 height: 30px;
 left: 325px;
 top: 671px;
 }
 
-.trackinfo {
+.trackinfo_order {
   position: absolute;
 width: 93px;
 height: 30px;

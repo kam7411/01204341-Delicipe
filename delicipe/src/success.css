@@ -1,0 +1,156 @@
+.Pic {
+    position: absolute;
+    width: 1015px;
+    height: 672px;
+    left: 205px;
+    top: 372px;
+}
+
+.Picture-Box {
+    position: absolute;
+    left: 132px;
+    top: 343px;
+    width: 1174px;
+    height: 751px;
+    background: #EDE4D8;
+    border: 5px solid #9F0202;
+    border-radius: 50px;
+}
+
+.home_hiw {
+    position: absolute;
+    width: 114px;
+    height: 55px;
+    left: 17px;
+    top: 210px;
+  
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+  }
+  
+  .maindish_hiw {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 159px;
+    top: 210px;
+  
+    background: #FFFFFF;
+    border: 3px solid #F5B85C;
+    box-sizing: border-box;
+    border-radius: 18px;
+  }
+  
+  .dessert_hiw {
+    position: absolute;
+    width: 120px;
+    height: 55px;
+    left: 335px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+  }
+  
+  .howitwork_hiw {
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 483px;
+    top: 210px;
+  
+    background: #FFBC35;
+    border-radius: 18px;
+    color: white;
+    border: 3px solid #FFBC35;
+  }
+
+  .howitworkbuttonpic {
+    position: absolute;
+    width: 52px;
+    height: 51px;
+    left: 645px;
+    top: 240px;
+  }
+
+  .payment_success {
+    position: absolute;
+    width: 421px;
+    height: 49px;
+    left: 509px;
+    top: 360px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 49px;
+    
+    color: #20811F; 
+}
+
+.success_pic {
+    position: absolute;
+    width: 151px;
+    height: 137px;
+    left: 644px;
+    top: 441px;
+}
+
+.success_thank {
+    position: absolute;
+    width: 191px;
+    height: 32px;
+    left: 624px;
+    top: 613px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 35px;
+    text-align: center;
+    
+    color: #000000;
+}
+
+.success_success {
+    position: absolute;
+    width: 551px;
+    height: 30px;
+    left: 444px;
+    top: 680px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}
+
+.success_id {
+    position: absolute;
+    width: 335px;
+    height: 30px;
+    left: 552px;
+    top: 720px;
+    
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    text-align: center;
+    
+    color: #000000;
+}

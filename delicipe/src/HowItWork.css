@@ -16,3 +16,62 @@
     border: 5px solid #9F0202;
     border-radius: 50px;
 }
+
+.home_hiw {
+    position: absolute;
+    width: 114px;
+    height: 55px;
+    left: 17px;
+    top: 210px;
+  
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+  }
+  
+  .maindish_hiw {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 159px;
+    top: 210px;
+  
+    background: #FFFFFF;
+    border: 3px solid #F5B85C;
+    box-sizing: border-box;
+    border-radius: 18px;
+  }
+  
+  .dessert_hiw {
+    position: absolute;
+    width: 120px;
+    height: 55px;
+    left: 335px;
+    top: 210px;
+    background: #FFFFFF;
+    border: 3px solid #FFBC35;
+    box-sizing: border-box;
+    border-radius: 18px;
+  }
+  
+  .howitwork_hiw {
+    position: absolute;
+    width: 180px;
+    height: 55px;
+    left: 483px;
+    top: 210px;
+  
+    background: #FFBC35;
+    border-radius: 18px;
+    color: white;
+    border: 3px solid #FFBC35;
+  }
+
+  .howitworkbuttonpic {
+    position: absolute;
+    width: 52px;
+    height: 51px;
+    left: 645px;
+    top: 240px;
+  }

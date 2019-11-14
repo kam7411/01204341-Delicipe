@@ -137,23 +137,11 @@
 
 /*************************** topnav **************************/
 
-.home {
+.home_Infor {
     position: absolute;
     width: 114px;
     height: 55px;
     left: 17px;
-    top: 210px;
-    background: #FFBC35;
-    border-radius: 18px;
-    color: white;
-    border: 3px solid #FFBC35;
-}
-
-.maindish {
-    position: absolute;
-    width: 150px;
-    height: 55px;
-    left: 159px;
     top: 210px;
     background: #FFFFFF;
     border: 3px solid #F5B85C;
@@ -161,7 +149,20 @@
     border-radius: 18px;
 }
 
-.dessert {
+.maindish_Infor {
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    left: 159px;
+    top: 210px;
+  
+    background: #FFFFFF;
+    border: 3px solid #F5B85C;
+    box-sizing: border-box;
+    border-radius: 18px;
+}
+
+.dessert_Infor {
     position: absolute;
     width: 120px;
     height: 55px;
@@ -173,7 +174,7 @@
     border-radius: 18px;
 }
 
-.howitwork {
+.howitwork_Infor {
     position: absolute;
     width: 180px;
     height: 55px;
@@ -277,7 +278,7 @@
     background: #9F0202;
 }
 
-.picture1 {
+.picture1_no {
     position: absolute;
     width: 109px;
     height: 97px;
@@ -285,7 +286,7 @@
     top: 494px;
 }
 
-.picture2 {
+.picture2_no {
     position: absolute;
     width: 109px;
     height: 97px;
@@ -293,7 +294,7 @@
     top: 606px;
 }
 
-.picture3 {
+.picture3_no {
     position: absolute;
     width: 340px;
     height: 32.52px;
@@ -301,7 +302,7 @@
     top: 375px;
 }
 
-.textCartConcludtion {
+.textCartConcludtion_no {
     position: absolute;
     width: 222px;
     height: 30px;
@@ -317,23 +318,23 @@
     color: #404040;
 }
 
-.textSpaghetti {
+.textSpaghetti_no {
     position: absolute;
-    width: 337px;
+    width: 350px;
     height: 30px;
     left: 874px;
     top: 523px;
 }
 
-.textFloating {
+.textFloating_no {
     position: absolute;
-    width: 173px;
+    width: 200px;
     height: 30px;
     left: 874px;
     top: 624px;
 }
 
-.textorder {
+.textorder_no {
     font-family: Arvo;
     font-style: normal;
     font-weight: normal;
@@ -343,7 +344,7 @@
     color: #000000;
 }
 
-.boxName {
+.boxName_no {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -352,9 +353,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxLastName {
+.boxLastName_no {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -363,9 +370,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxAddress1 {
+.boxAddress1_no {
     position: absolute;
     width: 381px;
     height: 44px;
@@ -374,9 +387,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxAddress2 {
+.boxAddress2_no {
     position: absolute;
     width: 381px;
     height: 44px;
@@ -385,9 +404,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxAddress3 {
+.boxAddress3_no {
     position: absolute;
     width: 381px;
     height: 44px;
@@ -396,9 +421,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxAddress4 {
+.boxAddress4_no {
     position: absolute;
     width: 381px;
     height: 44px;
@@ -407,9 +438,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxEmail {
+.boxEmail_no {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -418,9 +455,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxTel {
+.boxTel_no {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -429,9 +472,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.textinformation {
+.textinformation_no {
     font-family: Arvo;
     font-style: normal;
     font-weight: bold;
@@ -439,9 +488,10 @@
     line-height: 30px;
     /* identical to box height */
     color: #404040;
+
 }
 
-.textName {
+.textName_no {
     position: absolute;
     width: 75px;
     height: 30px;
@@ -449,7 +499,7 @@
     top: 575px;
 }
 
-.textLastName {
+.textLastName_no {
     position: absolute;
     width: 132px;
     height: 30px;
@@ -457,7 +507,7 @@
     top: 645px;
 }
 
-.textAddress {
+.textAddress_no {
     position: absolute;
     width: 104px;
     height: 30px;
@@ -465,7 +515,7 @@
     top: 728px;
 }
 
-.textEmail {
+.textEmail_no {
     position: absolute;
     width: 75px;
     height: 30px;
@@ -473,7 +523,7 @@
     top: 993px;
 }
 
-.textTel {
+.textTel_no {
     position: absolute;
     width: 49px;
     height: 30px;
@@ -481,17 +531,17 @@
     top: 1051px;
 }
 
-.line {
+.line_no {
     position: absolute;
     width: 800px;
     height: 0px;
-    left: 721.88px;
-    top: 490px;
+    left: 300px;
+    top: 850px;
     border: 3px solid #404040;
     transform: rotate(90.21deg);
 }
 
-.boxsubtotal {
+.boxsubtotal_no {
     position: absolute;
     width: 418px;
     height: 202px;
@@ -502,7 +552,7 @@
     box-sizing: border-box;
 }
 
-.textconclude {
+.textconclude_no {
     font-family: Arvo;
     font-style: normal;
     font-weight: normal;
@@ -511,7 +561,7 @@
     color: #000000;
 }
 
-.textSubtotal {
+.textSubtotal_no {
     position: absolute;
     width: 132px;
     height: 30px;
@@ -519,9 +569,9 @@
     top: 799px;
 }
 
-.text200 {
+.text200_no {
     position: absolute;
-    width: 58px;
+    width: 80px;
     height: 30px;
     left: 1103px;
     top: 799px;
@@ -551,7 +601,7 @@ left: 842px;
 top: 875px;
 } */
 
-.textbox {
+.textbox_no {
     font-family: Arvo;
     font-style: normal;
     font-weight: normal;
@@ -561,39 +611,39 @@ top: 875px;
     color: #B3B3B3;
 }
 
-.textApart {
+.textApart_no {
     position: absolute;
     width: 187px;
     height: 30px;
     left: 279px;
-    top: 735px;
+    top: 750px;
 }
 
-.textCity {
+.textCity_no {
     position: absolute;
     width: 84px;
     height: 30px;
     left: 279px;
-    top: 793px;
+    top: 808px;
 }
 
-.textProvince {
+.textProvince_no {
     position: absolute;
     width: 119px;
     height: 30px;
     left: 279px;
-    top: 853px;
+    top: 868px;
 }
 
-.textPostal {
+.textPostal_no {
     position: absolute;
     width: 153px;
     height: 30px;
     left: 281px;
-    top: 913px;
+    top: 928px;
 }
 
-.textTotal {
+.textTotal_no {
     position: absolute;
     width: 85px;
     height: 30px;
@@ -609,9 +659,9 @@ top: 875px;
     color: #000000;
 }
 
-.texttotalvalue {
+.texttotalvalue_no {
     position: absolute;
-    width: 42px;
+    width: 80px;
     height: 30px;
     left: 1103px;
     top: 913px;
@@ -624,9 +674,9 @@ top: 875px;
     color: #000000;
 }
 
-.text110 {
+.text110_no {
     position: absolute;
-    width: 73px;
+    width: 100px;
     height: 30px;
     left: 1267px;
     top: 523px;
@@ -639,9 +689,9 @@ top: 875px;
     color: #000000;
 }
 
-.text90 {
+.text90_no {
     position: absolute;
-    width: 67px;
+    width: 100px;
     height: 30px;
     left: 1267px;
     top: 615px;
@@ -654,7 +704,7 @@ top: 875px;
     color: #000000;
 }
 
-.continue {
+.continue_no {
     position: absolute;
     width: 189px;
     height: 50px;
@@ -672,6 +722,6 @@ top: 875px;
     color: #796B52;
 }
 
-.continue:hover {
+.continue_no:hover {
     background-color: rgb(248, 214, 120)
 }

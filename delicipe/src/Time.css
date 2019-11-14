@@ -1,221 +1,209 @@
-.background {
-    position: absolute;
-    width: 1440px;
-    height: 1542px;
-    left: 0px;
-    top: 0px;
-    background: #FFE8CC;
+.background_time {
+  position: absolute;
+  width: 1440px;
+  height: 1542px;
+  left: 0px;
+  top: 0px;
+
+  background: floralwhite;
 }
 
+.wall {
+  position: absolute;
+  width: 1440px;
+  height: 1243px;
+  left: 0px;
+  top: 191px;
+}
 
 /****************************topbar**************************/
+.chefhat_time {
+  position: absolute;
+  width: 33.53px;
+  height: 37.74px;
+  left: 960.62px;
+  top: 39.68px;
 
-.chefhat {
-    position: absolute;
-    width: 33.53px;
-    height: 37.74px;
-    left: 965px;
-    top: 39px;    
-    transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
+  transform: matrix(0.99, 0.22, -0.15, 0.98, 0, 0);
 }
 
 .search {
-    position: absolute;
-    width: 34px;
-    height: 32px;
-    left: 1241px;
-    top: 21px;
+  position: absolute;
+  width: 34px;
+  height: 32px;
+  left: 1241px;
+  top: 21px;
 }
 
 .accountpic {
-    position: absolute;
-    width: 34.2px;
-    height: 36px;
-    left: 1383px;
-    top: 18px;
+  position: absolute;
+  width: 34.2px;
+  height: 36px;
+  left: 1383px;
+  top: 18px;
 }
 
-.cartpic {
-    position: absolute;
-    width: 39px;
-    height: 38px;
-    left: 1378px;
-    top: 79px;
+.cartpic{
+  position: absolute;
+  width: 39px;
+  height: 38px;
+  left: 1378px;
+  top: 79px;
 }
 
-.topbar {
-    position: absolute;
-    width: 1440px;
-    height: 191px;
-    left: 0px;
-    top: 0px;
-    background: #9F0202;
+.topbar_time {
+  position: absolute;
+  width: 1440px;
+  height: 191px;
+  left: 0px;
+  top: 0px;
+  background: #9F0202;
 }
 
 .delicipe_sign {
-    position: absolute;
-    width: 357px;
-    height: 136px;
-    left: 34px;
-    top: 32px;
+  position: absolute;
+  width: 357px;
+  height: 136px;
+  left: 34px;
+  top: 32px;
 }
 
-.topnav {
-    overflow: hidden;
+.topnav_time {
+  overflow: hidden;
 }
 
-.topnav input[type=text] {
-    float: right;
-    padding: 6px;
-    font-size: 22px;
-    position: absolute;
-    width: 220px;
-    height: 34px;
-    left: 1000px;
-    top: 18px;
-    background: #FFFFFF;
-}
+.topnav_time input[type=text] {
+  float: right;
+  padding: 6px;
+  font-size: 22px;
+  position: absolute;
+  width: 220px;
+  height: 34px;
+  left: 1000px;
+  top: 18px;
 
+  background: #FFFFFF;
+}
 
 /* .topnav .search-container button:hover {
   
 } */
 
-.topnav .search-container button {
-    float: right;
-    font-size: 24px;
-    cursor: pointer;
+.topnav_time .search-container_time button {
+  float: right;
+  font-size: 24px;
+  cursor: pointer;
 }
 
-.onetime {
-    position: absolute;
-    width: 225px;
-    height: 42px;
-    left: 638px;
-    top: 19px;
-    background: #9F0202;
-    color: white;
-    border: #9F0202;
+.onetime_time {
+
+  position: absolute;
+  width: 225px;
+  height: 42px;
+  left: 638px;
+  top: 19px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
+
 }
 
-.rontine {
-    position: absolute;
-    width: 102px;
-    height: 43px;
-    left: 873px;
-    top: 19px;
-    background: #FFBC35;
-    border-radius: 5px;
-    border: #9F0202;
-
+.rontine_time {
+  position: absolute;
+  width: 102px;
+  height: 43px;
+  left: 873px;
+  top: 19px;
+  background: #FFBC35;
+  color: black;
+  border-radius: 5px;
+  border: #9F0202;
 }
 
 .account {
-    position: absolute;
-    width: 109px;
-    height: 50px;
-    left: 1274px;
-    top: 12px;
-    background: #9F0202;
-    color: white;
-    border: #9F0202;
+  position: absolute;
+  width: 109px;
+  height: 50px;
+  left: 1274px;
+  top: 12px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
 }
 
 .cart {
-    position: absolute;
-    width: 70px;
-    height: 33px;
-    left: 1305px;
-    top: 79px;
-    background: #9F0202;
-    color: white;
-    border: #9F0202;
+  position: absolute;
+  width: 70px;
+  height: 33px;
+  left: 1305px;
+  top: 79px;
+  background: #9F0202;
+  color: white;
+  border: #9F0202;
 }
-
 
 /*************************** end of topbar ***********************/
 
-
 /*************************** topnav **************************/
 
-.home {
-    position: absolute;
-    width: 114px;
-    height: 55px;
-    left: 17px;
-    top: 210px;
-    background: rgb(255, 255, 255);
-    border-radius: 18px;
-    color: rgb(0, 0, 0);
-    border: 3px solid #FFBC35;
+.home_maindish {
+  position: absolute;
+  width: 114px;
+  height: 55px;
+  left: 17px;
+  top: 210px;
+  background: #FFFFFF;
+  border: 3px solid #F5B85C;
+  box-sizing: border-box;
+  border-radius: 18px;
+  color: #F68787;
 }
 
-.maindish {
-    position: absolute;
-    width: 150px;
-    height: 55px;
-    left: 159px;
-    top: 210px;
-    background: #F5B85C;
-    border: 3px solid #F5B85C;
-    box-sizing: border-box;
-    border-radius: 18px;
+.maindish_maindish {
+  position: absolute;
+  width: 150px;
+  height: 55px;
+  left: 159px;
+  top: 210px;
+  background: #FFBC35;
+  border-radius: 18px;
+  color: white;
+  border: 3px solid #FFBC35;
 }
 
-.dessert {
-    position: absolute;
-    width: 120px;
-    height: 55px;
-    left: 335px;
-    top: 210px;
-    background: #FFFFFF;
-    border: 3px solid #FFBC35;
-    box-sizing: border-box;
-    border-radius: 18px;
+.dessert_maindish {
+  position: absolute;
+  width: 120px;
+  height: 55px;
+  left: 335px;
+  top: 210px;
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  box-sizing: border-box;
+  border-radius: 18px;
+  color: #F68787;
 }
 
-.howitwork {
-    position: absolute;
-    width: 180px;
-    height: 55px;
-    left: 483px;
-    top: 210px;
-    background: #FFFFFF;
-    border: 3px solid #FFBC35;
-    box-sizing: border-box;
-    border-radius: 18px;
-}
+.howitwork_maindish {
+  position: absolute;
+  width: 180px;
+  height: 55px;
+  left: 483px;
+  top: 210px;
 
-.homebuttonpic {
-    position: absolute;
-    width: 50px;
-    height: 46.3px;
-    left: 100px;
-    top: 234px;
+  background: #FFFFFF;
+  border: 3px solid #FFBC35;
+  box-sizing: border-box;
+  border-radius: 18px;
+  color: #F68787;
 }
 
 .maindishbuttonpic {
-    position: absolute;
-    width: 52px;
-    height: 45px;
-    left: 280px;
-    top: 237px;
-}
-
-.dessertbuttonpic {
-    position: absolute;
-    width: 38px;
-    height: 39px;
-    left: 433px;
-    top: 240px;
-}
-
-.howitworkbuttonpic {
-    position: absolute;
-    width: 52px;
-    height: 51px;
-    left: 645px;
-    top: 240px;
+  position: absolute;
+  width: 52px;
+  height: 45px;
+  left: 280px;
+  top: 237px;
 }
 
 
@@ -280,7 +268,7 @@
 
 
 /****************** end of bottom bar *****************************/
-.calendar {
+.calendar_time {
     position: absolute;
     left: 391px;
     top: 536px;
@@ -328,12 +316,47 @@
     background-color: #0b7dda;
 }
 
-.container {
+.container_time {
     border-radius: 8px;
     border: 2px solid #F68787;
 }
 
-.timeslottext {
+.timeslottext_time_1 {
+    position: absolute;
+    width: 100px;
+    height: 37px;
+    left: 400px;
+    top: 50px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: #000000;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+
+}
+
+.next_time {
+    position: absolute;
+    width: 100px;
+    height: 37px;
+    left: 900px;
+    top: 650px;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 48px;
+    color: #000000;
+    background: #9F0202;
+    color: white;
+    border: #9F0202;
+
+}
+.timeslottext_time {
     position: absolute;
     width: 100px;
     height: 37px;
@@ -347,7 +370,7 @@
     color: #000000;
 }
 
-.TIMESLOT {
+.TIMESLOT_time {
     position: absolute;
     width: 205px;
     height: 33px;
@@ -357,7 +380,7 @@
     border-radius: 15px;
 }
 
-.textTime {
+.textTime_time {
     position: absolute;
 width: 546px;
 height: 120px;

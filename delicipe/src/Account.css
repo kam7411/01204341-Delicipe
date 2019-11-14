@@ -143,10 +143,10 @@
     height: 55px;
     left: 17px;
     top: 210px;
-    background: #FFBC35;
+    background: #FFFFFF;
+    border: 3px solid #F5B85C;
+    box-sizing: border-box;
     border-radius: 18px;
-    color: white;
-    border: 3px solid #FFBC35;
 }
 
 .maindish {
@@ -280,7 +280,7 @@
 
 /* my code */
 
-.picture1 {
+.picture1_account {
     position: absolute;
     width: 109px;
     height: 97px;
@@ -288,7 +288,7 @@
     top: 494px;
 }
 
-.picture2 {
+.picture2_account {
     position: absolute;
     width: 109px;
     height: 97px;
@@ -296,7 +296,7 @@
     top: 606px;
 }
 
-.picture3 {
+.picture3_account {
     position: absolute;
     width: 340px;
     height: 32.52px;
@@ -304,7 +304,7 @@
     top: 375px;
 }
 
-.textCartConcludtion {
+.textCartConcludtion_account {
     position: absolute;
     width: 222px;
     height: 30px;
@@ -320,23 +320,23 @@
     color: #404040;
 }
 
-.textSpaghetti {
+.textSpaghetti_account {
     position: absolute;
-    width: 337px;
+    width: 350px;
     height: 30px;
     left: 874px;
     top: 523px;
 }
 
-.textFloating {
+.textFloating_account {
     position: absolute;
-    width: 173px;
+    width: 200px;
     height: 30px;
     left: 874px;
     top: 624px;
 }
 
-.textorder {
+.textorder_account {
     font-family: Arvo;
     font-style: normal;
     font-weight: normal;
@@ -346,7 +346,7 @@
     color: #000000;
 }
 
-.boxName {
+.boxName_account {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -355,9 +355,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxLastName {
+.boxLastName_account {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -366,9 +372,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxAddress1 {
+.boxAddress1_account {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -377,9 +389,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxAddress2 {
+.boxAddress2_account {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -388,9 +406,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxAddress3 {
+.boxAddress3_account {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -399,9 +423,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxAddress4 {
+.boxAddress4_account {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -410,9 +440,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxEmail {
+.boxEmail_account {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -421,9 +457,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.boxTel {
+.boxTel_account {
     position: absolute;
     width: 382px;
     height: 44px;
@@ -432,9 +474,15 @@
     background: #FFFFFF;
     border: 1px solid #000000;
     box-sizing: border-box;
+    font-family: Arvo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
 }
 
-.textinformation {
+.textinformation_account {
     font-family: Arvo;
     font-style: normal;
     font-weight: bold;
@@ -444,7 +492,7 @@
     color: #404040;
 }
 
-.textName {
+.textName_account {
     position: absolute;
     width: 75px;
     height: 30px;
@@ -452,7 +500,7 @@
     top: 769px;
 }
 
-.textLastName {
+.textLastName_account {
     position: absolute;
     width: 132px;
     height: 30px;
@@ -460,7 +508,7 @@
     top: 839px;
 }
 
-.textAddress {
+.textAddress_account {
     position: absolute;
     width: 104px;
     height: 30px;
@@ -468,7 +516,7 @@
     top: 922px;
 }
 
-.textEmail {
+.textEmail_account {
     position: absolute;
     width: 75px;
     height: 30px;
@@ -476,7 +524,7 @@
     top: 1187px;
 }
 
-.textTel {
+.textTel_account {
     position: absolute;
     width: 49px;
     height: 30px;
@@ -484,17 +532,17 @@
     top: 1245px;
 }
 
-.line {
+.line_account {
     position: absolute;
     width: 800px;
     height: 0px;
-    left: 721.88px;
-    top: 490px;
+    left: 300px;
+    top: 850px;
     border: 3px solid #404040;
     transform: rotate(90.21deg);
 }
 
-.boxsubtotal {
+.boxsubtotal_account {
     position: absolute;
     width: 418px;
     height: 202px;
@@ -505,7 +553,7 @@
     box-sizing: border-box;
 }
 
-.textconclude {
+.textconclude_account {
     font-family: Arvo;
     font-style: normal;
     font-weight: normal;
@@ -514,7 +562,7 @@
     color: #000000;
 }
 
-.textSubtotal {
+.textSubtotal_account {
     position: absolute;
     width: 132px;
     height: 30px;
@@ -522,15 +570,15 @@
     top: 799px;
 }
 
-.text200 {
+.text200_account {
     position: absolute;
-    width: 58px;
+    width: 80px;
     height: 30px;
     left: 1103px;
     top: 799px;
 }
 
-.textbox {
+.textbox_account {
     font-family: Arvo;
     font-style: normal;
     font-weight: normal;
@@ -540,71 +588,71 @@
     color: #000000;
 }
 
-.textnametada {
+.textnametada_account {
     position: absolute;
     width: 56px;
     height: 30px;
     left: 278px;
-    top: 771px;
+    top: 786px;
 }
 
-.textlastsana {
+.textlastsana_account {
     position: absolute;
     width: 114px;
     height: 30px;
     left: 278px;
-    top: 839px;
+    top: 854px;
 }
 
-.textApart {
+.textApart_account {
     position: absolute;
-    width: 331px;
+    width: 500px;
     height: 30px;
     left: 278px;
-    top: 926px;
+    top: 941px;
 }
 
-.textCity {
+.textCity_account {
     position: absolute;
     width: 68px;
     height: 30px;
     left: 278px;
-    top: 984px;
+    top: 999px;
 }
 
-.textProvince {
+.textProvince_account {
     position: absolute;
     width: 105px;
     height: 30px;
     left: 278px;
-    top: 1040px;
+    top: 1055px;
 }
 
-.textPostal {
+.textPostal_account {
     position: absolute;
     width: 62px;
     height: 30px;
     left: 278px;
-    top: 1095px;
+    top: 1110px;
 }
 
-.textemailtada {
+.textemailtada_account {
     position: absolute;
     width: 218px;
     height: 30px;
     left: 278px;
-    top: 1187px;
+    top: 1202px;
 }
 
-.texttel {
+.texttel_account {
     position: absolute;
     width: 150px;
     height: 30px;
     left: 278px;
-    top: 1251px;
+    top: 1266px;
 }
 
-.textTotal {
+.textTotal_account {
     position: absolute;
     width: 85px;
     height: 30px;
@@ -620,9 +668,9 @@
     color: #000000;
 }
 
-.texttotalvalue {
+.texttotalvalue_account {
     position: absolute;
-    width: 42px;
+    width: 100px;
     height: 30px;
     left: 1103px;
     top: 913px;
@@ -635,9 +683,9 @@
     color: #000000;
 }
 
-.text110 {
+.text110_account {
     position: absolute;
-    width: 73px;
+    width: 100px;
     height: 30px;
     left: 1267px;
     top: 523px;
@@ -650,9 +698,9 @@
     color: #000000;
 }
 
-.text90 {
+.text90_account {
     position: absolute;
-    width: 67px;
+    width: 100px;
     height: 30px;
     left: 1267px;
     top: 615px;
@@ -665,7 +713,7 @@
     color: #000000;
 }
 
-.picture4 {
+.picture4_account {
     position: absolute;
     width: 100px;
     height: 100px;
@@ -673,7 +721,7 @@
     top: 550px;
 }
 
-.textTada {
+.textTada_account {
     position: absolute;
     width: 222px;
     height: 30px;
@@ -688,7 +736,7 @@
     color: #000000;
 }
 
-.texttadamail {
+.texttadamail_account {
     position: absolute;
     width: 218px;
     height: 30px;
@@ -703,7 +751,7 @@
     color: #000000;
 }
 
-.continue {
+.continue_account {
     position: absolute;
     width: 189px;
     height: 50px;
@@ -721,11 +769,11 @@
     color: #796B52;
 }
 
-.continue:hover {
+.continue_account:hover {
     background-color: rgb(248, 214, 120)
 }
 
-.logout {
+.logout_account {
     position: absolute;
     width: 189px;
     height: 50px;
@@ -743,11 +791,11 @@
     color: #796B52;
 }
 
-.logout:hover {
+.logout_account:hover {
     background-color: rgb(248, 214, 120)
 }
 
-.line2 {
+.line2_account {
     position: absolute;
     width: 546.01px;
     height: 0px;

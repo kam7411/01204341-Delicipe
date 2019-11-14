@@ -53,7 +53,7 @@ const Pricerange = [
   { label: "151 - 200", value: 4 },
 ];
 
-class MainDish extends Component {
+class MainDish2 extends Component {
   render() {
     return (
       <div className="background">
@@ -94,35 +94,35 @@ class MainDish extends Component {
   {/*************** selectors ************/}
         <div class="cusinetext">CUSINE</div>
         <div className="CUSINE_S">
-          <div className="container">
+          <div className="container_maindish_second">
             <Select options={Cusine} placeholder="All Cusines" />
           </div>
         </div>
 
         <div class="meattext">MEATS</div>
         <div className="ALLMEATS_S">
-          <div className="container">
+          <div className="container_maindish_second">
             <Select options={Meat} placeholder="All Meats" />
           </div>
         </div>
 
         <div class="dishtypetext">DISH TYPE</div>
         <div className="DISHTYPE_S">
-          <div className="container">
+          <div className="container_maindish_second">
             <Select options={DishType} placeholder="All Dish Types" />
           </div>
         </div>
 
         <div class="difficultytext">DIFFICULTY LEVELS</div>
         <div className="LEVEL_S">
-          <div className="container">
+          <div className="container_maindish_second">
             <Select options={Difficultylevel} placeholder="All Difficulty Levels" />
           </div>
         </div>
           
         <div class="pricetext">PRICE RANGE</div>
         <div className="PRICE_S">
-          <div className="container">
+          <div className="container_maindish_second">
             <Select options={Pricerange} placeholder="All Price Range" />
           </div>
         </div>
@@ -179,5 +179,5 @@ class MainDish extends Component {
   }
 }
 
-export default MainDish;
+export default MainDish2;
 
